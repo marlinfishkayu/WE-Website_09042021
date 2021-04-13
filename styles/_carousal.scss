@@ -161,7 +161,28 @@
 // What's News carousel
 #intdexWhatsNews .news-slider {
     width: 100%;
+    position: relative;
+    z-index: 0;
 }
+#intdexWhatsNews .news-slider-link{
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 1;
+    a{
+        font-family: $fontFuturaMedium;
+        font-size: 13px;
+        color: #B0936D;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
 #intdexWhatsNews .news-item {
     width: 90vw;
     padding: 3rem;
@@ -768,7 +789,7 @@
         bottom: 0%;
     }
     #intdexWhatsNews .section-container {
-        padding-bottom: 5rem;
+        padding-bottom: 6rem;
         padding-top: 3rem;
         margin-bottom: inherit;
     }
@@ -816,4 +837,13 @@
     #diamondCarousel .h2 {
             font-size: 36px;
     }
+    #intdexWhatsNews .intdexWhatsNews-bkg{
+        height: inherit;
+        width: 100%;
+    }
 }
+@media (orientation: landscape) and (min-width: 576px) {
+    #slider-area .slide {
+      height: 100vh;
+    }
+  }

@@ -2049,6 +2049,30 @@ footer {
 
 #intdexWhatsNews .news-slider {
   width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+#intdexWhatsNews .news-slider-link {
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+
+#intdexWhatsNews .news-slider-link a {
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+  font-size: 13px;
+  color: #B0936D;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#intdexWhatsNews .news-slider-link a:hover {
+  text-decoration: none;
 }
 
 #intdexWhatsNews .news-item {
@@ -2731,7 +2755,7 @@ footer {
     bottom: 0%;
   }
   #intdexWhatsNews .section-container {
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
     padding-top: 3rem;
     margin-bottom: inherit;
   }
@@ -2777,6 +2801,16 @@ footer {
   }
   #diamondCarousel .h2 {
     font-size: 36px;
+  }
+  #intdexWhatsNews .intdexWhatsNews-bkg {
+    height: inherit;
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 576px) {
+  #slider-area .slide {
+    height: 100vh;
   }
 }
 
@@ -3027,7 +3061,7 @@ footer {
 }
 
 #intdexWhatsNews .deco-content {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .more-button {
@@ -4195,18 +4229,6 @@ select.form-control::-ms-expand {
 
 .contact-bottom {
   margin: 0 auto;
-}
-
-.contact-bottom .contact-email {
-  width: 25px;
-  height: 25px;
-  margin: 20px;
-  background-repeat: no-repeat;
-  background-position: right center;
-}
-
-.contact-bottom .contact-method {
-  padding-top: 5rem;
   padding-bottom: 8rem;
 }
 

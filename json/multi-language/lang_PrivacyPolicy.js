@@ -40,7 +40,7 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_5': "- Statistically analyse usage of our Site",
     'PrivacyPolicy_How_p2_li_6': "- Improve our content on the Sites",
     'PrivacyPolicy_How_p2_li_7': "- Customise the content and layout of the Site",
-    'PrivacyPolicy_How_p3': "World Entertainment uses the information we collect on the Site to:",
+    'PrivacyPolicy_How_p3': "In regards to the information we collect when you email us, we may use your email address to contact and/or reply to your comments and concerns. Your communication and our replies may be stored in case of a future correspondence. Your email address will not be shared with anyone outside the company. If you wished for your name to be removed from World Entertainment’s mailing list, please send your request to privacy@worldent.com",
     //Security
     'PrivacyPolicy_Security': "Security",
     'PrivacyPolicy_Security_p1': "Reasonable measures of security have been implemented by World Entertainment to ensure the confidentiality of information is protected. Only authorised personnel are allowed access to such information.",

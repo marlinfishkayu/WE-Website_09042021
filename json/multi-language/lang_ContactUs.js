@@ -64,12 +64,12 @@ var arrLang = {
     'ContactUs_p2' : 'By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries. For more details, please check out our',
     'ContactUs_privacy' : 'privacy policy.',
     //Contact Form
-    'firstName' : 'First name',
-    'lastName' : 'Last name',
+    'firstName' : 'First name*',
+    'lastName' : 'Last name*',
     'Phone' : 'Phone number',
-    'Email' : 'Email',
+    'Email' : 'Email*',
     //Select Country Form
-    'Country' : 'Country',
+    'Country' : 'Country*',
     'AF' : 'Afghanistan',
     'AX' : 'Åland Islands',
     'AL' : 'Albania',
@@ -317,7 +317,7 @@ var arrLang = {
     'ZW' : 'Zimbabwe',
 
     //Enquiry Type Form
-    'Enquiry_type' : 'Enquiry type',
+    'Enquiry_type' : 'Enquiry type*',
     'Business' : 'Business',
     'Career' : 'Career',
     'Other' : 'Other',
@@ -400,12 +400,12 @@ var arrLang = {
     'ContactUs_p2' : '填寫此表即表示你同意並願意讓我們收集你的聯繫方式和其他信息，以使我們能夠有效地答覆你的所有詢問。有關更多詳細信息，請查看我們的',
     'ContactUs_privacy' : '隱私政策。',
     //Contact Form
-    'firstName' : '名字',
-    'lastName' : '姓氏',
+    'firstName' : '名字*',
+    'lastName' : '姓氏*',
     'Phone' : '電話號碼',
-    'Email' :'電子郵件',
+    'Email' :'電子郵件*',
     //Select Country Form
-    'Country' : '所在國家',
+    'Country' : '所在國家*',
     'AF':'阿富汗',
     'AX':'奧蘭群島',
     'AL':'阿爾巴尼亞',
@@ -653,7 +653,7 @@ var arrLang = {
     'ZW':'津巴布韋',
 
     //Enquiry Type Form
-    'Enquiry_type' : '查詢類型',
+    'Enquiry_type' : '查詢類型*',
     'Business' : '業務',
     'Career' : '職業',
     'Other' : '其他',
@@ -736,12 +736,12 @@ var arrLang = {
     'ContactUs_p2' : '填写此表即表示你同意并愿意让我们收集你的联系方式和其他信息，以使我们能够有效地答覆你的所有询问。有关更多详细信息，请查看我们的',
     'ContactUs_privacy' : '隐私政策。',
     //Contact Form
-    'firstName' : '名字',
-    'lastName' : '姓氏',
+    'firstName' : '名字*',
+    'lastName' : '姓氏*',
     'Phone' : '电话号码',
-    'Email' : '电子邮件',
+    'Email' : '电子邮件*',
     //Select Country Form
-    'Country' : '所在国家',
+    'Country' : '所在国家*',
     'AF':'阿富汗',
     'AX':'奥兰群岛',
     'AL':'阿尔巴尼亚',
@@ -990,7 +990,7 @@ var arrLang = {
 
 
     //Enquiry Type Form
-    'Enquiry_type' : '查询类型',
+    'Enquiry_type' : '查询类型*',
     'Business' : '业务',
     'Career' : '职业',
     'Other' : '其他',
