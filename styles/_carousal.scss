@@ -174,11 +174,13 @@
     a{
         font-family: $fontFuturaMedium;
         font-size: 13px;
-        color: #B0936D;
+        color: #89663d;
         letter-spacing: 3px;
         text-transform: uppercase;
+        transition: 0.1s ease-in all;
         &:hover{
             text-decoration: none;
+            color: #B0936D;
         }
     }
 }

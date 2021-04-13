@@ -2066,13 +2066,16 @@ footer {
 #intdexWhatsNews .news-slider-link a {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 13px;
-  color: #B0936D;
+  color: #89663d;
   letter-spacing: 3px;
   text-transform: uppercase;
+  -webkit-transition: 0.1s ease-in all;
+  transition: 0.1s ease-in all;
 }
 
 #intdexWhatsNews .news-slider-link a:hover {
   text-decoration: none;
+  color: #B0936D;
 }
 
 #intdexWhatsNews .news-item {

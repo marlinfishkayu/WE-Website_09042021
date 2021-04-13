@@ -104,8 +104,14 @@ var arrLang = {
       'ReadMore': 'read more',
       'index_sect3_WhatsNew': "WHAT'S NEW",
       'index_sect3_p': 'Quickly catch up on our updated news.',
-      'index_sect4_News1_date': '18 Dec 2020',
-      'index_sect3_News1_h3': 'Blockchain games launched!',
+      'View_all': 'View all',
+      //
+      'index_sect4_News1_date': '11 JAN 2021',
+      'index_sect4_News1_h3': 'New year of the ox!',
+      'index_sect4_News2_date': '25 DEC 2020',
+      'index_sect4_News2_h3': 'Ho Ho Ho, Happy Holly Days!',
+      'index_sect4_News3_date': '18 Dec 2020',
+      'index_sect4_News3_h3': 'Blockchain games launched!',
       
     },
 
@@ -217,8 +223,14 @@ var arrLang = {
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '搶先收到我們的最新消息。',
-      'index_sect4_News1_date': '2020年12月18日',
-      'index_sect3_News1_h3': '鏈接世界，玩得更嗨!',
+      'View_all': '全部消息',
+      //
+      'index_sect4_News1_date': '2021年2月11日',
+      'index_sect4_News1_h3': '牛轉乾坤！新年快樂！',
+      'index_sect4_News2_date': '2020年12月25日',
+      'index_sect4_News2_h3': '祝大家聖誕快樂！呵呵呵～',
+      'index_sect4_News3_date': '2020年12月18日',
+      'index_sect4_News3_h3': '區塊鏈遊戲正式上線！',
 
     },
 
@@ -330,8 +342,14 @@ var arrLang = {
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '抢先收到我们的最新消息。',
-      'index_sect3_News1_date': '2020年12月18日',
-      'index_sect3_News1_h3': '链接世界，玩得更嗨!',
+      'View_all': '全部消息',
+      //
+      'index_sect4_News1_date': '2021年2月11日',
+      'index_sect4_News1_h3': '牛转乾坤！新年快乐！',
+      'index_sect4_News2_date': '2020年12月25日',
+      'index_sect4_News2_h3': '祝大家圣诞快乐！呵呵呵～',
+      'index_sect4_News3_date': '2020年12月18日',
+      'index_sect4_News3_h3': '区块链游戏正式上线！',
     }
   };
 
@@ -342,7 +360,8 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //Hero banner
-      'hero_1': './images/index/en/hero_1_x1.jpg',
+      'hero_1_L': './images/index/en/hero_1_L.png',
+      'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
       'col_1': 'images/index/en/col1_expand-icon_x1.png 500w,images/index/en/col1_expand-icon_x2.png 1000w',
       'col_2': 'images/index/en/index_ourGames_col2_livegame_x1.jpg 500w,images/index/en/index_ourGames_col2_livegame_x2.jpg 1000w',
@@ -353,7 +372,8 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //Hero banner
-      'hero_1': './images/index/tc/hero_1_x1.jpg',
+      'hero_1_L': './images/index/en/hero_1_L.png',
+      'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
       'col_1': 'images/index/tc/col1_expand-icon_x1.png 500w,images/index/tc/col1_expand-icon_x1.png 1000w',
       'col_2': 'images/index/tc/index_ourGames_col2_livegame_x1.jpg 500w,images/index/tc/index_ourGames_col2_livegame_x2.jpg 1000w',
@@ -364,7 +384,8 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //Hero banner
-      'hero_1': './images/index/sc/hero_1_x1.jpg',
+      'hero_1_L': './images/index/en/hero_1_L.png',
+      'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
       'col_1': 'images/index/sc/col1_expand-icon_x1.png 500w,images/index/sc/col1_expand-icon_x1.png 1000w',
       'col_2': 'images/index/sc/index_ourGames_col2_livegame_x1.jpg 500w,images/index/sc/index_ourGames_col2_livegame_x2.jpg 1000w',

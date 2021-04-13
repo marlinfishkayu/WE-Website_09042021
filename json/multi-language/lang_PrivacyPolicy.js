@@ -3,7 +3,7 @@ var arrLang = {
     //Privacy Policy
     'PrivacyPolicy': 'Privacy Policy',
     'PrivacyPolicy_World': 'World Entertainment Respects Your Privacy ',
-    'PrivacyPolicy_World_p': "It is our policy to always secure your privacy when you visit worldent.com or any of the other World Entertainment Websites (each a 'Site'). Please read our policy statement to understand how we collect your information and how it will be used.",
+    'PrivacyPolicy_World_p': "It is our policy to always secure your privacy when you visit worldent.com or any of the other World Entertainment websites (each a 'Site'). Please read our policy statement to understand how we collect your information and how it will be used.",
     //Info
     'PrivacyPolicy_Info': 'Information Collection',
     'PrivacyPolicy_Info_p1': 'The information related to your use of the Site is automatically tracked while you are on the Site.',
@@ -12,7 +12,7 @@ var arrLang = {
     'PrivacyPolicy_Info_p2_li_2': "- User's browser",
     'PrivacyPolicy_Info_p2_li_3': "- User's IP address",
     'PrivacyPolicy_Info_p2_li_4': "- Files downloaded or viewed by the user",
-    'PrivacyPolicy_Info_p2_li_5': "- User's path through the Web site",
+    'PrivacyPolicy_Info_p2_li_5': "- User's path through the website",
     'PrivacyPolicy_Info_p2_li_6': "- Date, time and frequency of accessing site",
     'PrivacyPolicy_Info_p2_li_7': "- Duration of time spent reviewing certain features",
     'PrivacyPolicy_Info_p3': 'We may also use cookies to track your usage on the Site. You have the option to disable cookies via your Web browser settings.',
@@ -23,6 +23,10 @@ var arrLang = {
     'PrivacyPolicy_Info_p5': "Our website employs the use the various third-party services. Through the use of our website, these services may place anonymous cookies on the Visitor’s browser and may send their own cookies to the Visitor’s cookie file.",
     'PrivacyPolicy_Info_p6': "We use the following third-party services:",
     'PrivacyPolicy_Info_p6_li_1': "- Google Analytics and Google Analytics tracking codes",
+    'PrivacyPolicy_Info_p6_li_2': "- Google AdWords and Google AdWords Conversion Tag",
+    'PrivacyPolicy_Info_p6_li_3': "- Facebook Pixel Code",
+    'PrivacyPolicy_Info_p6_li_4': "- LinkedIn Insight Tag",
+    'PrivacyPolicy_Info_p6_li_5': "- Twitter Universal Website Tag Code",
     //Personal Information
     'PrivacyPolicy_Personal_p1': "- Name",
     'PrivacyPolicy_Personal_p2': "Personal Information",
@@ -87,6 +91,10 @@ var arrLang = {
     'PrivacyPolicy_Info_p5': "本網站使用各種第三方服務。通過本網站，該服務可能會在訪問者的瀏覽器里安置匿名COOKIES，並可能將該服務的COOKIES發送到訪問者的COOKIES文件中。",
     'PrivacyPolicy_Info_p6': "我們所使用的第三方服務如下：",
     'PrivacyPolicy_Info_p6_li_1': "- 谷歌分析和谷歌分析追踪代碼",
+    'PrivacyPolicy_Info_p6_li_2': "- 谷歌關鍵詞廣告和谷歌關鍵詞廣告轉化標籤",
+    'PrivacyPolicy_Info_p6_li_3': "- Facebook網頁追踪代碼",
+    'PrivacyPolicy_Info_p6_li_4': "- 領英數據分析標籤",
+    'PrivacyPolicy_Info_p6_li_5': "- 推特通用網站標籤代碼",
     //Personal Information
     'PrivacyPolicy_Personal_p1': "個人信息",
     'PrivacyPolicy_Personal_p2': "您使用本網站的服務時可能收集如下信息：",
@@ -149,6 +157,10 @@ var arrLang = {
     'PrivacyPolicy_Info_p5': "本网站使用各种第三方服务。通过本网站，该服务可能会在访问者的浏览器里安置匿名COOKIES，并可能将该服务的COOKIES发送到访问者的COOKIES文件中。",
     'PrivacyPolicy_Info_p6': "我们所使用的第三方服务如下：",
     'PrivacyPolicy_Info_p6_li_1': "- 谷歌分析和谷歌分析追踪代码",
+    'PrivacyPolicy_Info_p6_li_2': "- 谷歌关键词广告和谷歌关键词广告转化标籤",
+    'PrivacyPolicy_Info_p6_li_3': "- Facebook网页追踪代码",
+    'PrivacyPolicy_Info_p6_li_4': "- 领英数据分析标籤",
+    'PrivacyPolicy_Info_p6_li_5': "- 推特通用网站标籤代码",
     //Personal Information
     'PrivacyPolicy_Personal_p1': "个人信息",
     'PrivacyPolicy_Personal_p2': "您使用本网站的服务时可能收集如下信息：",
