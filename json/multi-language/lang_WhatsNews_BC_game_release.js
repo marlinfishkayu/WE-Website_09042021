@@ -45,7 +45,7 @@ var arrLang = {
     'Cookie_p1' : 'WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.',
     'Accept' : 'Accept',
     //Footer
-    'WorldEnt' : '©2020 WORLD ENTERTAINMENT.',
+    'WorldEnt' : 'WORLD ENTERTAINMENT.',
     'Subscribe' : 'Subscribe',
     'SignUp' : 'Sign Up',
     'Subscribe_p' : 'Be the first to know about the latest news and exclusive offers from WE.',
@@ -122,7 +122,7 @@ var arrLang = {
     'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
     'Accept' : '同意',
     //Footer
-    'WorldEnt' : '©2020 世界娛樂',
+    'WorldEnt' : '世界娛樂',
     'Subscribe' : '訂閱',
     'SignUp' : '立即註冊',
     'Subscribe_p' : '成為第一個收到WE最新消息和獨家優惠的人。',
@@ -198,7 +198,7 @@ var arrLang = {
     'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
     'Accept' : '同意',
     //Footer
-    'WorldEnt' : '©2020 世界娱乐',
+    'WorldEnt' : '世界娱乐',
     'Subscribe' : '订阅',
     'SignUp' : '立即注册',
     'Subscribe_p' : '成为第一个收到WE最新消息和独家优惠的人。',

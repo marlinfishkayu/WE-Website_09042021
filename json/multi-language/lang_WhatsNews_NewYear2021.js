@@ -45,7 +45,7 @@ var arrLang = {
     'Cookie_p1' : 'WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.',
     'Accept' : 'Accept',
     //Footer
-    'WorldEnt' : '©2020 WORLD ENTERTAINMENT.',
+    'WorldEnt' : 'WORLD ENTERTAINMENT.',
     'Subscribe' : 'Subscribe',
     'SignUp' : 'Sign Up',
     'Subscribe_p' : 'Be the first to know about the latest news and exclusive offers from WE.',
@@ -64,18 +64,10 @@ var arrLang = {
     'Filter_Announcement' : 'Announcement',
     'Filter_All' : 'All',
     //What's New  detail
-    'detail_date' : 'May 23, 2020',
-    'detail_event' : 'The Phil-Asia Gaming Expo (PAGE)',
-    'detail_detail' : 'A Grand Debut at P.A.G.E. the largest Asia’s gaming show! Let’s meet up!',
-    'detail_p' : 'PAGE is committed to building a platform of credibility, impartiality and transparency in the industry. It is a comprehensive event, including trade shows, product launches and venue events. We hope that through these diversified activities of the Asia expo to guide the industry to the future, in the industry more confident, more healthy development.',
-    //column
-    'detail_col1_h3' : 'Location',
-    'detail_col1_p' : 'Manila, Philippines',
-    'detail_col2_h3' : 'Event Date',
-    'detail_col2_p' : 'January 7 to 9, 2021',
-    'detail_col3_h3' : 'Stand',
-    'detail_col3_p1' : 'World trade Center (#3110)',
-    'detail_col3_p2' : 'SMX Convention Center (#1100)',
+    'detail_date' : '11 JAN 2021',
+    'detail_event_1' : 'New year of the ox!',
+    'detail_p1' : 'Counting our blessings and wishing you more.',
+    'detail_p2' : 'Happy New Year & Gong Xi Fa Cai！',
     //button
     'back' : 'back',
   },
@@ -129,7 +121,7 @@ var arrLang = {
     'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
     'Accept' : '同意',
     //Footer
-    'WorldEnt' : '©2020 世界娛樂',
+    'WorldEnt' : '世界娛樂',
     'Subscribe' : '訂閱',
     'SignUp' : '立即註冊',
     'Subscribe_p' : '成為第一個收到WE最新消息和獨家優惠的人。',
@@ -147,18 +139,10 @@ var arrLang = {
     'Filter_Announcement' : '公告',
     'Filter_All' : '全部',
     //What's New  detail
-    'detail_date' : '2020年5月23日',
-    'detail_event' : 'PAGE亞博會2021',
-    'detail_detail' : 'WE 在亞洲最大博奕娛樂展（P.A.G.E.）隆重登場！我們見面吧！',
-    'detail_p' : 'PAGE致力於在行業中建立信譽，公正和透明的平台。 這是一個全面的活動，包括貿易展覽，產品發布會和場地活動。 我們希望通過亞洲博覽會的這些多元化活動，引導行業走向未來，使行業內更加自信，更健康地發展。',
-    //column
-    'detail_col1_h3' : '位置',
-    'detail_col1_p' : '菲律賓馬尼拉',
-    'detail_col2_h3' : '日期',
-    'detail_col2_p' : '2021年1月7日至9日',
-    'detail_col3_h3' : '地址',
-    'detail_col3_p1' : '世界貿易中心（＃3110）',
-    'detail_col3_p2' : 'SMX會議中心（＃1100）',
+    'detail_date' : '2021年2月11日',
+    'detail_event_1' : '牛轉乾坤！新年快樂！',
+    'detail_p1' : '牛兆豐年，祝福滿滿',
+    'detail_p2' : '祝大家牛年大吉，財源滾滾來！',
     //button
     'back' : '返回',
   },
@@ -212,7 +196,7 @@ var arrLang = {
     'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
     'Accept' : '同意',
     //Footer
-    'WorldEnt' : '©2020 世界娱乐',
+    'WorldEnt' : '世界娱乐',
     'Subscribe' : '订阅',
     'SignUp' : '立即注册',
     'Subscribe_p' : '成为第一个收到WE最新消息和独家优惠的人。',
@@ -230,18 +214,10 @@ var arrLang = {
     'Filter_Announcement' : '公告',
     'Filter_All' : '全部',
     //What's New  detail
-    'detail_date' : '2020年5月23日',
-    'detail_event' : 'PAGE亚博会2021',
-    'detail_detail' : 'WE 在亚洲最大博奕娱乐展（P.A.G.E.）隆重登场！我们见面吧！',
-    'detail_p' : 'PAGE致力於在行业中建立信誉，公正和透明的平台。 这是一个全面的活动，包括贸易展览，产品发布会和场地活动。 我们希望通过亚洲博览会的这些多元化活动，引导行业走向未来，使行业内更加自信，更健康地发展。',
-    //column
-    'detail_col1_h3' : '位置',
-    'detail_col1_p' : '菲律宾马尼拉',
-    'detail_col2_h3' : '日期',
-    'detail_col2_p' : '2021年1月7日至9日',
-    'detail_col3_h3' : '地址',
-    'detail_col3_p1' : '世界贸易中心（＃3110）',
-    'detail_col3_p2' : 'SMX会议中心（＃1100）',
+    'detail_date' : '2021年2月11日',
+    'detail_event_1' : '牛转乾坤！新年快乐！',
+    'detail_p1' : '牛兆丰年，祝福满满',
+    'detail_p2' : '祝大家牛年大吉，财源滚滚来！',
     //button
     'back' : '返回',
     

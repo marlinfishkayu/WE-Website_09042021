@@ -191,6 +191,7 @@
     #NewsDetail .event-slider-bkg{
         margin: 0 auto;
         width: 100%;
+        filter: blur(30px) grayscale(0.2);
     }
     #NewsDetail .event-slider-bkg-D{
         display: block;
@@ -226,7 +227,7 @@
     }
     #NewsDetail .event-hightlight{
         position: absolute;
-        top: 22%;
+        top: 22.5%;
         left: 50%;
     }
     #NewsDetail .hero-header-bkg, .live-game-main-bkg{

@@ -1701,20 +1701,27 @@ footer {
   padding-top: 2rem;
 }
 
-.main-footer .underline .footer-TC h6 {
+.main-footer .underline .footer-TC p {
   color: #545454;
   font-size: 12px;
   text-align: center;
-  padding: 10px 0;
 }
 
-.main-footer .underline .footer-TC .TC h6 {
+.main-footer .underline .footer-TC .TC span {
   color: #D8D8D8;
   padding: 10px 0;
 }
 
 .main-footer .underline .footer-TC .TC a:hover {
   text-decoration: none;
+}
+
+.main-footer .underline .footer-TC .TC h6 {
+  padding-right: 20px;
+  font-size: 12px;
+  color: #D8D8D8;
+  padding: 18px 0;
+  text-align: center;
 }
 
 .main-footer .underline .footer-social {
@@ -1768,7 +1775,7 @@ footer {
   transition: all 200ms ease-out;
 }
 
-.footer-TC h6 {
+.footer-TC p {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 12px;
   font-weight: 100;
@@ -1797,12 +1804,13 @@ footer {
   .main-footer .underline .footer-logo {
     display: none;
   }
-  .main-footer .underline .footer-TC h6 {
+  .main-footer .underline .footer-TC span {
     text-align: left;
     padding-right: 20px;
   }
   .main-footer .underline .footer-TC .TC h6 {
     padding-right: 20px;
+    padding: 8px 0;
   }
   .main-footer .underline .footer-social {
     margin: inherit;
@@ -1965,7 +1973,7 @@ footer {
 }
 
 #slider-area .owl-dots {
-  bottom: 5%;
+  bottom: 0%;
 }
 
 #diamondCarousel .owl-dots,
@@ -4479,6 +4487,8 @@ select.form-control::-ms-expand {
   top: 0;
   left: 0;
   z-index: -1;
+  -webkit-filter: blur(30px) grayscale(0.3);
+          filter: blur(30px) grayscale(0.3);
 }
 
 #news-carousel .update-wrapper {
@@ -7555,6 +7565,8 @@ select.form-control::-ms-expand {
   #NewsDetail .event-slider-bkg {
     margin: 0 auto;
     width: 100%;
+    -webkit-filter: blur(30px) grayscale(0.2);
+            filter: blur(30px) grayscale(0.2);
   }
   #NewsDetail .event-slider-bkg-D {
     display: block;
@@ -7591,7 +7603,7 @@ select.form-control::-ms-expand {
   }
   #NewsDetail .event-hightlight {
     position: absolute;
-    top: 22%;
+    top: 22.5%;
     left: 50%;
   }
   #NewsDetail .hero-header-bkg, .live-game-main-bkg {

@@ -38,6 +38,7 @@
         top: 0;
         left: 0;
         z-index: -1;
+        filter: blur(30px) grayscale(0.3);
     }
     .update-wrapper{
         position: absolute;
