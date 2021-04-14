@@ -597,6 +597,7 @@
 }
 
 
+
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #diamondCarousel .active-img {
@@ -847,6 +848,7 @@
     }
     
 }
+
 @media (orientation: landscape) and (max-width: 575px) {
     #slider-area .slide {
       height: 100vh;
@@ -878,14 +880,6 @@
     }
   }
 
-@media (orientation: landscape) and (min-width: 992px) {
-    #slider-area .mobile-portrait{
-        display: block;
-    }
-    #slider-area .mobile-landscape{
-        display: none;
-    }
-}
 @media (orientation: portrait) and (min-width: 992px) {
     #slider-area .mobile-portrait{
         display: block;
@@ -895,9 +889,31 @@
     }
 }
 
+@media (orientation: landscape) and (min-width: 1024px) {
+    #slider-area .slide {
+        height: 90vh;
+    }
+    #slider-area .mobile-portrait{
+        display: none;
+    }
+    #slider-area .mobile-landscape{
+        display: block;
+    }
+}
 @media (orientation: landscape) and (min-width: 1200px) {
     #slider-area .slide {
         height: 100vh;
+    }
+    #slider-area .mobile-portrait{
+        display: none;
+    }
+    #slider-area .mobile-landscape{
+        display: block;
+    }
+}
+@media only screen and (min-device-width: 813px) and (max-device-width: 1366px) and (orientation:landscape) {
+    #slider-area .slide {
+        height: 80vh;
     }
     #slider-area .mobile-portrait{
         display: none;

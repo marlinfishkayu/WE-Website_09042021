@@ -10,7 +10,6 @@
 window.addEventListener("scroll", function() {
   var header = document.querySelector('.nav-wrap');
 
-  header.classList.toggle("sticky", window.scrollY < 5);
   header.classList.toggle("sticky", window.scrollY < 100);
   
 })
