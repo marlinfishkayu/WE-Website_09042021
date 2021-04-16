@@ -739,7 +739,8 @@
     }
     #intdexWhatsNews .news-item-img {
         width: 358px;
-        height: inherit;
+        height: 358px;
+        overflow: hidden;
     }
     .header-wrapper .slider-text {
         h2 {
