@@ -498,7 +498,7 @@
         &:before {
             content: "";
             position: absolute;
-            bottom: 114px;
+            bottom: 137px;
             height: 21px;
             width: 132px;
             z-index: 1;
@@ -514,16 +514,11 @@
         &:after {
             right: -100px;
             transform: translate(50%, -50%);
+            bottom: 137px;
         }
         &:before {
             right: -107px;
         }
-    }
-    #newsFeed .timeline-wrap .timeline .left-frame:first-child:after{
-        bottom: 140px;
-    }
-    #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
-        bottom: 140px;
     }
     #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
         position: absolute;
@@ -542,13 +537,13 @@
         transform: translateX(100px);
         &:after {
             left: -100px;
-            bottom: 121px;
+            bottom: 144px;
             transform: translate(-50%, -50%);
         }
         &:before {
             transform: scaleX(-1);
             left: -100px;
-            bottom: 120px;
+            bottom: 144px;
         }
     }
     #newsFeed .timeline-wrap .timeline ul li .right-frame {
@@ -768,7 +763,7 @@
         }
     }
     #newsFeed .timeline-wrap .timeline ul li.left-frame:before {
-        bottom: 150px;
+        bottom: 146px;
         width: 170px;
     }
     #newsFeed .timeline-wrap .timeline ul li.right-frame:before {
@@ -827,7 +822,7 @@
     #newsFeed .timeline-wrap .timeline ul li.right-frame {
         &:after {
             left: -100px;
-            bottom: 138px;
+            bottom: 144px;
         }
     }
     #newsFeed .news-filter-wrap .news-filter .filter-item a.active:after {
@@ -906,9 +901,9 @@
     #news-carousel .update-content .update-date {
         padding-top: 2rem;
     }
-    #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
-        bottom: 149px;
-    }
+    // #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
+    //     bottom: 149px;
+    // }
 }
 @media (max-width: 576px){
     #news-carousel .owl-dots {

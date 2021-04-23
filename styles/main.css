@@ -5051,7 +5051,7 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-wrap .timeline ul li:before {
     content: "";
     position: absolute;
-    bottom: 114px;
+    bottom: 137px;
     height: 21px;
     width: 132px;
     z-index: 1;
@@ -5069,15 +5069,10 @@ select.form-control::-ms-expand {
     right: -100px;
     -webkit-transform: translate(50%, -50%);
             transform: translate(50%, -50%);
+    bottom: 137px;
   }
   #newsFeed .timeline-wrap .timeline ul li.left-frame:before {
     right: -107px;
-  }
-  #newsFeed .timeline-wrap .timeline .left-frame:first-child:after {
-    bottom: 140px;
-  }
-  #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
-    bottom: 140px;
   }
   #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
     position: absolute;
@@ -5097,7 +5092,7 @@ select.form-control::-ms-expand {
   }
   #newsFeed .timeline-wrap .timeline ul li.right-frame:after {
     left: -100px;
-    bottom: 121px;
+    bottom: 144px;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
@@ -5105,7 +5100,7 @@ select.form-control::-ms-expand {
     -webkit-transform: scaleX(-1);
             transform: scaleX(-1);
     left: -100px;
-    bottom: 120px;
+    bottom: 144px;
   }
   #newsFeed .timeline-wrap .timeline ul li .right-frame .frame-detail {
     margin-left: 36px;
@@ -5325,7 +5320,7 @@ select.form-control::-ms-expand {
     width: 0%;
   }
   #newsFeed .timeline-wrap .timeline ul li.left-frame:before {
-    bottom: 150px;
+    bottom: 146px;
     width: 170px;
   }
   #newsFeed .timeline-wrap .timeline ul li.right-frame:before {
@@ -5383,7 +5378,7 @@ select.form-control::-ms-expand {
   }
   #newsFeed .timeline-wrap .timeline ul li.right-frame:after {
     left: -100px;
-    bottom: 138px;
+    bottom: 144px;
   }
   #newsFeed .news-filter-wrap .news-filter .filter-item a.active:after {
     bottom: -21px;
@@ -5458,9 +5453,6 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content .update-date {
     padding-top: 2rem;
-  }
-  #newsFeed .timeline-wrap .timeline ul li.left-frame:first-child:before {
-    bottom: 149px;
   }
 }
 
