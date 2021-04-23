@@ -40,7 +40,7 @@ var arrLang = {
     'GodofFortune': 'God of Fortune',
     'Lotto5': 'Lotto-5',
     'PK10': 'PK-10 Racing',
-
+    
     //Cookie popup
     'Cookie_p1' : 'WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.',
     'Accept' : 'Accept',
@@ -57,33 +57,19 @@ var arrLang = {
     //input placeholder
     'input_email':'Please enter your email address here',
 
-    //Whats New
-    'Sigma2021_date' : '5 May 2021',
-    'Sigma2021_h1' : 'SiGMA Virtual Roadshow',
-    'Sigma2021_p' : 'Hello World! Get to know who WE are.',
-    'NewYear2021_date' : '11 JAN 2021',
-    'NewYear2021_h1' : 'New year of the ox!',
-    'NewYear2021_p' : 'Counting our blessings and wishing you more. Happy New Year & Gong Xi Fa Cai！',
-    'BC_date' : '18 Dec 2020',
-    'BC_h1' : 'Link up the world, play safe!',
-    'BC_h1_p' : 'No one can tamper with the data of the blockchain, WE have developed a series of Blockchain Games by this top-notch technique, which allows players to enjoy the game in a safe and secure environment. Catch up and play now!',
-    'Xmas2020_date' : '25 DEC 2020',
-    'Xmas2020_h1' : 'Ho Ho Ho, Happy Holly Days!',
-    'Xmas2020_p' : 'WE wish you a Merry Christmas, WE wish you a Merry Christmas, wish you a Merry Christmas and a Happy New Year! May your days be jolly!',
-    'detail-btn' : 'DETAILS',
+
     //Filter
-    'Filter_Games' : 'Games',
+    'Filter_games' : 'Games',
     'Filter_Events' : 'Events',
     'Filter_Announcement' : 'Announcement',
     'Filter_All' : 'All',
-    //Timeline Content
-    'timeline_game_col1' : 'New year of the ox!',
-    'timeline_game_col2' : 'Ho Ho Ho, Happy Holly Days!',
-    'timeline_game_col3' : 'Link up the world, play safe!',
-    'timeline_game_col4' : 'SiGMA Virtual Roadshow',
-    'load_more' : 'load more',
-    
-
+    //What's New  detail
+    'detail_date' : '5 May 2021',
+    'detail_event_1' : 'SiGMA Virtual Roadshow',
+    'detail_p1' : 'Hello World! Get to know who WE are.',
+    'detail_p2' : 'Don’t miss out! Can’t wait to see you all at our virtual booth! ',
+    //button
+    'back' : 'back',
   },
 
 
@@ -147,31 +133,18 @@ var arrLang = {
     //input placeholder
     'input_email':'請在此處輸入你的電子郵件地址',
 
-    //Whats New
-    'Sigma2021_date' : '2021年 5月5日',
-    'Sigma2021_h1' : 'SIGMA虛擬巡演',
-    'Sigma2021_p' : 'Hello World! 認識 WE，發掘「世界娛樂」',
-    'NewYear2021_date' : '2021年2月11日',
-    'NewYear2021_h1' : '牛轉乾坤！新年快樂！',
-    'NewYear2021_p' : '牛兆豐年，祝福滿滿祝大家牛年大吉，財源滾滾來！',
-    'BC_date' : '2020年12月18日',
-    'BC_h1' : '鏈接世界，玩得更嗨!',
-    'BC_p' : '區塊鏈乃高端及極具創造力的嶄新技術，以安全可靠的方式傳遞資訊。由於可以保證數據不受任何干擾及篡改，所以我們通過這種加密技術開發了區塊鏈遊戲系列，讓玩家在公平公正的環境下享受遊戲的樂趣。抓緊機會，立即試玩!',
-    'Xmas2020_date' : '2020年12月25日',
-    'Xmas2020_h1' : '祝大家聖誕快樂！呵呵呵～',
-    'Xmas2020_p' : '我們祝你聖誕快樂，我們祝你聖誕快樂，我們祝你聖誕快樂，祝你新年快樂～願您新一年快樂滿滿！',
-    'detail-btn' : '閱讀更多',
     //Filter
-    'Filter_Games' : '遊戲',
+    'Filter_games' : '遊戲',
     'Filter_Events' : '活動',
     'Filter_Announcement' : '公告',
     'Filter_All' : '全部',
-    //Timeline Content
-    'timeline_game_col1' : '牛轉乾坤！新年快樂！',
-    'timeline_game_col2' : '祝大家聖誕快樂！呵呵呵～',
-    'timeline_game_col3' : '區塊鏈遊戲正式上線！',
-    'timeline_game_col4' : 'SIGMA虛擬巡演',
-    'load_more' : '更多',
+    //What's New  detail
+    'detail_date' : '2021年 5月5日',
+    'detail_event_1' : 'SIGMA虛擬巡演',
+    'detail_p1' : 'Hello World! 認識 WE，發掘「世界娛樂」',
+    'detail_p2' : '切勿錯過！我們迫不及待與你碰面！',
+    //button
+    'back' : '返回',
   },
 
 
@@ -235,31 +208,19 @@ var arrLang = {
     //input placeholder
     'input_email':'请在此处输入你的电子邮件地址',
 
-    //Whats New
-    'Sigma2021_date' : '2021年 5月5日',
-    'Sigma2021_h1' : 'SiGMA虚拟巡演',
-    'Sigma2021_p' : 'Hello World! 认识 WE，發掘「世界娱乐」',
-    'NewYear2021_date' : '2021年2月11日',
-    'NewYear2021_h1' : '牛转乾坤！新年快乐！',
-    'NewYear2021_p' : '牛兆丰年，祝福满满，祝大家牛年大吉，财源滚滚来！',
-    'BC_date' : '2020年12月18日',
-    'BC_h1': '链接世界，玩得更嗨！',
-    'BC_p' : '区块链乃高端及极具创造力的崭新技术，以安全可靠的方式传递资讯。由于可以保证数据不受任何干扰及篡改，所以我们通过这种加密技术开发了区块链游戏系列，让玩家在公平公正的环境下享受游戏的乐趣。抓紧机会，立即试玩!',
-    'Xmas2020_date' : '2020年12月25日',
-    'Xmas2020_h1' : '祝大家圣诞快乐！呵呵呵～',
-    'Xmas2020_p' : '我们祝你圣诞快乐，我们祝你圣诞快乐，我们祝你圣诞快乐，祝你新年快乐～愿您新一年快乐满满！',
-    'detail-btn' : '阅读更多',
     //Filter
-    'Filter_Games' : '游戏',
+    'Filter_games' : '游戏',
     'Filter_Events' : '活动',
     'Filter_Announcement' : '公告',
     'Filter_All' : '全部',
-    //Timeline Content
-    'timeline_game_col1' : '牛转乾坤！新年快乐！',
-    'timeline_game_col2' : '祝大家圣诞快乐！呵呵呵～',
-    'timeline_game_col3' : '区块链游戏正式上线！',
-    'timeline_game_col4' : 'SiGMA虚拟巡演',
-    'load_more' : '更多',
+    //What's New  detail
+    'detail_date' : '2021年 5月5日',
+    'detail_event_1' : 'SiGMA虚拟巡演',
+    'detail_p1' : 'Hello World! 认识 WE，發掘「世界娱乐」',
+    'detail_p2' : '切勿错过！我们迫不及待与你碰面！',
+    //button
+    'back' : '返回',
+    
   }
 };
 

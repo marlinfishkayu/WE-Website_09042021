@@ -396,7 +396,9 @@ button:focus {
 .break_Chi{
   display: none;
 }
-
+.cover{
+  object-fit: cover;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 

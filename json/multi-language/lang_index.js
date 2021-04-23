@@ -106,12 +106,14 @@ var arrLang = {
       'index_sect3_p': 'Quickly catch up on our updated news.',
       'View_all': 'View all',
       //
-      'index_sect4_News1_date': '11 JAN 2021',
-      'index_sect4_News1_h3': 'New year of the ox!',
+      'index_sect4_News4_date': '5th May 2021',
+      'index_sect4_News4_h3': 'SiGMA Virtual Roadshow',
+      'index_sect4_News3_date': '11 JAN 2021',
+      'index_sect4_News3_h3': 'New year of the ox!',
       'index_sect4_News2_date': '25 DEC 2020',
       'index_sect4_News2_h3': 'Ho Ho Ho, Happy Holly Days!',
-      'index_sect4_News3_date': '18 Dec 2020',
-      'index_sect4_News3_h3': 'Blockchain games launched!',
+      'index_sect4_News1_date': '18 Dec 2020',
+      'index_sect4_News1_h3': 'Blockchain games launched!',
       
     },
 
@@ -225,12 +227,14 @@ var arrLang = {
       'index_sect3_p': '搶先收到我們的最新消息。',
       'View_all': '全部消息',
       //
-      'index_sect4_News1_date': '2021年2月11日',
-      'index_sect4_News1_h3': '牛轉乾坤！新年快樂！',
+      'index_sect4_News4_date': '2021年 5月5日',
+      'index_sect4_News4_h3': 'SIGMA虛擬巡演',
+      'index_sect4_News3_date': '2021年2月11日',
+      'index_sect4_News3_h3': '牛轉乾坤！新年快樂！',
       'index_sect4_News2_date': '2020年12月25日',
       'index_sect4_News2_h3': '祝大家聖誕快樂！呵呵呵～',
-      'index_sect4_News3_date': '2020年12月18日',
-      'index_sect4_News3_h3': '區塊鏈遊戲正式上線！',
+      'index_sect4_News1_date': '2020年12月18日',
+      'index_sect4_News1_h3': '區塊鏈遊戲正式上線！',
 
     },
 
@@ -344,12 +348,14 @@ var arrLang = {
       'index_sect3_p': '抢先收到我们的最新消息。',
       'View_all': '全部消息',
       //
-      'index_sect4_News1_date': '2021年2月11日',
-      'index_sect4_News1_h3': '牛转乾坤！新年快乐！',
+      'index_sect4_News4_date': '2021年 5月5日',
+      'index_sect4_News4_h3': 'SiGMA虚拟巡演',
+      'index_sect4_News3_date': '2021年2月11日',
+      'index_sect4_News3_h3': '牛转乾坤！新年快乐！',
       'index_sect4_News2_date': '2020年12月25日',
       'index_sect4_News2_h3': '祝大家圣诞快乐！呵呵呵～',
-      'index_sect4_News3_date': '2020年12月18日',
-      'index_sect4_News3_h3': '区块链游戏正式上线！',
+      'index_sect4_News1_date': '2020年12月18日',
+      'index_sect4_News1_h3': '区块链游戏正式上线！',
     }
   };
 

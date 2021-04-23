@@ -213,6 +213,7 @@ $('#slider-area').owlCarousel({
   autoplay:true,
   nav:true,
 	margin:10,
+  lazyLoad: true,
     responsive:{
         0:{
             items:1
@@ -639,10 +640,35 @@ setTimeout(function() {
 
 
 /*-- What's New Timeline add odd/even class start --*/
-(function () {
+$(document).ready(function() {  
 	$('.timeline li:nth-child(even)').addClass('right-frame');
   $('.timeline li:nth-child(odd)').addClass('left-frame');
-})();
+});
+
+//check the odd / even of timeline item with filter
+$(document).ready(function(){
+  $("#filterAnn").click(function() {
+      $( ".timeline ul li" ).removeClass( "left-frame right-frame" );
+      $('.announcement').filter(':odd').addClass("right-frame");
+      $('.announcement').filter(':even').addClass("left-frame");
+  });
+  $("#filterAll").click(function() {
+      $( ".timeline ul li" ).removeClass( "left-frame right-frame" );
+      $('.timeline li').filter(':odd').addClass("right-frame");
+      $('.timeline li').filter(':even').addClass("left-frame");
+  });
+  $("#filterEve").click(function() {
+      $( ".timeline ul li" ).removeClass( "left-frame right-frame" );
+      $('.events').filter(':odd').addClass("right-frame");
+      $('.events').filter(':even').addClass("left-frame");
+  });
+  $("#filterGam").click(function() {
+      $( ".timeline ul li" ).removeClass( "left-frame right-frame" );
+      $('.games').filter(':odd').addClass("right-frame");
+      $('.games').filter(':even').addClass("left-frame");
+  });
+});
+
 /*-- What's New Timeline add odd/even class end --*/
 
 
@@ -663,12 +689,6 @@ $(document).ready(function(){
         $(".filter").filter('.'+value).show('3000');
       }
   });
-    // if($(".filter-item").removeClass("active")){
-    //     $(this).removeClass("active");
-    //   }
-    //   $(this).addClass("active");
-
-
       $('.filter-item').click(function(){
           $('.filter-item a').removeClass("active");
           $(this).children("a").addClass("active");
