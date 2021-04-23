@@ -192,13 +192,15 @@ $(document).ready(function () {
 
 //Hero carousal
 $("#slider-area").owlCarousel({
-  loop: true,
   autoplay: true,
   nav: true,
   margin: 10,
-  lazyLoad: true,
+  lazyLoad: false,
   touchDrag  : true,
   mouseDrag  : false,
+  autoPlay: 2000, //Set AutoPlay to 2 seconds
+  loop: false,
+  rewind: true,
   responsive: {
       0: {
           items: 1,
@@ -211,6 +213,7 @@ $("#slider-area").owlCarousel({
       },
   },
 });
+
 //with page indicator carousal
 $(".news-slider")
   .on("initialized.owl.carousel changed.owl.carousel", function (e) {
