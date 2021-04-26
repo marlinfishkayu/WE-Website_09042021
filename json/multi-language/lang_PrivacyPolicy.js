@@ -45,9 +45,9 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_6': "- Improve our content on the Sites",
     'PrivacyPolicy_How_p2_li_7': "- Customise the content and layout of the Site",
     'PrivacyPolicy_How_p3': "In regards to the information we collect when you email us, we may use your email address to contact and/or reply to your comments and concerns. Your communication and our replies may be stored in case of a future correspondence. Your email address will not be shared with anyone outside the company. If you wished for your name to be removed from World Entertainment’s mailing list, please send your request to privacy@worldent.com",
-    //Security
-    'PrivacyPolicy_Security': "Security",
-    'PrivacyPolicy_Security_p1': "Reasonable measures of security have been implemented by World Entertainment to ensure the confidentiality of information is protected. Only authorised personnel are allowed access to such information.",
+    //Privacy Policy
+    'PrivacyPolicy_Privacy': "Privacy Policy",
+    'PrivacyPolicy_Privacy_p': "Reasonable measures of security have been implemented by World Entertainment to ensure the confidentiality of information is protected. Only authorised personnel are allowed access to such information.",
     //Third Party Disclosure
     'PrivacyPolicy_Third': "Third Party Disclosure",
     'PrivacyPolicy_Third_p1': "Any identifiable information pertaining to you will not be shared or disclosed to others. However, World Entertainment reserves the right to share this information when we have reason to identify, contact or bring legal action against someone who may be interfering with (either intentionally or unintentionally) World Entertainment's rights or property, other users or anyone else that could be harmed by such activities. At our discretion, World Entertainment will cooperate with law enforcement agencies and disclose information when the below situation occurs:",
@@ -55,6 +55,9 @@ var arrLang = {
     'PrivacyPolicy_Third_li_2': "- When required by the law",
     'PrivacyPolicy_Third_li_3': "- Protect ourselves from legal liability",
     'PrivacyPolicy_Third_li_4': "- Protect someone's safety or the integrity of the site",
+    //Security
+    'PrivacyPolicy_Security': "Security",
+    'PrivacyPolicy_Security_p1': "To keep your order information secure, our website are secured with industry standard security encryption protocols.",
     //Third Party Sites
     'PrivacyPolicy_ThirdSite': "Third Party Sites",
     'PrivacyPolicy_ThirdSite_p': "World Entertainment is only responsible to control the use and disclosure of information we collect on this site. The privacy of other sites or third parties to whom you may link from our site is not covered in this policy.",
@@ -113,9 +116,9 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_6': "- 改進本網站內容",
     'PrivacyPolicy_How_p2_li_7': "- 自定義網站的內容和版型",
     'PrivacyPolicy_How_p3': "當您通過電子郵件向我們發送信息，我們可能會通過該電子郵件地址，用於聯繫和/或回复您的意見或留言。您和我們的溝通信息將會被存檔以便日後跟進用途。您的電子郵件地址不會與公司外的任何人分享。如果您希望從世界娛樂的郵件聯絡人列表裡刪除名字，將您的請求發送至 privacy@worldent.com",
-    //Security
-    'PrivacyPolicy_Security': "信息安全",
-    'PrivacyPolicy_Security_p1': "世界娛樂已經實施了合理的安全措施，以確保信息嚴加機密保護。經授權人員才可以訪問該信息。",
+    //Privacy Policy
+    'PrivacyPolicy_Privacy': "隱私權保護條款",
+    'PrivacyPolicy_Privacy_p': "世界娛樂將合理地用適當科技及內部管理程序妥善保護個人資料，以避免第三方未經授權取得個人資料。",
     //Third Party Disclosure
     'PrivacyPolicy_Third': "第三方披露",
     'PrivacyPolicy_Third_p1': "任何與您有關的身份驗證信息都不會分享或透露給他人。但是，當世界娛樂有理由需要身份識別，聯繫或針對任何侵犯（有意或無意）世界娛樂產權的人士提出法律訴訟時，以及其他用戶或任何有可能因為此活動而牽涉受害人士，世界娛樂將保留共享此信息的權利。根據我們的判斷，當下列情況發生時，世界娛樂將與執法機構合作並將披露信息：",
@@ -123,12 +126,15 @@ var arrLang = {
     'PrivacyPolicy_Third_li_2': "- 當法律需要時",
     'PrivacyPolicy_Third_li_3': "- 維護法律責任",
     'PrivacyPolicy_Third_li_4': "- 保護他人的安全或維護網站法規",
+    //Security
+    'PrivacyPolicy_Security': "信息安全",
+    'PrivacyPolicy_Security_p': "世界娛樂已經實施了合理的安全措施，以確保信息嚴加機密保護。經授權人員才可以訪問該信息。",
     //Third Party Sites
     'PrivacyPolicy_ThirdSite': "第三方網站",
     'PrivacyPolicy_ThirdSite_p': "世界娛樂僅負責控製本網站所收集的信息使用和披露。本政策不承擔您從本網站鏈接到其他網站或其他第三方網站的隱私責任。",
     //General
     'PrivacyPolicy_General': "概括",
-    'PrivacyPolicy_General_p': "世界娛樂將有權保留更改世界娛樂隱私政策的使用條款。任何政策更改將會盡快地在本頁發布並，且任何更改立即生效。因此，建議定期檢閱此頁面是否有任何更動。根據世界娛樂隱私政策，您在使用本網站時已當下自動同意世界娛樂使用您的信息。",
+    'PrivacyPolicy_General_p': "世界娛樂將有權保留更改世界娛樂隱私政策的使用條款。任何政策更改將會盡快地在本頁發布，並且任何更改立即生效。因此，建議定期檢閱此頁面是否有任何更動。根據世界娛樂隱私政策，您在使用本網站時已當下自動同意世界娛樂使用您的信息。",
 
   },
 
@@ -179,9 +185,9 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_6': "- 改进本网站内容；",
     'PrivacyPolicy_How_p2_li_7': "- 自定义网站的内容和版型；",
     'PrivacyPolicy_How_p3': "当您通过电子邮件向我们发送信息，我们可能会通过该电子邮件地址，用于联系和/或回复您的意见或留言。您和我们的沟通信息将会被存档以便日后跟进用途。您的电子邮件地址不会与公司外的任何人分享。如果您希望从世界娱乐的邮件联络人列表里删除名字，将您的请求发送至 privacy@worldent.com",
-    //Security
-    'PrivacyPolicy_Security': "信息安全",
-    'PrivacyPolicy_Security_p1': "世界娱乐已经实施了合理的安全措施，以确保信息严加机密保护。经授权人员才可以访问该信息。",
+    //Privacy Policy
+    'PrivacyPolicy_Privacy': "隐私权保护条款",
+    'PrivacyPolicy_Privacy_p': "世界娱乐将合理地用适当科技及内部管理程序妥善保护个人资料，以避免第三方未经授权取得个人资料。",
     //Third Party Disclosure
     'PrivacyPolicy_Third': "第三方披露",
     'PrivacyPolicy_Third_p1': "任何与您有关的身份验证信息都不会分享或透露给他人。但是，当世界娱乐有理由需要身份识别，联系或针对任何侵犯（有意或无意）世界娱乐产权的人士提出法律诉讼时，以及其他用户或任何有可能因为此活动而牵涉受害人士，世界娱乐将保留共享此信息的权利。根据我们的判断，当下列情况发生时，世界娱乐将与执法机构合作并将披露信息：",
@@ -189,12 +195,15 @@ var arrLang = {
     'PrivacyPolicy_Third_li_2': "- 当法律需要时",
     'PrivacyPolicy_Third_li_3': "- 维护法律责任",
     'PrivacyPolicy_Third_li_4': "- 保护他人的安全或维护网站法规",
+    //Security
+    'PrivacyPolicy_Security': "信息安全",
+    'PrivacyPolicy_Security_p': "世界娱乐已经实施了合理的安全措施，以确保信息严加机密保护。经授权人员才可以访问该信息。",
     //Third Party Sites
     'PrivacyPolicy_ThirdSite': "第三方网站",
     'PrivacyPolicy_ThirdSite_p': "世界娱乐仅负责控制本网站所收集的信息使用和披露。本政策不承担您从本网站链接到其他网站或其他第三方网站的隐私责任。",
     //General
     'PrivacyPolicy_General': "概括",
-    'PrivacyPolicy_General_p': "世界娱乐将有权保留更改世界娱乐隐私政策的使用条款。任何政策更改将会尽快地在本页发布并，且任何更改立即生效。因此，建议定期检阅此页面是否有任何更动。根据世界娱乐隐私政策，您在使用本网站时已当下自动同意世界娱乐使用您的信息。",
+    'PrivacyPolicy_General_p': "世界娱乐将有权保留更改世界娱乐隐私政策的使用条款。任何政策更改将会尽快地在本页发布，并且任何更改立即生效。因此，建议定期检阅此页面是否有任何更动。根据世界娱乐隐私政策，您在使用本网站时已当下自动同意世界娱乐使用您的信息。",
 
   }
 };
