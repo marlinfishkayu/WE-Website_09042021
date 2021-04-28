@@ -42,7 +42,7 @@ var arrLang = {
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
-      'Roulette_slogan': 'Big win on European classic.',
+      'Roulette_slogan': 'Ultimate European classic.',
       'SicBo_slogan': 'An unparalleled game of chance.',
       'DragonTiger_slogan': 'The perfect game for quick players.',
       'MahjongLuckyWheel_slogan': 'Double fun! Triple excitement! ',
@@ -79,13 +79,13 @@ var arrLang = {
       'try_our_games': 'Try Our Games',
       //
       'LiveGames':'LIVE GAMES',
-      'gameDetail_p1':'The God of Fortune Sic Bo is an integration of classic Sic Bo. However, it infuses "The God of Fortune", a Chinese element into the game. The gameplay is similar to the classic Sic Bo but there will be more excitement and interaction during the gaming process. ',
+      'gameDetail_p1':'The God of Fortune Sic Bo is an integration of classic Sic Bo. However, it infuses "The God of Fortune", a traditional Chinese element into our game. The gameplay is similar to the classic "Sic Bo" but there will be more excitement and interaction during the gaming process.',
       'feature_1': 'Lucky draw',
-      'feature_1_p': 'The God of Fortune will randomly draw 1-3 “Lucky Number(s)” of each round. In terms of basic odds, players have the opportunity to get as much as 50x to even 1000x random odds. ',
-      'feature_2': 'Great visual excitement ',
+      'feature_1_p': 'The God of Fortune will randomly draw 1-3 “Lucky Number(s)” of each round. In terms of basic odds, players will have the opportunity to get as much as 50x to even 1000x random odds.',
+      'feature_2': 'Powerful visual excitement ',
       'feature_2_p': 'God of Fortune Sic Bo brings the players extraordinary visual and shock through lots of animation combined with wonderful lighting, color and elements. With different random odds and winning results released, which brings a variety of new excitement to players.',
       'feature_3': 'Up-to-date',
-      'feature_3_p': 'This game provides "Instant Bets Tendency" and results of statistical data of the last 10 and 50 rounds, showing the latest trend by clear graphics, so that players are able to have better preparation for the next move.',
+      'feature_3_p': 'This game provides "Instant Bets Tendency" and results of statistical data of the last 10 and 50 rounds, showing the latest trend by clear graphics, so that players are easier to prepare for the next round.',
     },
   
   
@@ -134,17 +134,17 @@ var arrLang = {
       'PK10': '北京賽車',
       //Game Slogan
       'Baccarat_slogan': '保留經典，再創高峰！',
-      'Roulette_slogan': '歐洲輪盤之癲',
-      'SicBo_slogan': '無可比擬的機會遊戲',
-      'DragonTiger_slogan': '速戰速決',
-      'MahjongLuckyWheel_slogan': '雙重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延長興奮和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作',
-      'WinThreeCards_slogan': '一個「炸」腦的遊戲',
-      'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
-      'Lotto5_slogan': '最高賠率彩球遊戲',
-      'PK10_slogan':'競速賽車，等你來 PK',
+      'Roulette_slogan': '歐洲輪盤之巔。',
+      'SicBo_slogan': '一擲定輸贏。',
+      'DragonTiger_slogan': '速戰速決。',
+      'MahjongLuckyWheel_slogan': '雙重樂趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作。',
+      'WinThreeCards_slogan': '一個「炸」腦的遊戲。',
+      'SpeedBaccarat_slogan': '高速快感，讓人心跳加速。',
+      'Lotto5_slogan': '最高賠率彩球遊戲。',
+      'PK10_slogan':'競速賽車，等你來PK。',
   
       //Cookie popup
       'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
@@ -171,13 +171,13 @@ var arrLang = {
       'try_our_games': '免費試玩',
       //
       'LiveGames':'真人遊戲',
-      'gameDetail_p1': '財神骰寶是骰寶的進化版本，它將中國「財神」這個人見人愛的角色加插在遊戲中。遊戲玩法和骰寶相近，不同之處在於財神骰寶會有抽取幸運號碼環節，在遊戲過程中將會令玩家激發更多的快樂荷爾蒙。',
+      'gameDetail_p1': '財神骰寶是骰寶進化版，它將中國「財神」這個人見人愛角色加插在遊戲中。遊戲玩法和骰寶相近，不同之處在於財神骰寶會有抽取幸運號碼環節，在遊戲過程中將會令玩家激發更多快樂荷爾蒙。',
       'feature_1': '超賞幸運號碼',
       'feature_1_p': '財神骰寶特設隨機幸運倍數，在基礎賠率上，讓玩家有機會再獲多達50以至1,000倍的賞金，成為超級贏家！',
       'feature_2': '超強視覺震撼',
-      'feature_2_p': '財神骰寶融入大量的動畫元素，配合幸運倍數及開彩結果，展現各式各樣的動畫效果，帶給玩家非凡的視覺震撼！',
+      'feature_2_p': '財神骰寶融入大量動畫元素，配合幸運倍數及開彩結果，展現各式各樣動畫效果，帶給玩家非凡視覺震撼！',
       'feature_3': '即時彩池',
-      'feature_3_p': '財神骰寶設有「即時彩池」及最近10局與50局的結果統計數據，以清晰的圖像展示遊戲的最新趨勢，讓玩家更得心應手！',
+      'feature_3_p': '財神骰寶設有「即時彩池」及最近10局與50局的結果統計數據，以清晰圖像預示遊戲最新趨勢，讓玩家更得心應手！',
     },
 
 
@@ -226,17 +226,17 @@ var arrLang = {
       'PK10': '北京赛车',
       //Game Slogan
       'Baccarat_slogan': '保留经典，再创高峰！',
-      'Roulette_slogan': '欧洲轮盘之癫',
-      'SicBo_slogan': '无可比拟的机会游戏',
-      'DragonTiger_slogan': '速战速决',
-      'MahjongLuckyWheel_slogan': '双重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延长兴奋和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑战经典的全新力作',
-      'WinThreeCards_slogan': '一个「炸」脑的游戏',
-      'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
-      'Lotto5_slogan': '最高赔率彩球游戏',
-      'PK10_slogan':'竞速赛车，等你来 PK',
+      'Roulette_slogan': '欧洲轮盘之巅。',
+      'SicBo_slogan': '一掷定输赢。',
+      'DragonTiger_slogan': '速战速决。',
+      'MahjongLuckyWheel_slogan': '双重乐趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑战经典的全新力作。',
+      'WinThreeCards_slogan': '一个「炸」脑的游戏。',
+      'SpeedBaccarat_slogan': '高速快感，让人心跳加速。',
+      'Lotto5_slogan': '最高赔率彩球游戏。',
+      'PK10_slogan':'竞速赛车，等你来PK。',
   
       //Cookie popup
       'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
@@ -263,13 +263,13 @@ var arrLang = {
       'try_our_games': '免费试玩',
       //
       'LiveGames':'真人游戏',
-      'gameDetail_p1': '财神骰宝是骰宝的进化版本，它将中国「财神」这个人见人爱的角色添加于游戏中。游戏玩法與骰宝相近，不同之处在于财神骰宝设有抽取幸运号码环节，在游戏过程中令玩家激发更多的快乐荷尔蒙。',
+      'gameDetail_p1': '财神骰宝是骰宝进化版，它将中国「财神」这个人见人爱角色加插在游戏中。游戏玩法和骰宝相近，不同之处在于财神骰宝会有抽取幸运号码环节，在游戏过程中将会令玩家激發更多快乐荷尔蒙。',
       'feature_1': '超赏幸运号码',
       'feature_1_p': '财神骰宝特设随机幸运倍数，在基础赔率上，让玩家有机会再获多达50以至1,000倍的赏金，成为超级赢家！',
       'feature_2': '超强视觉震撼',
-      'feature_2_p': '财神骰宝融入大量的动画元素，配合幸运倍数及开彩结果，展现各式各样的动画效果，带给玩家非凡的视觉震撼！',
+      'feature_2_p': '财神骰宝融入大量动画元素，配合幸运倍数及开彩结果，展现各式各样动画效果，带给玩家非凡视觉震撼！',
       'feature_3': '即时彩池',
-      'feature_3_p': '财神骰宝设有「即时彩池」及最近10局与50局的结果统计数据，以清晰的图像展示游戏的最新趋势，让玩家更得心应手！',
+      'feature_3_p': '财神骰宝设有「即时彩池」及最近10局与50局的结果数据统计，以清晰图像预示游戏最新趋势，让玩家更得心应手！',
     }
   };
  

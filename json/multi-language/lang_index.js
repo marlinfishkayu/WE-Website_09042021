@@ -80,14 +80,14 @@ var arrLang = {
       //index_section1_games
       'index_sect1_Game': 'GAMES',
       'index_sect1_h2': 'Leading the way, play new.',
-      'index_sect1_p1': 'Inspiring new excitement and thrills for you,',
-      'index_sect1_p2': 'while presenting an excellent gaming experience.',
+      'index_sect1_p1': 'WE create exceptional user experience and excitment!',
+      'index_sect1_p2': '',
       'ComingSoon': 'Coming Soon',
 
       //index_section2_hotpicks
       'index_sect2_HotPicks': 'HOT PICKS',
-      'index_sect2_h2': 'The most popular games online.',
-      'index_sect2_p': 'Time is precious, so WE pick and choose our brand new selection for you.',
+      'index_sect2_h2': 'Our hottest online game.',
+      'index_sect2_p': 'WE carefully select our most popular game for you.',
       'index_sect2_LiveGame': 'LIVE GAMES ',
       
       //index_section2 Live Game Carousel
@@ -103,7 +103,7 @@ var arrLang = {
       //index_section3_what's News
       'ReadMore': 'read more',
       'index_sect3_WhatsNew': "WHAT'S NEW",
-      'index_sect3_p': 'Quickly catch up on our updated news.',
+      'index_sect3_p': 'Follow our latest news subcription.',
       'View_all': 'View all',
       //
       'index_sect4_News4_date': '5th May 2021',
@@ -201,14 +201,14 @@ var arrLang = {
       //index_section1_games
       'index_sect1_Game': '遊戲',
       'index_sect1_h2': '一路領先，搶鮮玩！',
-      'index_sect1_p1': '我們不但締造出色的用戶體驗，',
-      'index_sect1_p2': '更激發難以言喻的刺激感！',
+      'index_sect1_p1': '我們不但締造出色用戶體驗，',
+      'index_sect1_p2': '更激發難以言喻刺激感！',
       'ComingSoon': '快將推出',
       
       //index_section2_hotpicks
       'index_sect2_HotPicks': '熱門遊戲',
-      'index_sect2_h2': '為你推薦 WE 最火的遊戲。',
-      'index_sect2_p': '精心為你挑選 WE 最受歡迎的遊戲。',
+      'index_sect2_h2': '為你推薦 WE 最火遊戲。',
+      'index_sect2_p': '精心為你挑選 WE 最受歡迎遊戲。',
       'index_sect2_LiveGame': '真人遊戲 ',
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留經典，再創高峰！',
@@ -224,7 +224,7 @@ var arrLang = {
       //index_section3_what's News
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
-      'index_sect3_p': '搶先收到我們的最新消息。',
+      'index_sect3_p': '搶先收到我們最新消息。',
       'View_all': '全部消息',
       //
       'index_sect4_News4_date': '2021年 5月5日',
@@ -322,14 +322,14 @@ var arrLang = {
       //index_section1_games
       'index_sect1_Game': '游戏',
       'index_sect1_h2': '一路领先，抢鲜玩！',
-      'index_sect1_p1': '我们不但缔造出色的用户体验，',
-      'index_sect1_p2': '更激發难以言喻的刺激感！',
+      'index_sect1_p1': '我们不但缔造出色用户体验，',
+      'index_sect1_p2': '更激发难以言喻刺激感！',
       'ComingSoon': '快将推出',
       
       //index_section2_hotpicks
       'index_sect2_HotPicks': '热门游戏',
-      'index_sect2_h2': '为你推荐 WE 最火的游戏。',
-      'index_sect2_p': '精心为你挑选 WE 最受欢迎的游戏。',
+      'index_sect2_h2': '为你推荐 WE 最火游戏。',
+      'index_sect2_p': '精心为你挑选 WE 最受欢迎游戏。',
       'index_sect2_LiveGame': '真人游戏 ',
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留经典，再创高峰！',
@@ -345,7 +345,7 @@ var arrLang = {
       //index_section3_what's News
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
-      'index_sect3_p': '抢先收到我们的最新消息。',
+      'index_sect3_p': '最新消息抢先看！',
       'View_all': '全部消息',
       //
       'index_sect4_News4_date': '2021年 5月5日',

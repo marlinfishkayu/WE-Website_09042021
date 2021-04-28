@@ -42,7 +42,7 @@ var arrLang = {
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
-      'Roulette_slogan': 'Big win on European classic.',
+      'Roulette_slogan': 'Ultimate European classic.',
       'SicBo_slogan': 'An unparalleled game of chance.',
       'DragonTiger_slogan': 'The perfect game for quick players.',
       'MahjongLuckyWheel_slogan': 'Double fun! Triple excitement! ',
@@ -72,7 +72,7 @@ var arrLang = {
       
       //All Live Game
       'All_Live_Game' : 'All Live Games', 
-      'All_Live_Game_p1' : 'Enjoy the gaming experience at home with your fingertips! Our professional dealers are available 24/7. You may play anytime, anywhere online. The highlights of Live Game are of course the excellent user experience, easy handling along with real-time statistics. Apart from the hardware, HD live streaming from the deluxe live broadcasts and skilled dealers, truly create a realistic casino ambience. ',
+      'All_Live_Game_p1' : 'Enjoy our games at home just with your fingertips! Our professional dealers are available 24/7. You could play it anytime, anywhere online and it is easy to handle with. The highlight of our Live Game is of course our brilliant user experience, along with real-time statistics. Apart from our hardware, our HD live streaming from the deluxe live broadcasts and skilled dealers, truly bringing immersive experience to our players. ',
       'All_Live_Game_p2' : 'Join us to experience the sensation of our Live Games!',  
       //Detail
       'detail' : 'detail',
@@ -124,17 +124,17 @@ var arrLang = {
       'PK10': '北京賽車',
       //Game Slogan
       'Baccarat_slogan': '保留經典，再創高峰！',
-      'Roulette_slogan': '歐洲輪盤之癲',
-      'SicBo_slogan': '無可比擬的機會遊戲',
-      'DragonTiger_slogan': '速戰速決',
-      'MahjongLuckyWheel_slogan': '雙重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延長興奮和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作',
-      'WinThreeCards_slogan': '一個「炸」腦的遊戲',
-      'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
-      'Lotto5_slogan': '最高賠率彩球遊戲',
-      'PK10_slogan':'競速賽車，等你來 PK',
+      'Roulette_slogan': '歐洲輪盤之巔。',
+      'SicBo_slogan': '一擲定輸贏。',
+      'DragonTiger_slogan': '速戰速決。',
+      'MahjongLuckyWheel_slogan': '雙重樂趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作。',
+      'WinThreeCards_slogan': '一個「炸」腦的遊戲。',
+      'SpeedBaccarat_slogan': '高速快感，讓人心跳加速。',
+      'Lotto5_slogan': '最高賠率彩球遊戲。',
+      'PK10_slogan':'競速賽車，等你來PK。',
   
       //Cookie popup
       'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
@@ -154,7 +154,7 @@ var arrLang = {
     
       //All Live Game
       'All_Live_Game' : '真人遊戲', 
-      'All_Live_Game_p1' : '玩家可以透過桌面版及手機版遊戲，在家享受刺激的現場玩樂！專業的荷官全天候 24/7上線，隨玩家選擇在何時何地投入精彩快感。我們的真人遊戲亮點有二：一是在軟件方面，簡易操控以及實時統計信息，絕對能提供令人眼前一亮的用戶體驗；二是在現場配套方面，除了採用頂級和最先進的傳遞器材，現場高清直播和專業的荷官全日為玩家服務。種種配合，令人仿如置身現場，極享視聽之娛，令玩家享受無與倫比的玩樂氛圍。',
+      'All_Live_Game_p1' : '玩家可以透過桌面版及手機版遊戲，猶如置身現場玩樂！專業荷官全天候 24/7上線，隨玩家選擇在何時何地投入精彩快感。我們真人遊戲亮點有二：一是在軟件方面，簡易操控以及實時統計信息，用戶體驗令人眼前一亮；二是在現場配套方面，除了採用頂級和最先進傳遞器材，現場高清直播和專業的荷官全日為玩家服務。種種配套，令人仿如置身其中，極享視聽之娛，令玩家享受無與倫比玩樂氛圍。',
       'All_Live_Game_p2' : '一齊來體驗吧！', 
       //Detail
       'detail' : '詳情',
@@ -205,17 +205,17 @@ var arrLang = {
       'PK10': '北京赛车',
       //Game Slogan
       'Baccarat_slogan': '保留经典，再创高峰！',
-      'Roulette_slogan': '欧洲轮盘之癫',
-      'SicBo_slogan': '无可比拟的机会游戏',
-      'DragonTiger_slogan': '速战速决',
-      'MahjongLuckyWheel_slogan': '双重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延长兴奋和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑战经典的全新力作',
-      'WinThreeCards_slogan': '一个「炸」脑的游戏',
-      'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
-      'Lotto5_slogan': '最高赔率彩球游戏',
-      'PK10_slogan':'竞速赛车，等你来 PK',
+      'Roulette_slogan': '欧洲轮盘之巅。',
+      'SicBo_slogan': '一掷定输赢。',
+      'DragonTiger_slogan': '速战速决。',
+      'MahjongLuckyWheel_slogan': '双重乐趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑战经典的全新力作。',
+      'WinThreeCards_slogan': '一个「炸」脑的游戏。',
+      'SpeedBaccarat_slogan': '高速快感，让人心跳加速。',
+      'Lotto5_slogan': '最高赔率彩球游戏。',
+      'PK10_slogan':'竞速赛车，等你来PK。',
   
       //Cookie popup
       'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
@@ -235,7 +235,7 @@ var arrLang = {
     
       //All Live Game
       'All_Live_Game' : '真人游戏', 
-      'All_Live_Game_p1' : '玩家可以透过桌面版及手机版游戏，在家享受刺激的现场玩乐！专业的荷官全天候 24/7上线，随玩家选择在何时何地投入精彩快感。我们的真人游戏亮点有二：一是在软件方面，简易操控以及实时统计信息，绝对能提供令人眼前一亮的用户体验；二是在现场配套方面，除了采用顶级和最先进的传递器材，现场高清直播和专业的荷官全日为玩家服务。种种配合，令人仿如置身现场，极享视听之娱，令玩家享受无与伦比的玩乐氛围。',
+      'All_Live_Game_p1' : '玩家可以透过桌面版及手机版游戏，犹如置身现场玩乐！专业荷官全天候 24/7上线，随玩家选择在何时何地投入精彩快感。我们真人游戏亮点有二：一是在软件方面，简易操控以及实时统计信息，用户体验令人眼前一亮；二是在现场配套方面，除了採用顶级和最先进传递器材，现场高清直播和专业的荷官全日为玩家服务。种种配套，令人彷如置身其中，极享视听之娱，令玩家享受无与伦比玩乐氛围。',
       'All_Live_Game_p2' : '一齐来体验吧！', 
       //Detail
       'detail' : '详情',

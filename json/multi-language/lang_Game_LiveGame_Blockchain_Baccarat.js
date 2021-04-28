@@ -42,7 +42,7 @@ var arrLang = {
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
-      'Roulette_slogan': 'Big win on European classic.',
+      'Roulette_slogan': 'Ultimate European classic.',
       'SicBo_slogan': 'An unparalleled game of chance.',
       'DragonTiger_slogan': 'The perfect game for quick players.',
       'MahjongLuckyWheel_slogan': 'Double fun! Triple excitement! ',
@@ -80,14 +80,14 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
-      'gameDetail_p1': 'Blockchain Baccarat is a safe and secure card game. It is simple and straightforward. Apart from the traditional Baccarat, WE offer a huge variety of game types in order to cater every "Baccarat" lover.',
+      'gameDetail_p1': 'Blockchain Baccarat is simple and easy to play. Apart from the traditional Baccarat, WE offer different types of Baccarat in order to please every "Baccarat" lover.',
       'feature_1.1': 'Legible',
       'feature_1.2': 'Scoreboards',
-      'feature_1_p': 'WE have well prepared 5 different scoring boards: Bead Road, Big Road, Big Eye Boy, Small Road and finally the Cockroach Pig as "predictor" of the next move. ',
+      'feature_1_p': 'WE have well prepared 5 different scoring boards: Bead Road, Big Road, Big Eye Boy, Small Road and finally the Cockroach Pig works as "predictor" of the next move.',
       'feature_2': 'Real-time statistics',
-      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics contains an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
+      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
       'feature_3': 'Roadmap Selection ',
-      'feature_3_p': 'Players can check the Roadmaps which have been pre-set on the platform. Of course, they can also set their own pattern with a maximum of 10 sets, so that the system will pop up at any time to notify the related game tables.',
+      'feature_3_p': 'Players can check the Roadmaps which have been pre-set on the platform. Of course, they can also set their own pattern with a maximum of 10 sets, so that the system will notify the players the related gaming tables anytime.',
       
     },
   
@@ -137,17 +137,17 @@ var arrLang = {
       'PK10': '北京賽車',
       //Game Slogan
       'Baccarat_slogan': '保留經典，再創高峰！',
-      'Roulette_slogan': '歐洲輪盤之癲',
-      'SicBo_slogan': '無可比擬的機會遊戲',
-      'DragonTiger_slogan': '速戰速決',
-      'MahjongLuckyWheel_slogan': '雙重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延長興奮和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作',
-      'WinThreeCards_slogan': '一個「炸」腦的遊戲',
-      'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
-      'Lotto5_slogan': '最高賠率彩球遊戲',
-      'PK10_slogan':'競速賽車，等你來 PK',
+      'Roulette_slogan': '歐洲輪盤之巔。',
+      'SicBo_slogan': '一擲定輸贏。',
+      'DragonTiger_slogan': '速戰速決。',
+      'MahjongLuckyWheel_slogan': '雙重樂趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑戰經典的全新力作。',
+      'WinThreeCards_slogan': '一個「炸」腦的遊戲。',
+      'SpeedBaccarat_slogan': '高速快感，讓人心跳加速。',
+      'Lotto5_slogan': '最高賠率彩球遊戲。',
+      'PK10_slogan':'競速賽車，等你來PK。',
   
       //Cookie popup
       'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
@@ -174,15 +174,15 @@ var arrLang = {
       'try_our_games': '免費試玩',
       //
       'LiveGames':'真人遊戲',
-      'gameDetail_p1': '區塊鏈百家樂是一種公平公正的卡牌遊戲，玩法簡單。除了傳統百家樂外，我們更提供多款百家樂遊戲類型，以迎合每個百家樂愛好者。',
+      'gameDetail_p1': '區塊鏈百家樂是一種公平公正卡牌遊戲，玩法簡單。除了傳統百家樂外，我們更提供多款百家樂遊戲類型，以迎合每個百家樂愛好者。',
       'feature_1.1': '完整路紙',
       'feature_1.2': '一目了然',
       'feature_1_p': '我們齊備5款百家樂路紙，包括「珠盤」、「大路」、「大眼仔」、「小路」及「曱甴路」，以及「下三路」的「庄」、「閒」問路功能，讓玩家輕鬆預測每局趨勢。',
       'feature_2': '詳盡統計數據',
       'feature_2_p': '遊戲大堂清晰展示百家樂本靴及過往100局「庄」、「閒」、「和」及「對子」的勝出比例，各枱趨勢一目了然。玩家如果遇上心水局數，更可用「快速投注」功能在大堂直接下注。',
       'feature_3': '平台及自設好路提示',
-      'feature_3_p': '我們設有好路提示功能，玩家可以勾選平台的預設好路，當然也可自設好路，讓系統自動彈出有好路出現的遊戲枱，絕不錯失任何機會！',
-      
+      'feature_3_p': '我們設有好路提示功能，玩家可以勾選平台預設好路，當然也可自設好路，有好路遊戲枱將自動彈出，絕不錯失任何機會！',
+
     },
 
 
@@ -231,17 +231,17 @@ var arrLang = {
       'PK10': '北京赛车',
       //Game Slogan
       'Baccarat_slogan': '保留经典，再创高峰！',
-      'Roulette_slogan': '欧洲轮盘之癫',
-      'SicBo_slogan': '无可比拟的机会游戏',
-      'DragonTiger_slogan': '速战速决',
-      'MahjongLuckyWheel_slogan': '双重享受．三倍刺激',
-      'SqueezeBaccarat_slogan': '延长兴奋和刺激感',
-      'GodofFortuneSicBo_slogan': '意想不到的派彩',
-      'GodofFortuneRoulette_slogan': '挑战经典的全新力作',
-      'WinThreeCards_slogan': '一个「炸」脑的游戏',
-      'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
-      'Lotto5_slogan': '最高赔率彩球游戏',
-      'PK10_slogan':'竞速赛车，等你来 PK',
+      'Roulette_slogan': '欧洲轮盘之巅。',
+      'SicBo_slogan': '一掷定输赢。',
+      'DragonTiger_slogan': '速战速决。',
+      'MahjongLuckyWheel_slogan': '双重乐趣，三倍刺激！',
+      'SqueezeBaccarat_slogan': '前所未有的刺激。',
+      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneRoulette_slogan': '挑战经典的全新力作。',
+      'WinThreeCards_slogan': '一个「炸」脑的游戏。',
+      'SpeedBaccarat_slogan': '高速快感，让人心跳加速。',
+      'Lotto5_slogan': '最高赔率彩球游戏。',
+      'PK10_slogan':'竞速赛车，等你来PK。',
   
       //Cookie popup
       'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
@@ -269,14 +269,14 @@ var arrLang = {
       'try_our_games': '免费试玩',
       //
       'LiveGames':'真人游戏',
-      'gameDetail_p1': '区块链百家乐是一种公平公正的卡牌游戏，玩法简单。除了传统百家乐外，我们更提供多款百家乐游戏类型，以迎合每个百家乐爱好者。',
+      'gameDetail_p1': '區塊鏈百家樂是一種公平公正卡牌遊戲，玩法簡單。除了传统百家乐外，我们更提供多款百家乐游戏类型，以迎合每个百家乐爱好者。',
       'feature_1.1': '完整路單',
       'feature_1.2': '一目了然',
       'feature_1_p': '我们齐备5款百家乐路單，包括「珠盘路」、「大路」、「大眼路」、「小路」及「小強路」，以及「下三路」的「庄」、「闲」问路功能，让玩家轻松预测每局趋势。',
-      'feature_2': '详尽统计数据',
+      'feature_2': '详细统计数据',
       'feature_2_p': '游戏大堂清晰地展示百家乐本靴及过往100局「庄」、「闲」、「和」及「对子」的胜出比率，各游戏桌趋势一目了然。玩家如遇上合意的局数，更可用「快速投注」功能在大堂直接下注。',
       'feature_3': '平台及自设好路提示',
-      'feature_3_p': '我们设有好路提示功能，玩家可以勾选平台的预设好路，当然也可自设好路，让系统自动弹出有好路出现的游戏枱，绝不错失任何机会！',
+      'feature_3_p': '我们设有好路提示功能，玩家可以勾选平台预设好路，当然也可自设好路，有好路游戏枱将自动弹出，绝不错失任何机会！',
       
     }
   };
