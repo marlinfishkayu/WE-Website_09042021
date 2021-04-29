@@ -231,7 +231,7 @@ var arrLang = {
       'DragonTiger_slogan': '速战速决。',
       'MahjongLuckyWheel_slogan': '双重乐趣，三倍刺激！',
       'SqueezeBaccarat_slogan': '前所未有的刺激。',
-      'GodofFortuneSicBo_slogan': '意想不到的回報。',
+      'GodofFortuneSicBo_slogan': '意想不到的回报。',
       'GodofFortuneRoulette_slogan': '挑战经典的全新力作。',
       'WinThreeCards_slogan': '一个「炸」脑的游戏。',
       'SpeedBaccarat_slogan': '高速快感，让人心跳加速。',
