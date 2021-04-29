@@ -52,7 +52,7 @@ var arrLang = {
     'LicCert' : 'Licences & Certifications',
     'PrivacyPolicy' : 'Privacy Policy',
     'HelloThere' : 'Hello There!',
-    'thankyou_p' : 'You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.',
+    'thankyou_p' : 'You’re on our mailing list now and will be among the first to hear about the latest news, collections and videos from WE.',
     'Okay' : 'OKAY',
     //input placeholder
     'input_email':'Please enter your email address here',
@@ -63,13 +63,13 @@ var arrLang = {
     'Services_p1': 'Running a successful entertainment complex can be particularly challenging, however, WE have our own professional team driving our services, supporting us efficiently that made us stand out in the industry.',
     'Services_Online_1': 'Online',
     'Services_Online_2': 'Solutions',
-    'Services_Online_p': 'WE provide a wide range of live games which is hosted on our own cloud platform including eGames, sportsbook, lottery, slots, and so forth.',
+    'Services_Online_p': 'WE provide a wide range of live games which is hosted on our own cloud platform including E-Games, Sportsbook, Lottery, Slots, and so forth.',
     'Services_API_1': 'API',
     'Services_API_2': 'Integration',
     'Services_API_p': 'This API enables players to use and transmit data between various devices and current gaming platforms by data synchronization. It gives players the flexibility to play games on our platform.',
     'Services_Wallet_1': 'Wallet',
     'Services_Wallet_2': 'Integration',
-    'Services_Wallet_p': 'There are two wallet integration solutions, including seamless wallet and transfer wallet. You can choose your own wallet management solution according to you own business needs.',
+    'Services_Wallet_p': 'There are two wallet integration solutions, including seamless wallet and transfer wallet. You can choose your own wallet management solution according to your own business needs.',
     'Services_Multilingual_1': 'Multilingual',
     'Services_Multilingual_2': 'Service Areas',
     'Services_Multilingual_p': 'Our platforms support various languages and cover a wide range of service areas so players around the world can fully enjoy our exciting games without district restriction.',
@@ -130,7 +130,7 @@ var arrLang = {
     'PK10': '北京賽車',
 
     //Cookie popup
-    'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
+    'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站隱私政策。',
     'Accept' : '同意',
     //Footer
     'WorldEnt' : '世界娛樂',
@@ -139,8 +139,8 @@ var arrLang = {
     'Subscribe_p' : '成為第一個收到WE最新消息和獨家優惠的人。',
     'LicCert' : '營業執照及國際認證',
     'PrivacyPolicy' : '隱私政策',
-    'HelloThere' : 'Hello～！',
-    'thankyou_p' : '你現在已在我們的聯絡名單中，我們會將 WE 的最新消息和獨家優惠通過電郵發送給你。',
+    'HelloThere' : '哈囉！！',
+    'thankyou_p' : '你現在已在我們聯絡名單中，我們會將最新消息、產品和影片等資訊通過電郵發送給你。',
     'Okay' : '關閉',
     //input placeholder
     'input_email':'請在此處輸入你的電子郵件地址',
@@ -152,7 +152,7 @@ var arrLang = {
     'Services_Online_1': '線上平台方案',
     'Services_Online_2': '',
     'Services_Online_p': '我們將先進軟件技術融入各種遊戲，包括真人遊戲、體育博彩、彩票、老虎機、電子遊戲等產品中，領先業界。',
-    'Services_API_1': 'API集成方案',
+    'Services_API_1': '應用程式介面',
     'Services_API_2': '',
     'Services_API_p': '此方案容許用家利用同步數據功能，在不同平台及裝置之間，來使用及傳輸數據，這賦予他們極大彈性。',
     'Services_Wallet_1': '錢包集成方案',
@@ -216,7 +216,7 @@ var arrLang = {
     'PK10': '北京赛车',
 
     //Cookie popup
-    'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
+    'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳使用体验。如果你继续使用本网站，这将被认为你已同意本网站隐私政策。',
     'Accept' : '同意',
     //Footer
     'WorldEnt' : '世界娱乐',
@@ -225,8 +225,8 @@ var arrLang = {
     'Subscribe_p' : '成为第一个收到WE最新消息和独家优惠的人。',
     'LicCert' : '营业执照及国际认证',
     'PrivacyPolicy' : '隐私政策',
-    'HelloThere' : 'Hello～！',
-    'thankyou_p' : '你现在已在我们的联络名单中，我们会将 WE 的最新消息和独家优惠通过电邮发送给你。',
+    'HelloThere' : '哈囉！',
+    'thankyou_p' : '你现在已在我们联络名单中，我们会将最新消息、产品和影片等资讯通过电邮发送给你。',
     'Okay' : '关闭',
     //input placeholder
     'input_email':'请在此处输入你的电子邮件地址',
@@ -238,7 +238,7 @@ var arrLang = {
     'Services_Online_1': '线上平台方案',
     'Services_Online_2': '',
     'Services_Online_p': '我们将先进软件技术融入各种游戏，包括真人游戏、体育博彩、彩票、老虎机、电子游戏等产品中，领先业界。',
-    'Services_API_1': 'API集成方案',
+    'Services_API_1': '应用程式介面',
     'Services_API_2': '',
     'Services_API_p': '此方案允许用家利用同步数据功能，在不同平台及装置之间，来使用及传输数据，这赋予他们极大弹性。',
     'Services_Wallet_1': '钱包集成方案',

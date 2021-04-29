@@ -66,7 +66,7 @@ var arrLang = {
       'LicCert' : 'Licences & Certifications',
       'PrivacyPolicy' : 'Privacy Policy',
       'HelloThere' : 'Hello There!',
-      'thankyou_p' : 'You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.',
+      'thankyou_p' : 'You’re on our mailing list now and will be among the first to hear about the latest news, collections and videos from WE.',
       'Okay' : 'OKAY',
       //input placeholder
       'input_email':'Please enter your email address here',
@@ -157,7 +157,7 @@ var arrLang = {
       'PK10_slogan':'競速賽車，等你來PK。',
   
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站隱私政策。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娛樂',
@@ -166,8 +166,8 @@ var arrLang = {
       'Subscribe_p' : '成為第一個收到WE最新消息和獨家優惠的人。',
       'LicCert' : '營業執照及國際認證',
       'PrivacyPolicy' : '隱私政策',
-      'HelloThere' : 'Hello～！',
-      'thankyou_p' : '你現在已在我們的聯絡名單中，我們會將 WE 的最新消息和獨家優惠通過電郵發送給你。',
+      'HelloThere' : '哈囉！！',
+      'thankyou_p' : '你現在已在我們聯絡名單中，我們會將最新消息、產品和影片等資訊通過電郵發送給你。',
       'Okay' : '關閉',
       //input placeholder
       'input_email':'請在此處輸入你的電子郵件地址',
@@ -260,7 +260,7 @@ var arrLang = {
   
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳使用体验。如果你继续使用本网站，这将被认为你已同意本网站隐私政策。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娱乐',
@@ -269,8 +269,8 @@ var arrLang = {
       'Subscribe_p' : '成为第一个收到WE最新消息和独家优惠的人。',
       'LicCert' : '营业执照及国际认证',
       'PrivacyPolicy' : '隐私政策',
-      'HelloThere' : 'Hello～！',
-      'thankyou_p' : '你现在已在我们的联络名单中，我们会将 WE 的最新消息和独家优惠通过电邮发送给你。',
+      'HelloThere' : '哈囉！',
+      'thankyou_p' : '你现在已在我们联络名单中，我们会将最新消息、产品和影片等资讯通过电邮发送给你。',
       'Okay' : '关闭',
       //input placeholder
       'input_email':'请在此处输入你的电子邮件地址',
