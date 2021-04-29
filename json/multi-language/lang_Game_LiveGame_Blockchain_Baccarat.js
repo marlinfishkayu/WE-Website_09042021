@@ -150,7 +150,7 @@ var arrLang = {
       'PK10_slogan':'競速賽車，等你來PK。',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳使用体验。如果你继续使用本网站，这将被认为你已同意本网站隐私政策。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站隱私政策。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娛樂',
@@ -244,7 +244,7 @@ var arrLang = {
       'PK10_slogan':'竞速赛车，等你来PK。',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳使用体验。如果你继续使用本网站，这将被认为你已同意本网站隐私政策。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娱乐',
