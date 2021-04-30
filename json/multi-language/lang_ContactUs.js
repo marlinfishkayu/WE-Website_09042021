@@ -61,7 +61,7 @@ var arrLang = {
     'ContactUs' : 'Contact Us',
     'ContactUs_slogan' : 'Help is at hand.',
     'ContactUs_p1' : 'Leave us your message by filling up the contact form below and WE’ll be in touch with you soon.',
-    'ContactUs_p2' : 'By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries. For more details, please check out our',
+    'ContactUs_p2' : 'By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries. For more details, please check out our ',
     'ContactUs_privacy' : 'privacy policy.',
     //Contact Form
     'firstName' : 'First name*',
