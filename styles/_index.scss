@@ -6,6 +6,10 @@
 }
 #intdexHotPick{
     height: 1000px;
+    .section-container{
+        max-width: 1920px;
+        margin: auto;
+    }
 }
 .section-container{
     padding: 3rem 0;
@@ -40,8 +44,8 @@
         transition: all 800ms;
         transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
         .expand-icon{
-            width: 187px;
-            height: 154px;
+            width: 100%;
+            height: auto;
             margin: 0 auto;
             transform: scale(1);
             transition: all 400ms;
@@ -129,15 +133,16 @@
 #intdexHotPick, #intdexWhatsNews{
     position: relative;
 }
-#intdexWhatsNews .intdexWhatsNews-bkg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-#intdexWhatsNews .intdexWhatsNews-bkg img{
-    object-fit: cover;
-}
+#intdexWhatsNews 
+    .intdexWhatsNews-bkg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        img{
+            object-fit: cover;
+        }
+    }
 .deco-cat{
     font-family: $fontBarlowThin;
     font-size: 18px;
@@ -257,6 +262,9 @@
         background-size: contain;
         background-image: url(../images/icon/frame.svg);
     }
+}
+#col2Lottery{
+    width: 190px;
 }
 
 // Small devices (landscape phones, 576px and up)

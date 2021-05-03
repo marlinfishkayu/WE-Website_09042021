@@ -905,6 +905,9 @@
 @media (orientation: landscape) and (min-width: 1200px) {
     #slider-area .slide {
         height: 100vh;
+        max-width: 1920px;
+        margin: 0 auto;
+        max-height: 1080px;
     }
     #slider-area .mobile-portrait{
         display: none;

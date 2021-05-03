@@ -59,7 +59,7 @@ var arrLang = {
     
 
     //Live Game Studio
-    'LiveGameStudio' : 'Live Game Studio',
+    'LiveGameStudio' : 'Live Studio',
     'LiveGameStudio_slogan' : 'Just the right feeling of everything. ',
     'LiveGameStudio_p' : 'Enjoying a high-tech, high-quality, high-class gaming experience in WE. Let us bring you into the rooms.',
     //Live room

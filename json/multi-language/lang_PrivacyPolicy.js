@@ -44,7 +44,7 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_5': "- Statistically analyse usage of our Site",
     'PrivacyPolicy_How_p2_li_6': "- Improve our content on the Sites",
     'PrivacyPolicy_How_p2_li_7': "- Customise the content and layout of the Site",
-    'PrivacyPolicy_How_p3': "In regards to the information we collect when you email us, we may use your email address to contact and/or reply to your comments and concerns. Your communication and our replies may be stored in case of a future correspondence. Your email address will not be shared with anyone outside the company. If you wished for your name to be removed from World Entertainment’s mailing list, please send your request to privacy@worldent.com",
+    'PrivacyPolicy_How_p3': "In regards to the information we collect when you email us, we may use your email address to contact and/or reply to your comments and concerns. Your communication and our replies may be stored in case of a future correspondence. Your email address will not be shared with anyone outside the company. If you wished for your name to be removed from World Entertainment’s mailing list, please send your request to",
     //Privacy Policy
     'PrivacyPolicy_Privacy': "Privacy Policy",
     'PrivacyPolicy_Privacy_p': "Reasonable measures of security have been implemented by World Entertainment to ensure the confidentiality of information is protected. Only authorised personnel are allowed access to such information.",
@@ -115,7 +115,7 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_5': "- 統計分析本網站的使用情況；",
     'PrivacyPolicy_How_p2_li_6': "- 改進本網站內容",
     'PrivacyPolicy_How_p2_li_7': "- 自定義網站的內容和版型",
-    'PrivacyPolicy_How_p3': "當您通過電子郵件向我們發送信息，我們可能會通過該電子郵件地址，用於聯繫和/或回复您的意見或留言。您和我們的溝通信息將會被存檔以便日後跟進用途。您的電子郵件地址不會與公司外的任何人分享。如果您希望從世界娛樂的郵件聯絡人列表裡刪除名字，將您的請求發送至 privacy@worldent.com",
+    'PrivacyPolicy_How_p3': "當您通過電子郵件向我們發送信息，我們可能會通過該電子郵件地址，用於聯繫和/或回复您的意見或留言。您和我們的溝通信息將會被存檔以便日後跟進用途。您的電子郵件地址不會與公司外的任何人分享。如果您希望從世界娛樂的郵件聯絡人列表裡刪除名字，將您的請求發送至",
     //Privacy Policy
     'PrivacyPolicy_Privacy': "隱私權保護條款",
     'PrivacyPolicy_Privacy_p': "世界娛樂將合理地用適當科技及內部管理程序妥善保護個人資料，以避免第三方未經授權取得個人資料。",
@@ -184,7 +184,7 @@ var arrLang = {
     'PrivacyPolicy_How_p2_li_5': "- 统计分析本网站的使用情况；",
     'PrivacyPolicy_How_p2_li_6': "- 改进本网站内容；",
     'PrivacyPolicy_How_p2_li_7': "- 自定义网站的内容和版型；",
-    'PrivacyPolicy_How_p3': "当您通过电子邮件向我们发送信息，我们可能会通过该电子邮件地址，用于联系和/或回复您的意见或留言。您和我们的沟通信息将会被存档以便日后跟进用途。您的电子邮件地址不会与公司外的任何人分享。如果您希望从世界娱乐的邮件联络人列表里删除名字，将您的请求发送至 privacy@worldent.com",
+    'PrivacyPolicy_How_p3': "当您通过电子邮件向我们发送信息，我们可能会通过该电子邮件地址，用于联系和/或回复您的意见或留言。您和我们的沟通信息将会被存档以便日后跟进用途。您的电子邮件地址不会与公司外的任何人分享。如果您希望从世界娱乐的邮件联络人列表里删除名字，将您的请求发送至",
     //Privacy Policy
     'PrivacyPolicy_Privacy': "隐私权保护条款",
     'PrivacyPolicy_Privacy_p': "世界娱乐将合理地用适当科技及内部管理程序妥善保护个人资料，以避免第三方未经授权取得个人资料。",
