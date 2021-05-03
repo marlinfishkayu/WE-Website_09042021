@@ -80,8 +80,8 @@ var arrLang = {
       //
       'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Our state-of-the-art technology allow players to squeeze cards "on-site". They can squeeze cards in their preference. WE will surely bring more fun to games which excite our players like being on spot. ',
-      'feature_1.1': '3D card',
-      'feature_1.2': 'squeezing',
+      'feature_1.1': 'Immersive 3D',
+      'feature_1.2': 'card squeezing',
       'feature_1_p': 'WE have incorporated a 3D interactive design in Squeeze Baccarat. Players can simply tap or click on the corner of each card, to have a glimpse of the value, or just hit the “Open” button without squeezing as long as place bets on “Banker” or “Player”.',
       'feature_2': 'Legible Statistic Record',
       'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics contain an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
