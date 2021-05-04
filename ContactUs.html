@@ -756,22 +756,31 @@
                 <div class="main-footer">
                     <div class="footer-subscribe">
                         <div class="d-lg-flex justify-content-md-between flex-lg-row">
-                            <!-- <div class="d-md-flex flex-column">
+                            <div class="d-md-flex flex-column">
                                 <h6 class="lang" key="Subscribe">Subscribe</h6>
                                 <br />
                                 <p class="lang" key="Subscribe_p">
                                     Be the first to know about our latest news and <br class="footer-break" />
                                     exclusive offers from WE.
                                 </p>
-                                <div class="d-sm-flex">
-                                    <form class="subscribe-form">
-                                        <div class="form-group">
-                                            <input type="email" data-translate="username_placeHolder" class="form-control lang" key="input_email" id="exampleFormControlInput1" placeholder="Please enter your email here" />
-                                        </div>
+                                <div class="d-sm-flex" id="EmailSubscribe">
+                                    <form role="form" data-toggle="validator" class="shake">
+                                        <form class="subscribe-form">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="email" class="email form-control lang" key="Email" id="SubEmail" placeholder="Email*" required data-error="Your email is not valid." />
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button type="submit" id="check" class="enquiryBtn btn lang" key="SignUp" id="signUp"type="button" >
+                                            SIGN UP
+                                        </button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
                                     </form>
-                                    <button type="button" class="btn lang" key="SignUp" id="signUp">SIGN UP</button>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="footer-licens">
                                 <!-- <div class="d-sm-flex flex-sm-row licens-list">
                                     <div class="d-sm-flex flex-sm-row tag-left">

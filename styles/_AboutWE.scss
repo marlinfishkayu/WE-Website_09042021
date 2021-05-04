@@ -89,7 +89,6 @@
         padding-bottom: 3rem;
         padding: 40px 1.5rem;
         margin-top:5rem;
-        border-bottom: 0.5px solid #B0936D;
         .line-deco-vertical{
             position: absolute;
             bottom: 7%;
@@ -99,6 +98,26 @@
             height: 80px;
             pointer-events: none;
             display: none;
+        }
+    }
+    .about-brandStory,
+    .about-slogan{
+        position: relative;
+        &::after{
+            position: absolute;
+            display: block;
+            content: "";
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-image: url(/images/icon/gradient-border.svg);
+            width: 100%;
+            background-position: 50% 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
         }
     }
     .about-h2{
@@ -184,7 +203,6 @@
         text-align: center;
         padding-top: 5rem;
         padding: 40px 1.5rem;
-        border-bottom: 0.5px solid #B0936D;
     }
     .Dynamic-frame {
         position: absolute;
@@ -436,6 +454,12 @@
     }
     #AboutWE .about-main .about-h2 {
         padding-bottom: 2rem;
+    }
+    #AboutWE .about-brandStory,
+    #AboutWE .about-slogan{
+        &::after{
+            display: none;
+        }
     }
 }
 

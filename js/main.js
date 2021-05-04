@@ -570,6 +570,40 @@ $(".thanyou-close-btn").click(function () {
 $(".thanyou-close-btn").click(function () {
   $("#thankyou-popup").removeClass("show");
 });
+// $("#signUp").click(function () {
+//     const mydivclass = document.querySelector('.contact-form');
+//     // if 'hasClass' is exist on 'mydivclass'
+//     if(mydivclass.classList.contains('has-error')) {
+//     // do something if 'hasClass' is exist.
+//     alert('class exist');
+//     }
+// });
+
+
+
+
+// function SendEmail() {
+//     // if ($('footer-subscribe.has-error').length) {
+//     //     alert("Hello! I am an alert box!!");
+//     // }
+//     alert("Hello! I am an alert box!!");
+//     // alert("Hello! I am an alert box!!");
+//     // if(mydivclass.classList.contains('has-error')) {
+//     // // do something if 'hasClass' is exist.
+//     // alert("Hello! I am an alert box!!");
+//     // }
+// };
+
+var input = document.getElementById('SubEmail');
+$("#check").click(function() {
+    if (($(".has-error").length > 0) || (input.value.length == 0)) {
+        // Do some code here
+        alert("Please enter a valid");
+       return false;
+    }
+    alert("successful");
+    return true;
+});
 
 /*--  cookie popup --*/
 

@@ -10,7 +10,13 @@ footer{
     padding: 0 2rem;
     padding-bottom: 2rem;
     .footer-subscribe{
-        text-align: center;
+        text-align: left;
+        padding-top: 2em;
+        li{
+            padding-top: 10px;
+            font-family: $fontBarlowLight;
+            color: red;
+        }
         .tag-left{
             padding-bottom: 2rem;
         }

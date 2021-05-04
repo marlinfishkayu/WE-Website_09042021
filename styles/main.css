@@ -1556,7 +1556,14 @@ footer {
 }
 
 .main-footer .footer-subscribe {
-  text-align: center;
+  text-align: left;
+  padding-top: 2em;
+}
+
+.main-footer .footer-subscribe li {
+  padding-top: 10px;
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+  color: red;
 }
 
 .main-footer .footer-subscribe .tag-left {
@@ -1940,6 +1947,23 @@ footer {
   right: 5%;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
+}
+
+.index-carousel {
+  position: relative;
+}
+
+.index-carousel::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+  background: #011b3e;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#000f24));
+  background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #000f24 100%);
 }
 
 .index-carousel .slide .main-button {
@@ -4270,8 +4294,27 @@ footer {
   transform: rotate(45deg);
 }
 
+#ContactUs .footer-subscribe .form {
+  background-color: #060B1A;
+  border-radius: 0;
+  color: #494949 !important;
+  border: 1px solid #545454;
+}
+
 #ContactUs .form-check .form-check-label {
   color: #76787d;
+}
+
+#EmailSubscribe .form-control {
+  background-color: #000;
+  border-radius: 0;
+  color: #494949 !important;
+  border: 1px solid #545454;
+  margin-top: 1em;
+}
+
+#EmailSubscribe .controls input {
+  color: #fff !important;
 }
 
 select.form-control {
@@ -6810,7 +6853,6 @@ select.form-control::-ms-expand {
   padding-bottom: 3rem;
   padding: 40px 1.5rem;
   margin-top: 5rem;
-  border-bottom: 0.5px solid #B0936D;
 }
 
 #AboutWE .about-brandStory .line-deco-vertical {
@@ -6823,6 +6865,29 @@ select.form-control::-ms-expand {
   height: 80px;
   pointer-events: none;
   display: none;
+}
+
+#AboutWE .about-brandStory,
+#AboutWE .about-slogan {
+  position: relative;
+}
+
+#AboutWE .about-brandStory::after,
+#AboutWE .about-slogan::after {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url(/images/icon/gradient-border.svg);
+  width: 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 #AboutWE .about-h2 {
@@ -6922,7 +6987,6 @@ select.form-control::-ms-expand {
   text-align: center;
   padding-top: 5rem;
   padding: 40px 1.5rem;
-  border-bottom: 0.5px solid #B0936D;
 }
 
 #AboutWE .Dynamic-frame {
@@ -7197,6 +7261,10 @@ select.form-control::-ms-expand {
   }
   #AboutWE .about-main .about-h2 {
     padding-bottom: 2rem;
+  }
+  #AboutWE .about-brandStory::after,
+  #AboutWE .about-slogan::after {
+    display: none;
   }
 }
 
@@ -8644,7 +8712,7 @@ body:lang(SC) #intdexWhatsNews .news-item-header {
   }
   body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
   body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: -28%;
+    bottom: -36%;
   }
   body:lang(TC) #AboutWE .about-cert,
   body:lang(TC) #AboutWE .about-brandStory,
