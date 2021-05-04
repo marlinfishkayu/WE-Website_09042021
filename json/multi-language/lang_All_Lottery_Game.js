@@ -53,7 +53,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': 'Speedy and mind-blowing.',
       'Lotto5_slogan': 'Thrill ball game with attractive odds.',
       'PK10_slogan': 'Let’s PK the racing',
-  
+
       //Cookie popup
       'Cookie_p1' : 'WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.',
       'Accept' : 'Accept',
@@ -70,25 +70,12 @@ var arrLang = {
       //input placeholder
       'input_email':'Please enter your email address here',
       
-      //Game Content
-      'try_now': 'try now',
-      'AllLiveGame': 'All Live Games',
-      'feature': 'FEATURE HIGHLIGHTS',
-      'compatible': 'compatible with',
-      'leading': 'Leading the way, play new.',
-      'try_our_games': 'Try Our Games',
-      //
-      'LiveGames':'LIVE GAMES',
-      'gameDetail_p1': 'Blockchain Dragon Tiger is a popular yet luxury live game in Asian region. In this table game, winners are determined by the value of cards instead of their suits. King is the largest while Ace is the smallest.',
-      'feature_1.1': 'Simple,',
-      'feature_1.2': 'easy to play',
-      'feature_1_p': 'Dragon Tiger is a two-card game betting on which hand will be higher. This fast-paced and straightforward game has only three outcomes: "Dragon", "Tiger", and "Tie".  ',
-      'feature_2.1': 'Legible',
-      'feature_2.2': 'Scoreboards',
-      'feature_2_p': 'In the Game Lobby, players only need to select the professional scoreboard, and they can see the winning statistics of Dragon Tiger of current shoes and last 100 rounds; After entering the Live Game, they can see more scoreboard, including “Bead Road”, “Big Road”, “Big Eye Boy”, “Small Road” and the “Cockroach Pig”.',
-      'feature_3.1': 'Predict the next outcome ',
-      'feature_3.2': 'by “Next Banker” or “ Next Player” ',
-      'feature_3_p': 'Many Dragon Tiger lovers like to track the past scores and results to predict the next outcome, so we allow players to make predictions and place bets easily by using our "Next Banker" and "Next Player" function.',  
+      //All Live Game
+      'All_Lottery_Game' : 'All Lottery Games', 
+      'All_Lottery_Game_p1' : "Let's chase your dream from here. Release your power of luck. Super lotto prizes are up for grabs! ",
+      'All_Lottery_p2' : 'Dare to win!',  
+      //Detail
+      'detail' : 'detail',
     },
   
   
@@ -165,27 +152,13 @@ var arrLang = {
       //input placeholder
       'input_email':'請在此處輸入你的電子郵件地址',
     
-      //Game Content
-      'try_now': '立即試玩',
-      'AllLiveGame': '真人遊戲',
-      'feature': '功能亮點',
-      'compatible': '支持平台',
-      'leading': '一路領先，搶鮮玩！',
-      'try_our_games': '免費試玩',
-      //
-      'LiveGames':'真人遊戲',
-      'gameDetail_p1': '區塊鏈龍虎是亞洲區深受歡迎的高端卡牌遊戲，以透明公正特質，深受玩家喜愛。龍虎不比牌面花色、組合，只比牌面點數；點數較大的一方將獲得勝利。以K為最大牌，A為最小牌。',
-      'feature_1.1': '極速遊戲',
-      'feature_1.2': '簡單易玩',
-      'feature_1_p': '龍虎玩法非常簡單，當中只有「龍」、「虎」、「和」三個投注區，以牌面大小來決定勝負，節奏明快，簡單易玩。',
-      'feature_2.1': '多項清晰的',
-      'feature_2.2': '遊戲記錄',
-      'feature_2_p': '在娛樂大廳，玩家只要挑選專業版路紙，便可見龍虎過往100局結果統計數據；進入現場遊戲版面，更可見各種路紙，包括珠盤、大路、大眼仔、小路及曱甴路，遊戲趨勢盡在掌握。',
-      'feature_3.1': '隨時「問路」',
-      'feature_3.2': '預測結果 ',
-      'feature_3_p': '不少龍虎愛好者均喜歡「問路」來預測遊戲結果，因此特設「問路」功能，讓玩家做好預測，輕鬆下注。',
+      //All Live Game
+      'All_Lottery_Game' : '彩票遊戲', 
+      'All_Lottery_Game_p1' : '彩票遊戲，精彩勢不可擋，快來尋找只屬於你的幸運，體驗驚喜來襲，實現夢想！',
+      'All_Lottery_p2' : '下一個贏家可能是你！', 
+      //Detail
+      'detail' : '詳情',
     },
-
 
     // 简体中文
     'SC': {
@@ -207,7 +180,7 @@ var arrLang = {
       'submenu_AllLiveGame': '显示全部',
       'submenu_AllLotteryGame': '显示全部',
       'ComingSoon': '快将推出',
-      
+  
       //livegame submenu
       'Blockchain': '区块链',
       'BlockchainBaccarat': '区块链百家乐',
@@ -260,28 +233,15 @@ var arrLang = {
       //input placeholder
       'input_email':'请在此处输入你的电子邮件地址',
     
-      //Game Content
-      'try_now': '立即试玩',
-      'AllLiveGame': '真人游戏',
-      'feature': '功能亮点',
-      'compatible': '支持平台',
-      'leading': '一路领先，抢鲜玩！',
-      'try_our_games': '免费试玩',
-      //
-      'LiveGames':'真人游戏',
-      'gameDetail_p1': '区块链龙虎是亚洲区深受欢迎的高端卡牌游戏，以透明公正特质，深受玩家喜爱。龙虎不比牌面花色、组合，只比牌面点数；点数较大的一方将获得胜利。以K为最大牌，A为最小牌。',
-      'feature_1.1': '极速游戏',
-      'feature_1.2': '简单易玩',
-      'feature_1_p': '龙虎玩法非常简单，当中只有「龙」、「虎」、「和」三个投注区，以牌面大小来决定胜负，节奏明快，简单易玩。',
-      'feature_2.1': '多项清晰的',
-      'feature_2.2': '游戏记录',
-      'feature_2_p': '在游戏大堂，玩家只要挑选专业版路單，便可见龙虎过往100局结果统计数据；进入现场游戏版面，更可见各种路單，包括「珠盘路」、「大路」、「大眼路」、「小路」及「小強路」，游戏趋势尽在掌握。',
-      'feature_3.1': '随时「问路」',
-      'feature_3.2': '预测结果 ',
-      'feature_3_p': '許多龙虎爱好者均喜欢「问路」来预测游戏结果，因此特设「问路」功能，让玩家做好预测，轻松下注。',
+      //All Live Game
+      'All_Lottery_Game' : '彩票游戏', 
+      'All_Lottery_Game_p1' : '彩票游戏，精彩势不可挡，快来寻找只属于你的幸运，体验惊喜来袭，实现梦想！',
+      'All_Lottery_p2' : '下一个赢家可能是你！', 
+      //Detail
+      'detail' : '详情',
+  
     }
   };
-  
 
 //change image language
 var arrImg = {
@@ -289,32 +249,18 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_DragonTiger/en/game_UI_BC_DragonTiger_x1.png 500w, images/game/game_Blockchain_DragonTiger/en/game_UI_BC_DragonTiger_x2.png 1000w',
-      //Feature
-      'feature1': 'images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature1_1x.png 500w, images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature1_2x.png 1000w',
-      'feature2': 'images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature2_1x.png 500w, images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature2_2x.png 1000w',
-      'feature3': 'images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature3_1x.png 500w, images/game/game_Blockchain_DragonTiger/en/game_BC_DragonTiger_feature3_2x.png 1000w',
+      'lottery_game_logo': './images/index/en/col2_expand-icon_x1.png 500w, ./images/index/en/col2_expand-icon_x2.png 1000w',
     }],
   'TC': [{
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_DragonTiger/tc/game_UI_BC_DragonTiger_x1.png 500w,images/game/game_Blockchain_DragonTiger/tc/game_UI_BC_DragonTiger_x2.png 1000w',
-      //Feature
-      'feature1': 'images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature1_1x.png 500w, images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature1_2x.png 1000w',
-      'feature2': 'images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature2_1x.png 500w, images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature2_2x.png 1000w',
-      'feature3': 'images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature3_1x.png 500w, images/game/game_Blockchain_DragonTiger/tc/game_BC_DragonTiger_feature3_2x.png 1000w',
-  }],
+      'lottery_game_logo': './images/index/tc/col2_expand-icon_x1.png 500w, ./images/index/tc/col2_expand-icon_x2.png 1000w',
+    }],
   'SC': [{
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //UI
-      'UI': 'images/game/game_Blockchain_DragonTiger/sc/game_UI_BC_DragonTiger_x1.png 500w,images/game/game_Blockchain_DragonTiger/sc/game_UI_BC_DragonTiger_x2.png 1000w',
-      //Feature
-      'feature1': 'images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature1_1x.png 500w, images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature1_2x.png 1000w',
-      'feature2': 'images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature2_1x.png 500w, images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature2_2x.png 1000w',
-      'feature3': 'images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature3_1x.png 500w, images/game/game_Blockchain_DragonTiger/sc/game_BC_DragonTiger_feature3_2x.png 1000w',
-  }]
+      'lottery_game_logo': './images/index/sc/col2_expand-icon_x1.png 500w, ./images/index/sc/col2_expand-icon_x2.png 1000w',
+    }]
 };
-
-  

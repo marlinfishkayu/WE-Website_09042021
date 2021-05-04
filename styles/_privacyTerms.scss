@@ -76,10 +76,6 @@
         color: $secondaryColor;
     }
 }
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     #privacyPolicy .close-btn{
@@ -111,7 +107,7 @@
     
     #privacyPolicy .close-btn{
         position: absolute;
-        left: -45%;
+        left: -5%;
         top: 0%;
     }
 }
@@ -125,6 +121,11 @@
         width: 1329px;
         height: 3300px;
         transform: translate(-50%,0);
+    }
+    #privacyPolicy .close-btn{
+        position: absolute;
+        left: -45%;
+        top: 0%;
     }
     #privacyPolicy #myBtn{
         margin-top: 9rem;

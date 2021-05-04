@@ -19,16 +19,23 @@ body:lang(SC)
     #liveGame .lottery .header-deco {
         width: 190px;
     }
+    #ContactUs .contact-main{
+        padding-top: 18em;
+    }
     @media (min-width: 768px){
-
+        #ContactUs .contact-main{
+            padding-top: 2em;
+        }
     }
     @media (min-width: 992px){
         #newsFeed .frame-detail h6 {
             font-weight: 800;
         }
+        
     }
     @media (min-width: 1200px){
     }
+    
     
 }
 

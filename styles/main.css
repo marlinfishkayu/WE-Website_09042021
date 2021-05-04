@@ -185,7 +185,7 @@ img {
 
 .hero-intro1 {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 100;
   color: #D8D8D8;
   letter-spacing: 0;
@@ -1577,7 +1577,7 @@ footer {
   letter-spacing: 1px;
   line-height: 1;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   color: #D8D8D8;
 }
 
@@ -1585,7 +1585,7 @@ footer {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 14px;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   letter-spacing: 1px;
   line-height: 20px;
   color: #979797;
@@ -1836,6 +1836,13 @@ footer {
   }
   .footer-break, .footer-logo {
     display: block;
+  }
+  .main-footer .footer-subscribe h6,
+  .main-footer .footer-subscribe p {
+    text-align: left;
+  }
+  .main-footer .footer-subscribe {
+    padding-top: 0;
   }
 }
 
@@ -3055,8 +3062,8 @@ footer {
 }
 
 .our-gamaes .more-button {
-  -webkit-transform: translateX(-30%);
-          transform: translateX(-30%);
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
 }
 
 .coming {
@@ -3064,8 +3071,8 @@ footer {
 }
 
 .coming .disable-img {
-  -webkit-filter: opacity(10%);
-          filter: opacity(10%);
+  -webkit-filter: opacity(30%);
+          filter: opacity(30%);
 }
 
 .coming .disable-text {
@@ -4145,13 +4152,24 @@ footer {
 }
 
 #ContactUs .contact-main {
-  padding-top: 200px;
+  padding-top: 26em;
   max-width: 700px;
   margin: 0 auto;
 }
 
 #ContactUs .hero-header-bkg {
   height: 399px;
+}
+
+#ContactUs .privacy-terms {
+  font-weight: 100;
+  line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#ContactUs .hero-intro2 {
+  padding-bottom: 0;
 }
 
 .md-block {
@@ -4466,13 +4484,13 @@ select.form-control::-ms-expand {
 
 @media (min-width: 576px) {
   #ContactUs .contact-main {
-    padding-top: 150px;
+    padding-top: 23em;
   }
 }
 
 @media (min-width: 768px) {
   #ContactUs .contact-main {
-    padding-top: 0px;
+    padding-top: 3em;
   }
   #ContactUs .hero-header-bkg {
     height: 600px;
@@ -6370,7 +6388,7 @@ select.form-control::-ms-expand {
 
 #allLiveGame .ALG-logo-wrap {
   width: 232px;
-  height: 192px;
+  height: auto;
   margin: 0 auto;
   position: relative;
 }
@@ -8219,7 +8237,7 @@ select.form-control::-ms-expand {
   }
   #privacyPolicy .close-btn {
     position: absolute;
-    left: -45%;
+    left: -5%;
     top: 0%;
   }
 }
@@ -8234,6 +8252,11 @@ select.form-control::-ms-expand {
     height: 3300px;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
+  }
+  #privacyPolicy .close-btn {
+    position: absolute;
+    left: -45%;
+    top: 0%;
   }
   #privacyPolicy #myBtn {
     margin-top: 9rem;
@@ -8625,6 +8648,18 @@ body:lang(SC) .game-icon-container h4 {
 body:lang(TC) #liveGame .lottery .header-deco,
 body:lang(SC) #liveGame .lottery .header-deco {
   width: 190px;
+}
+
+body:lang(TC) #ContactUs .contact-main,
+body:lang(SC) #ContactUs .contact-main {
+  padding-top: 18em;
+}
+
+@media (min-width: 768px) {
+  body:lang(TC) #ContactUs .contact-main,
+  body:lang(SC) #ContactUs .contact-main {
+    padding-top: 2em;
+  }
 }
 
 @media (min-width: 992px) {
