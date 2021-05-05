@@ -67,18 +67,6 @@
 }
 .index-carousel{
     position: relative;
-    &::after{
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 150px;
-        z-index: 1;
-        background: #011b3e;
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#000f24));
-        background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #000f24 100%);
-    }
     .slide .main-button{
         margin-top: 10px;
     }   
@@ -126,6 +114,7 @@
     &:after{
         content: "";
         position: absolute;
+        z-index: 1;
         bottom: 0;
         left: 0;
         width: 100%;
@@ -835,8 +824,23 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    #slider-area .slide {
-        overflow: hidden;
+    #slider-area {
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 150px;
+            z-index: -1;
+            background: #011b3e;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#000f24));
+            background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #000f24 100%);
+        }
+        .slide {
+            overflow: hidden;
+        }
     }
     .header-wrapper .slider-text {
         width: 100%;
@@ -867,17 +871,6 @@
 }
 
 @media (orientation: landscape) and (max-width: 575px) {
-    #slider-area .slide {
-      height: 100vh;
-    }
-    #slider-area .mobile-portrait{
-        display: none;
-    }
-    #slider-area .mobile-landscape{
-        display: block;
-    }
-  }
-@media (orientation: landscape) and (min-width: 576px) {
     #slider-area .slide {
       height: 100vh;
     }
@@ -919,7 +912,6 @@
 }
 @media (orientation: landscape) and (min-width: 1200px) {
     #slider-area .slide {
-        height: 100vh;
         max-width: 1920px;
         margin: 0 auto;
         max-height: 1080px;

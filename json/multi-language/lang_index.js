@@ -89,6 +89,7 @@ var arrLang = {
       'index_sect2_h2': 'Our hottest online game.',
       'index_sect2_p': 'WE carefully select our most popular game for you.',
       'index_sect2_LiveGame': 'LIVE GAMES ',
+      'index_sect2_LotteryGame': 'LOTTERY GAME',
       
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': 'WE play beyond classic.',
@@ -210,6 +211,8 @@ var arrLang = {
       'index_sect2_h2': '為你推薦 WE 最火遊戲。',
       'index_sect2_p': '精心為你挑選 WE 最受歡迎遊戲。',
       'index_sect2_LiveGame': '真人遊戲 ',
+      'index_sect2_LotteryGame': '彩票',
+
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留經典，再創高峰！',
       'index_sect2_col_2_p': '歐洲輪盤之癲',
@@ -331,6 +334,8 @@ var arrLang = {
       'index_sect2_h2': '为你推荐 WE 最火游戏。',
       'index_sect2_p': '精心为你挑选 WE 最受欢迎游戏。',
       'index_sect2_LiveGame': '真人游戏 ',
+      'index_sect2_LotteryGame': '彩票',
+      
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': '保留经典，再创高峰！',
       'index_sect2_col_2_p': '欧洲轮盘之癫',

@@ -1,6 +1,10 @@
 body:lang(TC),
 body:lang(SC)
 {
+    #AboutWE .about-h2{
+        font-weight: 500;
+        font-family: $fontNotoSansTC-Medium;
+    }
     .deco-content{
         font-weight: 100;
     } 
@@ -21,6 +25,9 @@ body:lang(SC)
     }
     #ContactUs .contact-main{
         padding-top: 18em;
+    }
+    #liveGame .hero-header h1{
+        font-weight: 500;
     }
     @media (min-width: 768px){
         #ContactUs .contact-main{

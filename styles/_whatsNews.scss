@@ -510,14 +510,14 @@
     #newsFeed .timeline-wrap .timeline ul li.left-frame{
         float: left;
         clear: right;
-        transform: translateX(-100px);
+        transform: translateX(-124px);
         &:after {
-            right: -100px;
+            right: -124px;
             transform: translate(50%, -50%);
             bottom: 137px;
         }
         &:before {
-            right: -107px;
+            right: -118px;
         }
     }
     #newsFeed .timeline-wrap .timeline .left-frame .frame-right {
@@ -775,7 +775,7 @@
         width: 140px;
         height: 156px;
         top: -97px;
-        right: -83px;
+        right: -92px;
     }
     #newsFeed .timeline-wrap .timeline ul li:after {
         width: 30px;
