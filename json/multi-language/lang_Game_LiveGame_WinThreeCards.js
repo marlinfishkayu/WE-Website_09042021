@@ -86,7 +86,7 @@ var arrLang = {
       'feature_2.2': 'statistics',
       'feature_2_p': 'The statistics clearly record the last 20 rounds and 100 rounds of “Dragon win” and “Phoenix win”. Moreover, they predict for the next round which help the players easier to win.',
       'feature_3': 'Comprehensive game record',
-      'feature_3_p': 'Many players look at the scoring boards very carefully before each bet. Therefore, WE introduce different modes of scoreboards, “Professional”, “Ordinary” and “Simplified” selections to the players.',
+      'feature_3_p': 'Many players look at the scoring boards very carefully before each bet. Therefore, WE introduce different modes of scoreboards, “Professional”, “Ordinary” and “Simplified” to the players.',
     },
   
   
@@ -179,7 +179,7 @@ var arrLang = {
       'feature_2.2': '勝券在握',
       'feature_2_p': '為了讓玩家更能掌握遊戲走勢，炸金花特設過往20局及100局的「龍」、「鳳」結果比例及統計圖表，再以路紙模式展示開出「龍」、「鳳」及「和」總數及總局數，遊戲趨勢盡在掌握！',
       'feature_3': '多款清晰路紙',
-      'feature_3_p': '下注前，不少玩家會經常查看路紙紀錄，因此我們特設「專業版」、「普通版」、「簡易版」路紙，讓玩家根據實際需要，選擇最適合版本，快速進行投注。',
+      'feature_3_p': '下注前，不少玩家會經常查看路紙紀錄，因此我們特設「專業版」、「普通版」、「簡易版」路紙，讓玩家根據實際需要，選擇最適合版本，進行投注。',
     },
 
 
@@ -272,7 +272,7 @@ var arrLang = {
       'feature_2.2': '胜券在握',
       'feature_2_p': '为了让玩家更能掌握游戏走向，炸金花特设过往20局及100局的「龙」、「凤」结果比例及统计图表，再以路單模式展示「龙」、「凤」及「和」总数及总局数，游戏趋势尽在掌握！',
       'feature_3': '多款清晰路单',
-      'feature_3_p': '下注前，不少玩家会经常翻查路单记录，因此我们特设「专业版」、「普通版」、「简易版」路单，按照玩家的实际需要，选择最适合版本，快速进行投注。',
+      'feature_3_p': '下注前，不少玩家会经常翻查路单记录，因此我们特设「专业版」、「普通版」、「简易版」路单，按照玩家的实际需要，选择最适合版本，进行投注。',
     }
   };
 

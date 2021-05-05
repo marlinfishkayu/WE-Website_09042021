@@ -75,7 +75,7 @@ var arrLang = {
     'Mission3' : 'Values',
     'Mission_p1' : 'Our mission is to further evolve a wide range of online gaming products and services, and to enhance the gaming experience of online platforms. Our vision is to become one of the world’s most influential online gaming platforms and gaming developers. Our culture is rooted in our corporate values:',
     'Innovation' : 'INNOVATION',
-    'Innovation_p1' : 'WE are utterly committed to do something new as WE believe creativity is unlimited. WE transform imagination into practical solution by using cutting-edge technology all the way round, from ideas, product design, product development to marketing solution.',
+    'Innovation_p1' : 'WE are utterly committed to do something new as WE believe creativity is unlimited. WE transform imagination into practical solution by using cutting-edge technology all the way round.',
     'Experience' : 'EXPERIENCE',
     'Experience_p1' : 'Provide high-quality user experience through continuous testing, WE assure to try our best and to present our ultimate version of our platform with extraordinary surprises.',
     'Diversification' : 'DIVERSIFICATION',
@@ -160,7 +160,7 @@ var arrLang = {
     //WE are more than fun
     'Slogan_1' : '「比好玩 ‧ 更好玩」',
     'Slogan_2' : '是 WE 的創作精神。',
-    'Slogan_p1' : 'WE 創作精神不只是好玩，而是要「比好玩‧更好玩」。因此，我們不斷開拓創新，全力打造頂尖遊戲平台，與玩家一起體驗無窮樂趣。',
+    'Slogan_p1' : 'WE創作精神不只是好玩，而是要「比好玩‧更好玩」。因此，我們不斷開拓創新，全力打造頂尖遊戲平台，與玩家一起體驗無窮樂趣。',
     //MISSION, VISION & VALUES
     'Mission1' : '使命，',
     'Mission2' : '願景，',
@@ -250,7 +250,7 @@ var arrLang = {
     //WE are more than fun
     'Slogan_1' : '「比好玩 ‧ 更好玩」',
     'Slogan_2' : '是 WE 的创作精神。',
-    'Slogan_p1' : 'WE 创作精神不單是好玩，而是要「比好玩‧更好玩」。因此，我们不断开拓创新，全力打造顶尖游戏平台，与玩家一起体验无限乐趣。',
+    'Slogan_p1' : 'WE创作精神不單是好玩，而是要「比好玩‧更好玩」。因此，我们不断开拓创新，全力打造顶尖游戏平台，与玩家一起体验无限乐趣。',
     //MISSION, VISION & VALUES
     'Mission1' : '使命，',
     'Mission2' : '愿景，',

@@ -79,7 +79,7 @@ var arrLang = {
       'try_our_games': 'Try Our Games',
       //
       'LiveGames':'LIVE GAMES',
-      'gameDetail_p1': 'Sic Bo is a classic game that originated in ancient China and players have to predict the outcome of the shakes with three dice. It is also known as “big-small”, “hi-lo”, “tai-sai”,and “dai-siu”.',
+      'gameDetail_p1': 'Sic Bo is a classic game that originated in ancient China and players have to predict the outcome of the shakes with three dice. It is also known as “big-small”, “hi-lo”, “tai-sai”, or “dai-siu”. ',
       'feature_1.1': 'A wide variety ',
       'feature_1.2': 'of odds',
       'feature_1_p': 'Sic Bo is very popular amongst players. The wide range of odds and combinations are one of our gimmicks that attracted the players. Thus, they can increase their chances of getting a big reward in this game. ',
@@ -181,7 +181,7 @@ var arrLang = {
       'feature_2.2': '勝券在握',
       'feature_2_p': '為了讓玩家更能掌握遊戲走勢，骰寶提供過往多局的「單／雙」、「大／小」及「和值」記錄，並設「大／小／圍」及「單／雙／圍」的結果統計數據，萬事俱備，自然勝券在握！',
       'feature_3': '多款清晰路紙',
-      'feature_3_p': '下注前，不少玩家會經常查看路紙紀錄，因此我們特設「專業版」、「普通版」、「簡易版」路紙，讓玩家根據實際需要，選出最適合的，快速進行投注。',
+      'feature_3_p': '下注前，不少玩家會經常查看路紙紀錄，因此我們特設「專業版」、「普通版」、「簡易版」路紙，讓玩家根據實際需要，選出最適合的，進行投注。',
     },
 
 
@@ -275,7 +275,7 @@ var arrLang = {
       'feature_2.2': '胜券在握',
       'feature_2_p': '为了让玩家更能掌握游戏走势，骰宝提供过往多局的「单／双」、「大／小」及「和值」记录，并设「大／小／围」及「单／双／围」的结果统计数据，万事俱备，自然胜券在握！',
       'feature_3': '多款清晰路单',
-      'feature_3_p': '下注前，不少玩家会经常翻查路单纪录，因此我们特设「专业版」、「普通版」、「简易版」路单，按照玩家实际需要，选出最适合的，快速地进行投注。',
+      'feature_3_p': '下注前，不少玩家会经常翻查路单纪录，因此我们特设「专业版」、「普通版」、「简易版」路单，按照玩家实际需要，选出最适合的，进行投注。',
     }
   };
   

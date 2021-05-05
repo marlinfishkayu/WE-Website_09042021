@@ -85,12 +85,12 @@ var arrLang = {
       'feature_1.2': 'Scoreboards',
       'feature_1_p': 'WE have well prepared 5 different scoring boards: Bead Road, Big Road, Big Eye Boy, Small Road and finally the Cockroach Pig works as "predictor" of the next move.',
       'feature_2': 'Real-time statistics',
-      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
+      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly.',
       'feature_3': 'Roadmap Selection ',
       'feature_3_p': 'Players can check the Roadmaps which have been pre-set on the platform. Of course, they can also set their own pattern with a maximum of 10 sets, so that the system will notify the players the related gaming tables anytime.',
       //
       'baccaratType_1': 'It’s classic and popular',
-      'baccaratType_p1': 'Traditional Baccarat is one of the biggest highlights, and it is also known as the fairest game amongst all the live games. In order to make things more fun and enjoyable, WE have prepared comprehensive statistics to enhance their game experience.',
+      'baccaratType_p1': 'Traditional Baccarat is one of the biggest highlights, and it is also known as the fairest game amongst all the live games. In order to make things more fun, WE have prepared comprehensive statistics to enhance their game experience.',
       'baccaratType_2': 'Speedy and mind-blowing',
       'baccaratType_p2': 'During the game, players only have 20 seconds to place bets in each hand and everyone will be surely thrilled by this fast-paced excitement.',
       'baccaratType_3': 'No commission shall pay',
@@ -193,7 +193,7 @@ var arrLang = {
       'baccaratType_1': '流行經典 盡享公平遊戲',
       'baccaratType_p1': '傳統百家樂是線上娛樂平台中最受歡迎遊戲，同時也被稱為最公平遊戲！為了讓玩家玩得更盡興、更投入，我們特別預備了多項遊戲統計數據，助玩家穩操勝券！',
       'baccaratType_2': '高速快感 讓人心跳加速',
-      'baccaratType_p2': '每局極速百家樂只有20秒時間，讓玩家下注各個心儀項目。在速度與激情中，完成整個下注動作，保證讓玩家心跳加速，享受不一樣快感！',
+      'baccaratType_p2': '每局極速百家樂只有20秒時間，讓玩家下注各個心儀項目。在速度與激情中，完成整個下注動作，讓玩家心跳加速，享受不一樣快感！',
       'baccaratType_3': '押庄免水   贏取更多獎金',
       'baccaratType_p3': '免佣百家樂，打破百家樂庄家勝出抽水的傳統，讓押庄贏家得到100%獎金！當然，玩家更可以投注「超級六」，以更高賠率贏得更多回報。',
 
@@ -296,7 +296,7 @@ var arrLang = {
       'baccaratType_1': '流行经典 尽享公平游戏',
       'baccaratType_p1': '传统百家乐是线上娱乐平台中最受欢迎游戏，同时也被称为最公平游戏！为了让玩家玩得更尽兴、更投入，我们特别预备了多项游戏统计数据，助玩家稳操胜券！',
       'baccaratType_2': '高速快感 让人心跳加速',
-      'baccaratType_p2': '每局极速百家乐只有20秒时间，让玩家下注各个心仪项目。在速度与激情中，完成整个下注动作，保证让玩家心跳加速，享受不一样快感！',
+      'baccaratType_p2': '每局极速百家乐只有20秒时间，让玩家下注各个心仪项目。在速度与激情中，完成整个下注动作，让玩家心跳加速，享受不一样快感！',
       'baccaratType_3': '押庄免佣   赢取更多奖金',
       'baccaratType_p3': '免佣百家乐，打破百家乐庄家胜出抽取提成的传统，让押庄赢家得到100%奖金！当然，玩家更可以投注「超级六」，以更高赔率赢得更多回报。',
 

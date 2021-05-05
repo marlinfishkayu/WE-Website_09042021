@@ -85,7 +85,7 @@ var arrLang = {
       'feature_1.2': 'Scoreboards',
       'feature_1_p': 'WE have well prepared 5 different scoring boards: Bead Road, Big Road, Big Eye Boy, Small Road and finally the Cockroach Pig works as "predictor" of the next move.',
       'feature_2': 'Real-time statistics',
-      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
+      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics present an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly.',
       'feature_3': 'Roadmap Selection ',
       'feature_3_p': 'Players can check the Roadmaps which have been pre-set on the platform. Of course, they can also set their own pattern with a maximum of 10 sets, so that the system will notify the players the related gaming tables anytime.',
       

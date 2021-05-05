@@ -79,12 +79,12 @@ var arrLang = {
       'try_our_games': 'Try Our Games',
       //
       'LiveGames':'LIVE GAMES',
-      'gameDetail_p1': 'Our state-of-the-art technology allow players to squeeze cards "on-site". They can squeeze cards in their preference. WE will surely bring more fun to games which excite our players like being on spot. ',
+      'gameDetail_p1': 'Our state-of-the-art technology allows players to squeeze cards "on-site". They can squeeze cards in their preference. WE will surely bring more fun to games which excite our players like being on spot.',
       'feature_1.1': 'Immersive 3D',
       'feature_1.2': 'card squeezing',
       'feature_1_p': 'WE have incorporated a 3D interactive design in Squeeze Baccarat. Players can simply tap or click on the corner of each card, to have a glimpse of the value, or just hit the “Open” button without squeezing as long as place bets on “Banker” or “Player”.',
       'feature_2': 'Legible Statistic Record',
-      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics contain an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly and conveniently.',
+      'feature_2_p': 'In the Game Lobby, the comprehensive real-time statistics contain an overview of game rounds, including the winning percentage of “Banker” and “Player”, as well as the results and details of current shoes and the last 100 rounds. Moreover, players can use the “Quick Bet” function to place the bets directly.',
       'feature_3': 'Tutorial for beginners',
       'feature_3_p': '“Squeeze Tutorial” will automatically pop up to players who participated in Squeeze Baccarat for the first time. Our 3D demonstration will clearly introduce the squeezing methods which helps the players truly enjoy the game.',
     },
@@ -177,9 +177,9 @@ var arrLang = {
       'feature_1.2': '仿如置身現場',
       'feature_1_p': '我們在共咪百家樂中加入3D互動設計，玩家只要下注「庄」、「閒」，即可參與咪牌，猶如置身現場，體驗開牌緊張刺激。',
       'feature_2': '詳盡統計數據',
-      'feature_2_p': '遊戲大堂清晰展示百家樂本靴及過往100局各投注區勝出比例，各枱趨勢一目了然。玩家如果遇上心水局數，更可用「快速投注」功能在大堂直接下注。',
+      'feature_2_p': '遊戲大堂展示百家樂本靴及過往100局各投注區勝出比例，各枱趨勢一目了然。玩家如果遇上心水局數，更可用「快速投注」功能在大堂直接下注。',
       'feature_3': '咪牌教學',
-      'feature_3_p': '首次參與共咪百家樂玩家，系統會自動展示「咪牌教學」，以3D模式簡單清晰地介紹互動咪牌方法，讓玩家掌握咪牌竅門。',
+      'feature_3_p': '首次參與共咪百家樂玩家，系統會自動展示「咪牌教學」，以3D模式簡單介紹互動咪牌方法，讓玩家掌握咪牌竅門。',
     },
 
 
@@ -270,9 +270,9 @@ var arrLang = {
       'feature_1.2': '仿如置身现场',
       'feature_1_p': '我们在共咪百家乐中加入3D互动设计，玩家只要下注「庄」、「闲」，即可参与咪牌，犹如置身现场，体验开牌紧张刺激。',
       'feature_2': '详细数据统计',
-      'feature_2_p': '游戏大堂清晰地展示百家乐本靴及过往100局各投注区胜出比例，各游戏桌趋势一目了然。玩家如果遇上合意局数，更可用「快速投注」功能在大堂直接下注。',
+      'feature_2_p': '游戏大堂展示百家乐本靴及过往100局各投注区胜出比例，各游戏桌趋势一目了然。玩家如果遇上合意局数，更可用「快速投注」功能在大堂直接下注。',
       'feature_3': '咪牌教学',
-      'feature_3_p': '首次参与共咪百家乐玩家，系统会自动展示「咪牌教学」，以3D模式简单清晰地介绍咪牌方法，让玩家掌握咪牌窍门。',
+      'feature_3_p': '首次参与共咪百家乐玩家，系统会自动展示「咪牌教学」，以3D模式简单介绍咪牌方法，让玩家掌握咪牌窍门。',
     }
   };
   

@@ -83,7 +83,7 @@ var arrLang = {
       'feature_1': 'Lucky draw',
       'feature_1_p': 'The God of Fortune will randomly draw 1-3 “Lucky Number(s)” of each round. In terms of basic odds, players will have the opportunity to get as much as 50x to even 1000x random odds.',
       'feature_2': 'Powerful visual excitement ',
-      'feature_2_p': 'God of Fortune Sic Bo brings the players extraordinary visual and shock through lots of animation combined with wonderful lighting, color and elements. With different random odds and winning results released, which brings a variety of new excitement to players.',
+      'feature_2_p': 'God of Fortune Sic Bo brings the players extraordinary visual and shock through lots of animation combined with wonderful lightings, colors and elements. With different random odds and winning results released, which bring a variety of new excitement to players.',
       'feature_3': 'Up-to-date',
       'feature_3_p': 'This game provides "Instant Bets Tendency" and results of statistical data of the last 10 and 50 rounds, showing the latest trend by clear graphics, so that players are easier to prepare for the next round.',
     },
@@ -171,7 +171,7 @@ var arrLang = {
       'try_our_games': '免費試玩',
       //
       'LiveGames':'真人遊戲',
-      'gameDetail_p1': '財神骰寶是骰寶進化版，它將中國「財神」這個人見人愛角色加插在遊戲中。遊戲玩法和骰寶相近，不同之處在於財神骰寶會有抽取幸運號碼環節，在遊戲過程中將會令玩家激發更多快樂荷爾蒙。',
+      'gameDetail_p1': '財神骰寶是骰寶進化版，它將中國「財神」這個角色加插在遊戲中。遊戲玩法和骰寶相近，不同之處在於財神骰寶會有抽取幸運號碼環節，在遊戲過程中將會令玩家激發更多快樂荷爾蒙。',
       'feature_1': '超賞幸運號碼',
       'feature_1_p': '財神骰寶特設隨機幸運倍數，在基礎賠率上，讓玩家有機會再獲多達50以至1,000倍的賞金，成為超級贏家！',
       'feature_2': '超強視覺震撼',
@@ -263,13 +263,13 @@ var arrLang = {
       'try_our_games': '免费试玩',
       //
       'LiveGames':'真人游戏',
-      'gameDetail_p1': '财神骰宝是骰宝进化版，它将中国「财神」这个人见人爱角色加插在游戏中。游戏玩法和骰宝相近，不同之处在于财神骰宝会有抽取幸运号码环节，在游戏过程中将会令玩家激發更多快乐荷尔蒙。',
+      'gameDetail_p1': '财神骰宝是骰宝进化版，它将中国「财神」这个角色加插在游戏中。游戏玩法和骰宝相近，不同之处在于财神骰宝会有抽取幸运号码环节，在游戏过程中将会令玩家激發更多快乐荷尔蒙。',
       'feature_1': '超赏幸运号码',
       'feature_1_p': '财神骰宝特设随机幸运倍数，在基础赔率上，让玩家有机会再获多达50以至1,000倍的赏金，成为超级赢家！',
       'feature_2': '超强视觉震撼',
       'feature_2_p': '财神骰宝融入大量动画元素，配合幸运倍数及开彩结果，展现各式各样动画效果，带给玩家非凡视觉震撼！',
       'feature_3': '即时彩池',
-      'feature_3_p': '财神骰宝设有「即时彩池」及最近10局与50局的结果数据统计，以清晰图像预示游戏最新趋势，让玩家更得心应手！',
+      'feature_3_p': '财神骰宝设有「即时彩池」及最近10局与50局的结果数据统计，以图像预示游戏最新趋势，让玩家更得心应手！',
     }
   };
  

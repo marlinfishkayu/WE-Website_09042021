@@ -1,10 +1,35 @@
 body:lang(TC),
 body:lang(SC)
 {
+    #AboutWE{
+        .about-p{
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 100;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        .about-h2{
+            font-size: 26px;
+            font-weight: 500;
+        }
+        .hero-header .hero-intro1{
+            font-size: 26px;
+        }
+    }
+    @media (max-width: 767px){
+        // #AboutWE .hero-intro1,
+        // #AboutWE .about-h2{
+        //     font-size: 24px;
+        //     font-weight: 500;
+        // }
+    }
     @media (min-width: 768px){
         #AboutWE .about-main .about-h2{
             margin-top: -9px;
         }
+        
         #AboutWE .about-brandStory .about-p{
             padding-top: 8rem;
         }

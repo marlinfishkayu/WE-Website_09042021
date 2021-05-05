@@ -79,11 +79,11 @@ var arrLang = {
       'try_our_games': 'Try Our Games',
       //
       'LiveGames':'LIVE GAMES',
-      'gameDetail_p1':'The God of Fortune Roulette is based on the traditional Roulette. Moreover, it is well blended with the Chinese traditional elements which has turned it into an unequalled game type that could shock everyone. Come and play the game right now to find out more amazement. ',
+      'gameDetail_p1':'The God of Fortune Roulette is based on the traditional Roulette. Moreover, it is well blended with the Chinese traditional elements which has turned it into an unequalled game type that shocks everyone. Come and play the game now to find out more amazement. ',
       'feature_1': "Look! It's so fascinating!",
       'feature_1_p': `WE meticulously designed the God of Fortune series by combining the traditional Chinese character "God of Fortune" and Hip Hop elements to create this unique iconic character. "God of Fortune"  is so talented that amazed everyone. Don't miss out!`,
       'feature_2': 'The best audio-visual practices',
-      'feature_2_p': 'Incorporated a large volume of extraordinary audio-visual elements into God of Fortune Roulette. This game provides well-prepared attractive random odds to excite our players.',
+      'feature_2_p': 'Incorporated extraordinary audio-visual elements into God of Fortune Roulette. This game provides well-prepared attractive random odds to excite our players.',
       'feature_3': 'Lucky draw',
       'feature_3_p': 'The God of Fortune will randomly draw 1 to 5 “Lucky Number(s)” of each round. In terms of basic odds, players have the opportunity to get as much as 50x to even 500x random odds.',
     },

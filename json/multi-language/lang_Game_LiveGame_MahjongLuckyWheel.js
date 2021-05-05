@@ -85,7 +85,7 @@ var arrLang = {
       'feature_1_p': 'Breaking through the classic design of the Lucky Wheel, WE introduced Chinese Mahjong elements into the game, artfully combining modern and traditional styles to create an exceptional design, and the players can win big with high odds.',
       'feature_2.1': 'Revealing the ',
       'feature_2.2': 'game result instantly',
-      'feature_2_p': 'It is such an immersive game experience with Mahjong Lucky Wheel. The professional hosts will control the lucky wheel on the spot, and reveal the game results instantly. That’s exciting and breathtaking!',
+      'feature_2_p': 'It is such an immersive game experience with Mahjong Lucky Wheel. The professional hosts will control the lucky wheel on the spot, and reveal the game results instantly. That’s exciting!',
       'feature_3.1': 'Showing the',
       'feature_3.2': 'most updated data',
       'feature_3_p': 'In addition to detailed scoreboards, WE also provide "Instant Bets Tendency", which clearly displays the real-time betting volume of each betting option, allowing players to grasp the latest trend!',
