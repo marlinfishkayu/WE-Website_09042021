@@ -70,14 +70,6 @@ table {
   src: url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.woff") format("woff"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.svg#Futura") format("svg");
 }
 
-@font-face {
-  font-family: "NotoSansTC-Medium";
-  src: url("./fonts/NotoSansTC-Medium.eot");
-  src: url("./fonts/NotoSansTC-Medium.eot?#iefix") format("embedded-opentype"), format("embedded-opentype"), url("./fonts/NotoSansTC-Medium.woff2") format("woff2"), url("./fonts/NotoSansTC-Medium.woff") format("woff"), url("./fonts/NotoSansTC-Medium.ttf") format("truetype"), url("./fonts/NotoSansTC-Medium.svg#NotoSansTC-Medium") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -5479,7 +5471,7 @@ select.form-control::-ms-expand {
     height: 100vh;
   }
   #news-carousel {
-    height: 100vh;
+    height: 100%;
   }
   #newsFeed .event-photo .news-outer {
     top: -159px;
@@ -5567,7 +5559,7 @@ select.form-control::-ms-expand {
     top: 45px;
   }
   #news-carousel .owl-dots {
-    bottom: 2%;
+    bottom: 7%;
   }
   #news-carousel .update-content .update-date {
     padding-top: 2rem;
@@ -8693,7 +8685,7 @@ select.form-control::-ms-expand {
 body:lang(TC) #AboutWE .about-h2,
 body:lang(SC) #AboutWE .about-h2 {
   font-weight: 500;
-  font-family: NotoSansTC-Medium, Arial, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 body:lang(TC) .deco-content,
@@ -8752,7 +8744,7 @@ body:lang(SC) #liveGame .hero-header h1 {
 
 body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p,
 body:lang(TC) #wrapper .nav_links .nav-link {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 body:lang(TC) #newsFeed .frame-detail h6 {
@@ -8761,7 +8753,7 @@ body:lang(TC) #newsFeed .frame-detail h6 {
 
 body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p,
 body:lang(SC) #wrapper .nav_links .nav-link {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 body:lang(SC) #newsFeed .frame-detail h6 {
@@ -8793,7 +8785,7 @@ body:lang(SC) #diamondCarousel h3 {
 }
 
 body:lang(TC) .deco-content {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 body:lang(TC) #diamondCarousel .dia-cat h5,
@@ -8801,25 +8793,25 @@ body:lang(TC) #intdexWhatsNews .text-gold-btn,
 body:lang(TC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(TC) .coming .disable-text h4,
 body:lang(TC) #intdexWhatsNews .news-item-header {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-weight: 500;
 }
 
 body:lang(SC) .deco-content {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 body:lang(SC) #intdexWhatsNews .text-gold-btn,
 body:lang(SC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(SC) .coming .disable-text h4,
 body:lang(SC) #intdexWhatsNews .news-item-header {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-weight: 500;
 }
 
 body:lang(TC) #AboutWE .about-p,
 body:lang(SC) #AboutWE .about-p {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   font-weight: 100;
 }
 

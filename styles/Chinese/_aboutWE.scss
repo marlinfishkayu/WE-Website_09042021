@@ -3,7 +3,7 @@ body:lang(SC)
 {
     #AboutWE{
         .about-p{
-            font-family: 'Noto Sans TC', sans-serif;
+            font-family: $fontNotoSansTC;
             font-weight: 100;
         }
         p{

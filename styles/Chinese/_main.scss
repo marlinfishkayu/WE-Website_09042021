@@ -3,7 +3,7 @@ body:lang(SC)
 {
     #AboutWE .about-h2{
         font-weight: 500;
-        font-family: $fontNotoSansTC-Medium;
+        font-family: $fontNotoSansTC;
     }
     .deco-content{
         font-weight: 100;
@@ -50,7 +50,7 @@ body:lang(TC)
 {
     h1,h2,h3,h4, h5, h6, p,
     #wrapper .nav_links .nav-link{
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fontNotoSansTC;
     }
     #newsFeed .frame-detail h6 {
         font-weight: 500;
@@ -60,7 +60,7 @@ body:lang(SC)
 {
     h1,h2,h3,h4, h5, h6, p,
     #wrapper .nav_links .nav-link{
-        font-family: 'Noto Sans SC', sans-serif;
+        font-family: $fontNotoSansTC;
     }
     #newsFeed .frame-detail h6 {
         font-weight: 800;

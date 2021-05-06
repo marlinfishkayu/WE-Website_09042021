@@ -862,8 +862,11 @@
     #news-carousel .slide{
         height: 100vh;
     }
-    #news-carousel{
-        height: 100vh;
+    // #news-carousel{
+    //     height: 100vh;
+    // }
+    #news-carousel {
+        height: 100%;   
     }
     #newsFeed .event-photo .news-outer {
         top: -159px;
@@ -908,6 +911,7 @@
             //background: red;
         }
     }
+    
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -954,7 +958,7 @@
         top: 45px;
     }
     #news-carousel  .owl-dots {
-        bottom: 2%;
+        bottom: 7%;
     }
     #news-carousel .update-content .update-date {
         padding-top: 2rem;

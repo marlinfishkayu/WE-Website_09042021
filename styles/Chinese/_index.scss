@@ -25,14 +25,14 @@ body:lang(SC)
 body:lang(TC)
 {
     .deco-content{
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fontNotoSansTC;
     }
     #diamondCarousel .dia-cat h5,
     #intdexWhatsNews .text-gold-btn,
     #intdexWhatsNews .news-item-text .text-gold,
     .coming .disable-text h4,
     #intdexWhatsNews .news-item-header{
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fontNotoSansTC;
         font-weight: 500;
     }
     
@@ -40,13 +40,13 @@ body:lang(TC)
 body:lang(SC)
 {
     .deco-content{
-        font-family: 'Noto Sans SC', sans-serif;
+        font-family: $fontNotoSansTC;
     }
     #intdexWhatsNews .text-gold-btn,
     #intdexWhatsNews .news-item-text .text-gold,
     .coming .disable-text h4,
     #intdexWhatsNews .news-item-header{
-        font-family: 'Noto Sans SC', sans-serif;
+        font-family: $fontNotoSansTC;
         font-weight: 500;
     }
     
