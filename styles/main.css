@@ -5267,6 +5267,34 @@ select.form-control::-ms-expand {
   }
 }
 
+@media (max-width: 991px) {
+  #news-carousel #slider-area .update-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  #news-carousel #slider-area .update-wrapper::after {
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    background: #011b3e;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
+    background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  /* For landscape layouts only */
+  #news-carousel #slider-area .update-wrapper::after {
+    bottom: -315px;
+    height: 500px;
+  }
+}
+
 @media (min-width: 992px) {
   #newsFeed .timeline-container {
     height: 2500px;
@@ -5462,6 +5490,38 @@ select.form-control::-ms-expand {
     left: -5%;
     top: -357px;
   }
+  #news-carousel #slider-area .owl-item {
+    position: relative;
+    z-index: 10;
+  }
+  #news-carousel #slider-area .owl-item::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    background: #060b1a;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
+    background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
+  }
+  #news-carousel #slider-area .news-slider-bkg-D {
+    position: relative;
+    z-index: 10;
+  }
+  #news-carousel #slider-area .news-slider-bkg-D::after {
+    content: "";
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    background: #060b1a;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
+    background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -5511,6 +5571,12 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content .update-date {
     padding-top: 2rem;
+  }
+  #news-carousel #slider-area .update-wrapper::after {
+    display: none;
+  }
+  #news-carousel #slider-area .slide {
+    max-width: inherit;
   }
 }
 
