@@ -199,8 +199,20 @@ footer{
     font-weight: 100;
 }
 .btn:hover::after{
-transform: scaleX(1);
+    transform: scaleX(1);
 }
+
+/* Mailchimp CSS */
+
+#mc_embed_signup div.mce_inline_error {
+    color: red!important;
+    font-size: 16px;
+    font-family: $fontBarlowLight;
+    background-color: transparent!important;
+}
+
+
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     .main-footer .footer-subscribe .btn {

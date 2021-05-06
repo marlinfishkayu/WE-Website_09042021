@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
         <link href="//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura" rel="stylesheet" type="text/css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;&display=swap" rel="stylesheet">
         <!-- Outdated Browser v1.1.5 -->
         <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
         <!-- Owl CSS -->
@@ -588,7 +588,10 @@
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
-            sal();
+            sal({
+                threshold: 0.1,
+                once: true,
+            });
         </script>
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
@@ -597,7 +600,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <!-- Main JS  -->
-        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
         <script src="./js/main.js" type="text/javascript"></script>
         <script type="text/javascript" src="./js/language_switch.js"></script>
         <script type="text/javascript" src="./json/multi-language/lang_WhatsNews_Xmas2020.js"></script>

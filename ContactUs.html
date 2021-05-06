@@ -368,7 +368,7 @@
                         <p class="hero-intro2" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.35s;">
                             <span class="lang" key="ContactUs_p2"> By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries. For more details, please check out <br>
                         </p>
-                        <p class="privacy-terms" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.45s;"><a href="PrivacyTerms.html" class="hyperlink lang" key="ContactUs_privacy">Privacy Policy</a></p>
+                        <p class="privacy-terms" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1.5s; --sal-delay: 0.5s;"><a href="PrivacyTerms.html" class="hyperlink lang" key="ContactUs_privacy">Privacy Policy</a></p>
                     </span>
                     </div>
                 </div>
@@ -763,7 +763,7 @@
                                     exclusive offers from WE.
                                 </p>
                                 <div class="d-sm-flex" id="EmailSubscribe">
-                                    <form role="form" data-toggle="validator" class="shake">
+                                    <!-- <form role="form" data-toggle="validator" class="shake">
                                         <form class="subscribe-form">
                                             <div class="form-group">
                                                 <div class="controls">
@@ -777,7 +777,28 @@
                                         </button>
                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                                         <div class="clearfix"></div>
+                                    </form> -->
+
+
+                                    <!-- Begin Mailchimp Signup Form -->
+                                    <div id="mc_embed_signup">
+                                    <form action="https://pgpg.us1.list-manage.com/subscribe/post?u=7fd273f17c144f707904f5926&amp;id=068a3ff35c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                    <div class="mc-field-group">
+                                        <input type="email" value="" name="EMAIL" class="required email form-control lang" key="Email-S" id="SubEmail" placeholder="Email" id="mce-EMAIL">
+                                    </div>
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="display: none;" aria-hidden="true"><input type="text" name="b_7fd273f17c144f707904f5926_068a3ff35c" tabindex="-1" value=""></div>
+                                        
+                                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="enquiryBtn btn lang" key="SignUp" id="signUp"class="button"></div>
+                                        </div>
                                     </form>
+                                    </div>
+                                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                    <!--End mc_embed_signup-->
                                 </div>
                             </div>
                             <div class="footer-licens">
@@ -910,37 +931,11 @@
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
-            sal();
-            document.getElementById('message').value = "";
-        </script>
-        <!-- country code JS  -->
-        <script src="./dist/js/intlTelInput.js"></script>
-        <script>
-            var input = document.querySelector("#phone");
-            window.intlTelInput(input, {
-              // allowDropdown: false,
-              // autoHideDialCode: false,
-              // autoPlaceholder: "off",
-              // dropdownContainer: document.body,
-              // excludeCountries: ["us"],
-              // formatOnDisplay: false,
-              // geoIpLookup: function(callback) {
-              //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-              //     var countryCode = (resp && resp.country) ? resp.country : "";
-              //     callback(countryCode);
-              //   });
-              // },
-              // hiddenInput: "full_number",
-              // initialCountry: "auto",
-              // localizedCountries: { 'de': 'Deutschland' },
-              // nationalMode: false,
-              // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-              // placeholderNumberType: "MOBILE",
-              // preferredCountries: ['cn', 'jp'],
-              // separateDialCode: true,
-              utilsScript: "./dist/js/utils.js",
+            sal({
+                threshold: 0.1,
+                once: true,
             });
-          </script>
+        </script>
         <!-- Validator JS  -->
         <script type="text/javascript" src="assets/js/jquery-min.js"></script>
         <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
@@ -953,7 +948,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
         <!-- Main JS  -->
-        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
         <script src="./js/main.js" type="text/javascript"></script>
         <script type="text/javascript" src="./js/language_switch.js"></script>
         <script type="text/javascript" src="./json/multi-language/lang_ContactUs.js"></script>

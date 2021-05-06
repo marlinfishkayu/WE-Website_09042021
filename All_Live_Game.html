@@ -362,8 +362,8 @@
                 </div>
                 <!-- Start Section -->
                 <div class="allLiveGame-main container">
-                    <h2 class="bottom-deco lang" key="All_Live_Game">All Live Games</h2>
-                    <p class="hero-intro2 lang" key="All_Live_Game_p2">Join us to experience the sensation of our Live Games!</p>
+                    <h2 class="bottom-deco lang" key="All_Live_Game"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.6s;">All Live Games</h2>
+                    <p class="hero-intro2 lang" key="All_Live_Game_p2"  data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 0.5s; --sal-delay: 0.7s;">Join us to experience the sensation of our Live Games!</p>
                     <div class="row game-column">
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="no-pointer"></div>
@@ -999,14 +999,14 @@
             });
         </script>
 
-        <!-- Lax JS  -->
-        <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
-            sal();
+            sal({
+                threshold: 0.1,
+                once: true,
+            });
         </script>
-
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
         <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
@@ -1014,7 +1014,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <!-- Main JS  -->
-        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
         <script src="./js/main.js" type="text/javascript"></script>
         <script type="text/javascript" src="./js/language_switch.js"></script>
         <script type="text/javascript" src="./json/multi-language/lang_All_Live_Game.js"></script>

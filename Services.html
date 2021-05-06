@@ -592,7 +592,10 @@
         <!-- Sal JS  -->
         <script src="./js/sal.js"></script>
         <script>
-            sal();
+            sal({
+                threshold: 0.1,
+                once: true,
+            });
         </script>
         <!-- External JS  -->
         <script src="OwlCarousel2/owl.carousel.min.js"></script>
