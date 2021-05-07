@@ -561,38 +561,16 @@ $(document).ready(function () {
 
 /*-- Thank you for subscribe popup  --*/
 
-// $("#signUp").click(function () {
-//   $("#thankyou-popup").addClass("show");
-// });
-// $(".thanyou-close-btn").click(function () {
-//   $("#thankyou-popup").removeClass("show");
-// });
-// $(".thanyou-close-btn").click(function () {
-//   $("#thankyou-popup").removeClass("show");
-// });
-
-var input = document.getElementById('SubEmail');
-var popup = document.getElementById('thankyou-popup');
-
-$("#check").click(function() {
-    if (($(".has-error").length > 0) || (input.value.length == 0)) {
-        // Do some code here
-        alert("Please enter a valid");
-       return false;
-    } else {
-        // alert("successful");
-        $("#thankyou-popup").addClass("show");
-        return true;
-    
-    }
-    
-}); 
-$(".thanyou-close-btn").click(function () {
-  $("#thankyou-popup").removeClass("show");
-});
-$(".thanyou-close-btn").click(function () {
-  $("#thankyou-popup").removeClass("show");
-});
+$('#mce-success-response').on('DOMSubtreeModified',function(){
+    $("#thankyou-popup").addClass("show");
+    $("#mce-success-response").hide();
+  });
+  $(".thanyou-close-btn").click(function () {
+    $("#thankyou-popup").removeClass("show");
+  });
+  $(".thanyou-close-btn").click(function () {
+    $("#thankyou-popup").removeClass("show");
+  });
 
 
 /*--  cookie popup --*/

@@ -204,13 +204,25 @@ footer{
 
 /* Mailchimp CSS */
 
-#mc_embed_signup div.mce_inline_error {
-    color: red!important;
-    font-size: 16px;
-    font-family: $fontBarlowLight;
-    background-color: transparent!important;
-}
-
+#EmailSubscribe{
+    #mc_embed_signup div.mce_inline_error {
+        color: #EE2E2E!important;
+        font-size: 16px;
+        font-family: $fontBarlowLight;
+        background-color: transparent!important;
+    }
+    .mc-field-group input {
+        color: #fff !important;
+    }
+    .enquiryBtn{
+        margin-top: 20px;
+        padding: 0;
+    }
+    .enquiry-button{
+        padding: 0;
+        margin-top: 5px;
+    }
+} 
 
 
 // Small devices (landscape phones, 576px and up)
@@ -260,6 +272,21 @@ footer{
     .main-footer .footer-subscribe {
         padding-top: 0;
     }
+    /* Mailchimp CSS */
+    #EmailSubscribe {
+        .mc-field-group {
+            width: 400px;
+        }
+        #mc-embedded-subscribe{
+            width: 200px;
+        }
+        .enquiryBtn{
+            margin-top: 10px;
+        }
+        .enquiry-button{
+            width: 200px;
+        }
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -274,10 +301,10 @@ footer{
     }
     .main-footer .footer-licens h6{
         text-align: left;
-       
     }
-    
-    
+    #EmailSubscribe .enquiryBtn{
+        margin-top: 11px;
+    }
 }
 
 // Large devices (desktops, 992px and up)

@@ -1,6 +1,14 @@
 body:lang(TC),
 body:lang(SC)
 {
+    h1,h2,h3, a,
+    #wrapper .nav_links .nav-link{
+        font-weight: 400;
+    }
+    #AboutWE .about-p,
+    .hero-header .hero-intro2, p{
+        font-weight: 100;
+    }
     #AboutWE .about-h2{
         font-weight: 500;
         font-family: $fontNotoSansTC;
@@ -29,6 +37,17 @@ body:lang(SC)
     #liveGame .hero-header h1{
         font-weight: 500;
     }
+    .secondaryBtn,
+    .main-footer .footer-subscribe .btn{
+        font-family: $fontNotoSansTC;
+        font-weight: 300;
+    }
+    .gametab-game-title h4{
+        font-weight: 500;
+    }
+    #thankyou-popup .secondaryBtn{
+        font-size: 15px;
+    }
     @media (min-width: 768px){
         #ContactUs .contact-main{
             padding-top: 2em;
@@ -38,31 +57,37 @@ body:lang(SC)
         #newsFeed .frame-detail h6 {
             font-weight: 800;
         }
-        
     }
     @media (min-width: 1200px){
     }
-    
-    
 }
 
 body:lang(TC)
 {
-    h1,h2,h3,h4, h5, h6, p,
+    body,h1,h2,h3,h4, h5, h6, p, span,
+    #AboutWE .about-p,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
     #newsFeed .frame-detail h6 {
         font-weight: 500;
     }
+    
 }
 body:lang(SC)
 {
-    h1,h2,h3,h4, h5, h6, p,
+    body,h1,h2,h3,h4, h5, h6, p, span,
+    #AboutWE .about-p,
     #wrapper .nav_links .nav-link{
-        font-family: $fontNotoSansTC;
+        font-family: $fontNotoSansSC;
     }
     #newsFeed .frame-detail h6 {
         font-weight: 800;
+    }
+}
+body:lang(EN)
+{
+    #ContactUs  .hyperlink{
+        font-weight: 400;
     }
 }

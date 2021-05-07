@@ -1798,11 +1798,25 @@ footer {
 }
 
 /* Mailchimp CSS */
-#mc_embed_signup div.mce_inline_error {
-  color: red !important;
+#EmailSubscribe #mc_embed_signup div.mce_inline_error {
+  color: #EE2E2E !important;
   font-size: 16px;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   background-color: transparent !important;
+}
+
+#EmailSubscribe .mc-field-group input {
+  color: #fff !important;
+}
+
+#EmailSubscribe .enquiryBtn {
+  margin-top: 20px;
+  padding: 0;
+}
+
+#EmailSubscribe .enquiry-button {
+  padding: 0;
+  margin-top: 5px;
 }
 
 @media (min-width: 576px) {
@@ -1851,6 +1865,19 @@ footer {
   .main-footer .footer-subscribe {
     padding-top: 0;
   }
+  /* Mailchimp CSS */
+  #EmailSubscribe .mc-field-group {
+    width: 400px;
+  }
+  #EmailSubscribe #mc-embedded-subscribe {
+    width: 200px;
+  }
+  #EmailSubscribe .enquiryBtn {
+    margin-top: 10px;
+  }
+  #EmailSubscribe .enquiry-button {
+    width: 200px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1865,6 +1892,9 @@ footer {
   }
   .main-footer .footer-licens h6 {
     text-align: left;
+  }
+  #EmailSubscribe .enquiryBtn {
+    margin-top: 11px;
   }
 }
 
@@ -4178,6 +4208,7 @@ footer {
   text-decoration: none;
   -webkit-transition: 200ms all ease;
   transition: 200ms all ease;
+  font-weight: 100;
 }
 
 #ContactUs .hyperlink:hover {
@@ -6926,10 +6957,10 @@ select.form-control::-ms-expand {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
   background: #011b3e;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(1, 27, 62, 0)), to(#060b1a));
-  background: linear-gradient(0deg, rgba(1, 27, 62, 0) 0%, #060b1a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#060B1A), to(rgba(6, 11, 26, 0.17)));
+  background: linear-gradient(180deg, #060B1A 0%, rgba(6, 11, 26, 0.17) 100%);
 }
 
 #AboutWE .about-brandStory {
@@ -7090,8 +7121,8 @@ select.form-control::-ms-expand {
   position: absolute;
   top: -4%;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translateX(-50%) scaleY(1.2);
+          transform: translateX(-50%) scaleY(1.2);
   z-index: -1;
   display: none;
 }
@@ -7317,8 +7348,8 @@ select.form-control::-ms-expand {
     left: 50%;
     width: 735px;
     height: 1311px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%) scaleY(1.15);
+            transform: translateX(-50%) scaleY(1.15);
     z-index: -1;
     display: block;
   }
@@ -7360,7 +7391,9 @@ select.form-control::-ms-expand {
     margin-top: 5rem;
   }
   #AboutWE .about-p {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 100;
   }
   #AboutWE .about-top-deco-2 {
     display: none;
@@ -7390,12 +7423,12 @@ select.form-control::-ms-expand {
     height: 531px;
   }
   #AboutWE .about-brandStory .about-h2 {
-    padding-top: 50px;
+    padding-top: 62px;
     margin-bottom: 0;
   }
   #AboutWE .about-brandStory .line-deco {
     margin-bottom: 10px;
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: block;
   }
   #brandstory-about {
@@ -7412,7 +7445,6 @@ select.form-control::-ms-expand {
     max-width: inherit;
   }
   #AboutWE .lower .about-p {
-    font-size: 16px;
     padding: 0;
   }
   #AboutWE .about-mission .line-deco {
@@ -7426,12 +7458,12 @@ select.form-control::-ms-expand {
   }
   #AboutWE .Dynamic-frame-2 {
     position: absolute;
-    top: 18%;
+    top: 23%;
     left: 50%;
     width: 939px;
     height: 597px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    -webkit-transform: translateX(-50%) scaleY(1.2);
+            transform: translateX(-50%) scaleY(1.2);
     z-index: -1;
     display: none;
   }
@@ -7487,7 +7519,7 @@ select.form-control::-ms-expand {
     display: block;
   }
   #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: 41px;
+    bottom: 111px;
   }
   #AboutWE .about-brandStory, #AboutWE .about-mission, #AboutWE .about-slogan {
     margin-top: 3rem;
@@ -7504,6 +7536,17 @@ select.form-control::-ms-expand {
     display: block;
     padding-top: 5rem;
   }
+  #AboutWE .about-slogan .line-deco {
+    padding-bottom: 19px;
+  }
+  #AboutWE .about-mission .about-h4 {
+    margin-top: 5rem;
+  }
+  #AboutWE .about-mission #upper-frame {
+    top: -39%;
+    -webkit-transform: scaleY(1.15);
+            transform: scaleY(1.15);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -7513,6 +7556,9 @@ select.form-control::-ms-expand {
   #AboutWE .hero-header-bkg .game-hero-D::after {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1.04%, rgba(7, 11, 25, 0)), color-stop(86.46%, #070B19), to(#080D1D));
     background: linear-gradient(180deg, rgba(7, 11, 25, 0) 1.04%, #070B19 86.46%, #080D1D 100%);
+  }
+  #AboutWE .about-brandStory .line-deco-vertical {
+    bottom: 115px;
   }
 }
 
@@ -8693,6 +8739,24 @@ select.form-control::-ms-expand {
   }
 }
 
+body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) a,
+body:lang(TC) #wrapper .nav_links .nav-link,
+body:lang(SC) h1,
+body:lang(SC) h2,
+body:lang(SC) h3,
+body:lang(SC) a,
+body:lang(SC) #wrapper .nav_links .nav-link {
+  font-weight: 400;
+}
+
+body:lang(TC) #AboutWE .about-p,
+body:lang(TC) .hero-header .hero-intro2, body:lang(TC) p,
+body:lang(SC) #AboutWE .about-p,
+body:lang(SC) .hero-header .hero-intro2,
+body:lang(SC) p {
+  font-weight: 100;
+}
+
 body:lang(TC) #AboutWE .about-h2,
 body:lang(SC) #AboutWE .about-h2 {
   font-weight: 500;
@@ -8739,6 +8803,24 @@ body:lang(SC) #liveGame .hero-header h1 {
   font-weight: 500;
 }
 
+body:lang(TC) .secondaryBtn,
+body:lang(TC) .main-footer .footer-subscribe .btn,
+body:lang(SC) .secondaryBtn,
+body:lang(SC) .main-footer .footer-subscribe .btn {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 300;
+}
+
+body:lang(TC) .gametab-game-title h4,
+body:lang(SC) .gametab-game-title h4 {
+  font-weight: 500;
+}
+
+body:lang(TC) #thankyou-popup .secondaryBtn,
+body:lang(SC) #thankyou-popup .secondaryBtn {
+  font-size: 15px;
+}
+
 @media (min-width: 768px) {
   body:lang(TC) #ContactUs .contact-main,
   body:lang(SC) #ContactUs .contact-main {
@@ -8753,7 +8835,8 @@ body:lang(SC) #liveGame .hero-header h1 {
   }
 }
 
-body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p,
+body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span,
+body:lang(TC) #AboutWE .about-p,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", sans-serif;
 }
@@ -8762,13 +8845,18 @@ body:lang(TC) #newsFeed .frame-detail h6 {
   font-weight: 500;
 }
 
-body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p,
+body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span,
+body:lang(SC) #AboutWE .about-p,
 body:lang(SC) #wrapper .nav_links .nav-link {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
 }
 
 body:lang(SC) #newsFeed .frame-detail h6 {
   font-weight: 800;
+}
+
+body:lang(EN) #ContactUs .hyperlink {
+  font-weight: 400;
 }
 
 body:lang(TC) .deco-content,
@@ -8809,21 +8897,15 @@ body:lang(TC) #intdexWhatsNews .news-item-header {
 }
 
 body:lang(SC) .deco-content {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
 }
 
 body:lang(SC) #intdexWhatsNews .text-gold-btn,
 body:lang(SC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(SC) .coming .disable-text h4,
 body:lang(SC) #intdexWhatsNews .news-item-header {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-weight: 500;
-}
-
-body:lang(TC) #AboutWE .about-p,
-body:lang(SC) #AboutWE .about-p {
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: 100;
 }
 
 body:lang(TC) #AboutWE p,
@@ -8844,17 +8926,13 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
 }
 
 @media (min-width: 768px) {
-  body:lang(TC) #AboutWE .about-main .about-h2,
-  body:lang(SC) #AboutWE .about-main .about-h2 {
-    margin-top: -9px;
-  }
   body:lang(TC) #AboutWE .about-brandStory .about-p,
   body:lang(SC) #AboutWE .about-brandStory .about-p {
-    padding-top: 8rem;
+    padding-top: 6.5rem;
   }
   body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
   body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
-    bottom: -36%;
+    bottom: -20%;
   }
   body:lang(TC) #AboutWE .about-cert,
   body:lang(TC) #AboutWE .about-brandStory,
@@ -8874,14 +8952,37 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   body:lang(SC) #AboutWE .about-mission .line-deco-vertical {
     top: -51%;
   }
+  body:lang(TC) #AboutWE #Dynamic-frame-2-outer-m,
+  body:lang(SC) #AboutWE #Dynamic-frame-2-outer-m {
+    top: -14%;
+    -webkit-transform: translateX(-50%) scaleY(0.95);
+            transform: translateX(-50%) scaleY(0.95);
+  }
+  body:lang(TC) #AboutWE .Dynamic-frame-2,
+  body:lang(SC) #AboutWE .Dynamic-frame-2 {
+    top: -16%;
+    -webkit-transform: translateX(-50%) scaleY(0.95);
+            transform: translateX(-50%) scaleY(0.95);
+  }
+  body:lang(TC) #AboutWE .Dynamic-frame,
+  body:lang(SC) #AboutWE .Dynamic-frame {
+    top: -1%;
+    -webkit-transform: translateX(-50%) scaleY(0.8);
+            transform: translateX(-50%) scaleY(0.8);
+  }
+  body:lang(TC) #AboutWE #Dynamic-frame-outer,
+  body:lang(SC) #AboutWE #Dynamic-frame-outer {
+    top: -3%;
+    -webkit-transform: translateX(-50%) scaleY(0.8);
+            transform: translateX(-50%) scaleY(0.8);
+  }
+  body:lang(TC) #AboutWE .about-main .about-h2,
+  body:lang(SC) #AboutWE .about-main .about-h2 {
+    margin-top: 31px;
+  }
 }
 
 @media (min-width: 992px) {
-  body:lang(TC) #AboutWE .about-brandStory .about-h2,
-  body:lang(SC) #AboutWE .about-brandStory .about-h2 {
-    padding-top: 35px;
-    margin-top: 0;
-  }
   body:lang(TC) #AboutWE .about-brandStory .about-p,
   body:lang(SC) #AboutWE .about-brandStory .about-p {
     padding-top: 1rem;
@@ -8897,6 +8998,83 @@ body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   body:lang(TC) #AboutWE .about-mission .about-h4,
   body:lang(SC) #AboutWE .about-mission .about-h4 {
     margin-top: 4rem;
+  }
+  body:lang(TC) #AboutWE #Dynamic-frame-2-outer-m,
+  body:lang(TC) #AboutWE .Dynamic-frame-2,
+  body:lang(TC) #AboutWE .Dynamic-frame,
+  body:lang(TC) #AboutWE #Dynamic-frame-outer,
+  body:lang(SC) #AboutWE #Dynamic-frame-2-outer-m,
+  body:lang(SC) #AboutWE .Dynamic-frame-2,
+  body:lang(SC) #AboutWE .Dynamic-frame,
+  body:lang(SC) #AboutWE #Dynamic-frame-outer {
+    -webkit-transform: translateX(-50%) scaleY(1);
+            transform: translateX(-50%) scaleY(1);
+  }
+  body:lang(TC) #AboutWE .about-brandStory .about-h2,
+  body:lang(SC) #AboutWE .about-brandStory .about-h2 {
+    margin-top: -10rem;
+  }
+  body:lang(TC) #AboutWE .about-brandStory .line-deco,
+  body:lang(SC) #AboutWE .about-brandStory .line-deco {
+    padding-top: 3rem;
+  }
+  body:lang(TC) #AboutWE .about-mission #upper-frame,
+  body:lang(SC) #AboutWE .about-mission #upper-frame {
+    top: -26%;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+  body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
+  body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
+    bottom: 2%;
+  }
+  body:lang(TC) #AboutWE .Dynamic-frame-2,
+  body:lang(SC) #AboutWE .Dynamic-frame-2 {
+    top: 23%;
+  }
+  body:lang(TC) #AboutWE .about-mission .upper .about-p,
+  body:lang(SC) #AboutWE .about-mission .upper .about-p {
+    margin-top: 34px;
+    margin-left: -75px;
+  }
+  body:lang(TC) #AboutWE .about-mission .line-deco-vertical,
+  body:lang(SC) #AboutWE .about-mission .line-deco-vertical {
+    top: -51%;
+  }
+  body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
+  body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
+    bottom: -10%;
+  }
+  body:lang(TC) #AboutWE .about-slogan,
+  body:lang(SC) #AboutWE .about-slogan {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body:lang(TC) #AboutWE .about-brandStory .about-h2,
+  body:lang(SC) #AboutWE .about-brandStory .about-h2 {
+    margin-top: -2rem;
+  }
+  body:lang(TC) #AboutWE .Dynamic-frame,
+  body:lang(SC) #AboutWE .Dynamic-frame {
+    top: 18%;
+  }
+  body:lang(TC) #AboutWE #Dynamic-frame-outer,
+  body:lang(SC) #AboutWE #Dynamic-frame-outer {
+    top: 15%;
+  }
+  body:lang(TC) #AboutWE .Dynamic-frame-2,
+  body:lang(SC) #AboutWE .Dynamic-frame-2 {
+    top: 22%;
+  }
+  body:lang(TC) #AboutWE .about-brandStory .line-deco-vertical,
+  body:lang(SC) #AboutWE .about-brandStory .line-deco-vertical {
+    bottom: 1%;
+  }
+  body:lang(TC) #AboutWE .about-mission .about-h4,
+  body:lang(SC) #AboutWE .about-mission .about-h4 {
+    margin-top: 3rem;
   }
 }
 

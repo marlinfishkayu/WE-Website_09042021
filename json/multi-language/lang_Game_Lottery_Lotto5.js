@@ -67,6 +67,7 @@ var arrLang = {
       'HelloThere' : 'Hello There!',
       'thankyou_p' : 'You’re on our mailing list now and will be among the first to hear about the latest news, collections and videos from WE.',
       'Okay' : 'OKAY',
+      'Email-S' : 'Please enter your email address here',
       //input placeholder
       'input_email':'Please enter your email address here',
       
@@ -162,6 +163,7 @@ var arrLang = {
       'HelloThere' : '哈囉！！',
       'thankyou_p' : '你現在已在我們聯絡名單中，我們會將最新消息、產品和影片等資訊通過電郵發送給你。',
       'Okay' : '關閉',
+      'Email-S' :'請在此處輸入你電郵',
       //input placeholder
       'input_email':'請在此處輸入你的電子郵件地址',
     
