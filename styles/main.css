@@ -4511,6 +4511,28 @@ select.form-control::-ms-expand {
   -webkit-text-fill-color: #76787d;
 }
 
+.social-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.social-container .social-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-container .social-wrap .contact-icon {
+  width: 40px;
+  height: 40px;
+}
+
 @media (min-width: 576px) {
   #ContactUs .contact-main {
     padding-top: 23em;
@@ -5353,6 +5375,15 @@ select.form-control::-ms-expand {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #news-carousel,
+  #news-carousel #slider-area,
+  #news-carousel .slide,
+  #news-carousel .news-slider-bkg {
+    height: 500px;
+  }
+}
+
 @media (max-width: 991px) {
   #newsFeed .news-filter-wrap {
     padding: 3rem 5rem;
@@ -5373,12 +5404,6 @@ select.form-control::-ms-expand {
     background: #011b3e;
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
     background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
-  }
-  #news-carousel,
-  #news-carousel #slider-area,
-  #news-carousel .slide,
-  #news-carousel .news-slider-bkg {
-    height: 500px;
   }
 }
 

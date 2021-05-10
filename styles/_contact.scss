@@ -298,6 +298,22 @@ select.form-control::-ms-expand {
         -webkit-text-fill-color: #76787d;
       }
 }
+.social-container{
+    width: 300px;
+    margin: 0 auto;
+    .social-wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .contact-icon{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
