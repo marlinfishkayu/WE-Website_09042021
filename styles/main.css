@@ -9484,7 +9484,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     width: 230px;
   }
   .feature-photo picture {
-    padding-top: 13px;
+    padding-top: 73px;
   }
   #slider-area .owl-item {
     height: 500px;
@@ -9571,6 +9571,10 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   }
   .feature-photo picture {
     padding-top: 0px;
+  }
+  #liveGame .feature-photo picture::after {
+    height: 292px;
+    top: -300px;
   }
   #slider-area .owl-item {
     height: 640px;
