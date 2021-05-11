@@ -399,6 +399,13 @@ button:focus {
 .cover{
   object-fit: cover;
 }
+.link{
+  color: $hyperlinkColor;
+}
+.link:hover {
+  color: $secondaryColor;
+  text-decoration: none;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 

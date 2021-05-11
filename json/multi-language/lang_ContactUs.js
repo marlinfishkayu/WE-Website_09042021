@@ -61,8 +61,8 @@ var arrLang = {
     //Contact Us
     'ContactUs' : 'Contact Us',
     'ContactUs_slogan' : 'Help is at hand.',
-    'ContactUs_p1' : 'Leave us your message by filling up the contact form below and WE’ll be in touch with you soon.',
-    'ContactUs_p2' : 'By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries. For more details, please check out ',
+    'ContactUs_p1' : 'We’re always happy to talk to anyone, who interested in WE. Get in touch with us. ',
+    'ContactUs_p2' : '',
     'ContactUs_privacy' : 'Privacy Policy.',
     //Contact Form
     'firstName' : 'First name*',
@@ -399,8 +399,8 @@ var arrLang = {
     //Contact Us
     'ContactUs' : '聯絡我們',
     'ContactUs_slogan' : '隨時為你服務',
-    'ContactUs_p1' : '請填寫下面的聯繫表格，我們會盡快與你聯繫。',
-    'ContactUs_p2' : '填寫此表即表示你同意並願意讓我們收集閣下聯繫方式和其他信息，以使我們能夠有效地答覆你所有詢問。有關更多詳細信息，請查看',
+    'ContactUs_p1' : '如您想更進一步了解WE或查詢更多， 請電郵至，',
+    'ContactUs_p2' : '我們將儘速與您聯繫。',
     'ContactUs_privacy' : '隱私政策。',
     //Contact Form
     'firstName' : '名字*',
@@ -737,8 +737,8 @@ var arrLang = {
     //Contact Us
     'ContactUs' : '联络我们',
     'ContactUs_slogan' : '随时为你服务',
-    'ContactUs_p1' : '请填写下面的联系表格，我们会尽快与你联系。',
-    'ContactUs_p2' : '填写此表即表示你同意并愿意让我们收集阁下联系方式和其他信息，以使我们能够有效地答覆你所有询问。有关更多详细信息，请查看',
+    'ContactUs_p1' : '如您想更进一步了解WE或查询更多， 请电邮至，',
+    'ContactUs_p2' : '我们将尽速与您联系。',
     'ContactUs_privacy' : '隐私政策。',
     //Contact Form
     'firstName' : '名字*',

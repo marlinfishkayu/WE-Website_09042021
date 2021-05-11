@@ -519,6 +519,15 @@ button:focus {
      object-fit: cover;
 }
 
+.link {
+  color: #89663d;
+}
+
+.link:hover {
+  color: #b0936d;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .hero-intro1 {
     font-size: 22px;
@@ -9588,8 +9597,8 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     padding-top: 0px;
   }
   #liveGame .feature-photo picture:after {
-    top: -390px;
-    left: 0px;
+    top: 0px;
+    left: 10px;
     width: 373px;
     height: 236px;
   }
