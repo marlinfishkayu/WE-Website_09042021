@@ -377,10 +377,10 @@ var arrImg = {
       'hero_1_L': './images/index/en/hero_1_L.png',
       'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
-      'col_1': 'images/index/en/col1_expand-icon_x1.png 500w,images/index/en/col1_expand-icon_x2.png 1000w',
-      'col_2': 'images/index/en/col2_expand-icon_x1.png 500w,images/index/en/col2_expand-icon_x2.png 1000w',
-      'col_3': 'images/index/en/index_ourGames_col3_livegame_x1.jpg 500w,images/index/en/index_ourGames_col3_livegame_x2.jpg 1000w',
-      'col_4': 'images/index/en/index_ourGames_col4_livegame_x1.jpg 500w,images/index/en/index_ourGames_col4_livegame_x2.jpg 1000w',
+      'col_1': './images/index/en/col1_expand-icon_x1.png 500w, ./images/index/en/col1_expand-icon_x2.png 1000w',
+      'col_2': './images/index/en/col2_expand-icon_x1.png 500w, ./images/index/en/col2_expand-icon_x2.png 1000w',
+      'col_3': 'images/index/en/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/en/index_ourGames_col3_livegame_x2.jpg 1000w',
+      'col_4': 'images/index/en/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/en/index_ourGames_col4_livegame_x2.jpg 1000w',
     }],
   'TC': [{
       //WE Logo
@@ -389,10 +389,10 @@ var arrImg = {
       'hero_1_L': './images/index/en/hero_1_L.png',
       'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
-      'col_1': 'images/index/tc/col1_expand-icon_x1.png 500w,images/index/tc/col1_expand-icon_x1.png 1000w',
-      'col_2': 'images/index/tc/col2_expand-icon_x1.png 500w,images/index/tc/col2_expand-icon_x2.png 1000w',
-      'col_3': 'images/index/tc/index_ourGames_col3_livegame_x1.jpg 500w,images/index/tc/index_ourGames_col3_livegame_x2.jpg 1000w',
-      'col_4': 'images/index/tc/index_ourGames_col4_livegame_x1.jpg 500w,images/index/tc/index_ourGames_col4_livegame_x2.jpg 1000w',
+      'col_1': './images/index/tc/col1_expand-icon_x1.png 500w, ./images/index/tc/col1_expand-icon_x2.png 1000w',
+      'col_2': './images/index/tc/col2_expand-icon_x1.png 500w, ./images/index/tc/col2_expand-icon_x2.png 1000w',
+      'col_3': './images/index/tc/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/tc/index_ourGames_col3_livegame_x2.jpg 1000w',
+      'col_4': './images/index/tc/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/tc/index_ourGames_col4_livegame_x2.jpg 1000w',
     }],
   'SC': [{
       //WE Logo
@@ -401,10 +401,10 @@ var arrImg = {
       'hero_1_L': './images/index/en/hero_1_L.png',
       'hero_1_P': './images/index/en/hero_1_P.png',
       //live game
-      'col_1': 'images/index/sc/col1_expand-icon_x1.png 500w,images/index/sc/col1_expand-icon_x1.png 1000w',
-      'col_2': 'images/index/sc/col2_expand-icon_x1.png 500w,images/index/sc/col2_expand-icon_x2.png 1000w',
-      'col_3': 'images/index/sc/index_ourGames_col3_livegame_x1.jpg 500w,images/index/sc/index_ourGames_col3_livegame_x2.jpg 1000w',
-      'col_4': 'images/index/sc/index_ourGames_col4_livegame_x1.jpg 500w,images/index/sc/index_ourGames_col4_livegame_x2.jpg 1000w',
+      'col_1': './images/index/sc/col1_expand-icon_x1.png 500w, ./images/index/sc/col1_expand-icon_x1.png 1000w',
+      'col_2': './images/index/sc/col2_expand-icon_x1.png 500w, ./images/index/sc/col2_expand-icon_x2.png 1000w',
+      'col_3': './images/index/sc/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/sc/index_ourGames_col3_livegame_x2.jpg 1000w',
+      'col_4': './images/index/sc/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/sc/index_ourGames_col4_livegame_x2.jpg 1000w',
    }]
 };
 
