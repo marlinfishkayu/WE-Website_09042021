@@ -155,8 +155,8 @@
     select::-ms-expand {
         display: none;
     }
-    #news-carousel{
-        height: 400px;
+    #news-carousel,#news-carousel #slider-area .news-slide{
+        height: 800px;
     }
     #allLiveGame .allLiveGame-main .game-item-wrap .outline-stroke{
         top: -11px;
