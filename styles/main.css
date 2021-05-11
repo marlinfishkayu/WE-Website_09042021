@@ -9606,7 +9606,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   }
   #liveGame .feature-photo picture:after {
     top: -320px;
-    left: -120px;
+    left: -30px;
     width: 373px;
     height: 236px;
     display: block;
@@ -9721,6 +9721,13 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   }
   #news-carousel .update-content .update-date {
     padding-top: 7rem;
+  }
+  #liveGame .feature-photo picture:after {
+    top: -320px;
+    left: -30px;
+    width: 373px;
+    height: 236px;
+    display: block;
   }
 }
 /*# sourceMappingURL=main.css.map */
