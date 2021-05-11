@@ -441,7 +441,9 @@
         #news-carousel #slider-area .update-wrapper{
             margin-top: -20px;
         }
-        
+        #news-carousel .update-content{
+            margin-top: 0rem;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
