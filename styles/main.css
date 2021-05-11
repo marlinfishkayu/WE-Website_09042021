@@ -9672,6 +9672,10 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   #NewsDetail #event-page {
     margin-top: 63px;
   }
+  #news-carousel,
+  #news-carousel #slider-area .news-slide {
+    height: 800px;
+  }
   #news-carousel #slider-area .update-wrapper {
     margin-top: 100px;
   }
