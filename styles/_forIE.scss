@@ -225,6 +225,10 @@
         #news-carousel .update-content{
             margin-top: 0px;
         }
+        #news-carousel,
+        #news-carousel #slider-area .news-slide{
+            height: 300px;
+        }
     }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) {
@@ -331,7 +335,7 @@
         }
         #news-carousel,
         #news-carousel #slider-area .news-slide{
-            height: 300px;
+            height: 400px;
         }
     }
     // Large devices (desktops, 992px and up)
@@ -423,10 +427,7 @@
         #NewsDetail #event-page{
             margin-top: 63px;
         }
-        #news-carousel,
-        #news-carousel #slider-area .news-slide{
-            height: 400px;
-        }
+        
         #news-carousel #slider-area .update-wrapper{
             margin-top: 100px;
         }
