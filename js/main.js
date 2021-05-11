@@ -131,13 +131,7 @@ $(".icon-lang").click(function () {
   $(".nav-wrap").addClass("lang_hold");
   return false;
 });
-// $(document).on("click", function(event){
 
-//    $('.lang-dropdown').removeClass("show");
-//    $('.nav-wrap').removeClass("lang_hold");
-//   $('.nav-wrap').removeClass("pointer");
-
-// });
 $(".icon-lang").click(function (event) {
   $("html").one("click", function () {
       $(".lang-dropdown").removeClass("show");
@@ -319,7 +313,6 @@ $(".studio-card").hover(
 $("#popularCarousel").owlCarousel({
   loop: true,
   lazyLoad: true,
-  // margin:10,
   nav: true,
   autoWidth: true,
   items: 1,
@@ -578,11 +571,6 @@ $('#mce-success-response').on('DOMSubtreeModified',function(){
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn");
 
-// $('.cookie-btn').click(function(){
-//   $('.cookie-container').classList.remove("active");
-//   localStorage.setItem("cookieBannerDisplayed", "true");
-// });
-
 cookieButton.addEventListener("click", function () {
   cookieContainer.classList.remove("active");
   localStorage.setItem("cookieBannerDisplayed", "true");
@@ -648,3 +636,6 @@ $(document).ready(function () {
   });
 });
 /*-- What's New Timeline filter function end --*/
+
+
+

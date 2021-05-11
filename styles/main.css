@@ -3100,7 +3100,13 @@ footer {
 
 .coming .disable-img {
   -webkit-filter: opacity(30%);
-          filter: opacity(30%);
+  -o-filter: opacity(30%);
+  -moz-filter: opacity(30%);
+  -ms-filter: opacity(30%);
+  filter: opacity(30%);
+  -webkit-filter: gray;
+          filter: gray;
+  /* IE 6-9 */
 }
 
 .coming .disable-text {
