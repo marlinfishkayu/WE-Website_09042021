@@ -250,6 +250,12 @@
         .feature-photo picture{
             padding-top: 73px;
         }
+        .feature-photo picture:after{
+            top: -204px;
+            left: 17px;
+            width:269px;
+            height: 178px;
+        }
         #slider-area .owl-item{
             height: 500px;
         }
@@ -336,9 +342,11 @@
         .feature-photo picture{
             padding-top: 0px;
         }
-        #liveGame .feature-photo picture::after{
-            height: 292px;
-            top: -300px;
+        #liveGame .feature-photo picture:after{
+            top: -266px;
+            left: 22px;
+            width:373px;
+            height: 236px;
         }
         #slider-area .owl-item{
             height: 640px;
