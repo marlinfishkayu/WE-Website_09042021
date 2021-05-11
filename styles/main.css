@@ -9711,5 +9711,8 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   #NewsDetail #event-page {
     margin-top: 71px;
   }
+  #news-carousel .update-content .update-date {
+    padding-top: 7rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
