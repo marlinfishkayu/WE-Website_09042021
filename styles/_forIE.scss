@@ -329,6 +329,10 @@
         #error .error-main-bkg{
             height: 1000px;
         }
+        #news-carousel,
+        #news-carousel #slider-area .news-slide{
+            height: 300px;
+        }
     }
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px) {
@@ -419,8 +423,13 @@
         #NewsDetail #event-page{
             margin-top: 63px;
         }
-
-
+        #news-carousel,
+        #news-carousel #slider-area .news-slide{
+            height: 400px;
+        }
+        #news-carousel #slider-area .update-wrapper{
+            margin-top: 100px;
+        }
     }
     // Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {
