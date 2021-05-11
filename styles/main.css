@@ -9605,10 +9605,11 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     padding-top: 0px;
   }
   #liveGame .feature-photo picture:after {
-    top: -270px;
-    left: -50px;
+    top: -320px;
+    left: -120px;
     width: 373px;
     height: 236px;
+    display: block;
   }
   #slider-area .owl-item {
     height: 640px;
