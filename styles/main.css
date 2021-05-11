@@ -9509,7 +9509,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     padding-top: 73px;
   }
   .feature-photo picture:after {
-    top: -204px;
+    top: -190px;
     left: 17px;
     width: 269px;
     height: 178px;
@@ -9606,7 +9606,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   }
   #liveGame .feature-photo picture:after {
     top: -300px;
-    left: 10px;
+    left: -10px;
     width: 373px;
     height: 236px;
   }
