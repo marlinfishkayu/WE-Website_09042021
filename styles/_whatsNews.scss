@@ -38,7 +38,8 @@
         top: 0;
         left: 0;
         z-index: -1;
-        filter: blur(30px) grayscale(0.3)brightness(0.9);
+        // filter: blur(30px) grayscale(0.3)brightness(0.9);
+        filter: grayscale(0.3)brightness(0.9);
     }
     .update-wrapper{
         position: absolute;
@@ -982,7 +983,7 @@
         bottom: 15%;
     }
     #news-carousel .news-slider-bkg {
-        filter: blur(30px) grayscale(0.3) brightness(0.5);
+        filter: grayscale(0.3) brightness(0.5);
     }
 }
 @media (min-width: 992px) and (max-width: 1200px){

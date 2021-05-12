@@ -12,11 +12,11 @@ var arrLang = {
       
       //navbar-submenu
       'submenu_LiveGames': 'Live Games',
-      'submenu_Lottery': 'Lottery',
+      'submenu_Lottery': 'Lotteries',
       'submenu_Sportsbook': 'Sportsbook',
       'submenu_Slots': 'Slots',
       'submenu_AllLiveGame': 'All Live Games',
-      'submenu_AllLotteryGame': 'All Lottery Games',
+      'submenu_AllLotteryGame': 'All Lotteries',
       'ComingSoon': 'COMING SOON',
   
       //livegame submenu
@@ -83,13 +83,13 @@ var arrLang = {
       'gameDetail_p1': 'PK-10 Racing is also known as Beijing PK and Beijing PK10. It is one of the famous lottery games in China. Players will be definitely excited by the fast-paced enjoyment and simple rules.',
       'feature_1.1': 'Straightforward and excited game rules',
       'feature_1.2': '',
-      'feature_1_p': '“PK-10” is well-known for its simpleness and has become one of the most famous gambling games in the world. Players are able to win more bonuses according to the ranking, big and small, sum of bets and so forth.',
+      'feature_1_p': '“PK-10 Racing” is well-known for its simpleness and has become one of the most famous gambling games in the world. Players are able to win more bonuses according to the ranking, big and small, sum of bets and so forth.',
       'feature_2.1': 'Everything is ',
       'feature_2.2': 'under control',
       'feature_2_p': 'WE have organized all of the analytics in simple graphics, so players shall not be worried about that. It saves their time to make the next bet at a glance.',
       'feature_3.1': 'Live interaction ',
       'feature_3.2': 'with anchor',
-      'feature_3_p': 'At “Live Lottery”, players might connect with the anchor and join PK-10 in live broadcast to build up strong engagement. ',
+      'feature_3_p': 'At “Live Lottery”, players might connect with the anchor and join PK-10 Racing in live broadcast to build up strong engagement. ',
     },
   
   
