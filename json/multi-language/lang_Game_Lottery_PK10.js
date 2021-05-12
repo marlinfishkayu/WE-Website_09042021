@@ -79,7 +79,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
-      'Lottery':'LOTTERY',
+      'Lottery':'LOTTERIES',
       'gameDetail_p1': 'PK-10 Racing is also known as Beijing PK and Beijing PK10. It is one of the famous lottery games in China. Players will be definitely excited by the fast-paced enjoyment and simple rules.',
       'feature_1.1': 'Straightforward and excited game rules',
       'feature_1.2': '',

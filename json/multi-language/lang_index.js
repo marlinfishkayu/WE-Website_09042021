@@ -90,7 +90,7 @@ var arrLang = {
       'index_sect2_h2': 'Our hottest online game.',
       'index_sect2_p': 'WE carefully select our most popular game for you.',
       'index_sect2_LiveGame': 'LIVE GAMES ',
-      'index_sect2_LotteryGame': 'LOTTERY GAME',
+      'index_sect2_LotteryGame': 'LOTTERIES',
       
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': 'WE play beyond classic.',

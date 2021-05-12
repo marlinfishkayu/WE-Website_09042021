@@ -79,7 +79,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
-      'Lottery':'LOTTERY',
+      'Lottery':'LOTTERIES',
       'gameDetail_p1': 'Lotto-5 is a popular lottery across China. It is an interesting game and includes a variety of betting choices with odds. Players need to bet on the combination of numbers so could become the winners.',
       'feature_1.1': 'Massive betting',
       'feature_1.2': 'options',
