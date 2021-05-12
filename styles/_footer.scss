@@ -14,14 +14,12 @@ footer{
         padding-top: 2em;
         li{
             padding-top: 10px;
-            font-family: $fontBarlowLight;
             color: red;
         }
         .tag-left{
             padding-bottom: 2rem;
         }
         h6{
-            font-family: $fontFuturaMedium;
             font-size: 14px;
             font-weight: 100;
             letter-spacing: 1px;
@@ -31,7 +29,6 @@ footer{
             color: #D8D8D8;
         }
         p{
-            font-family: $fontBarlowRegular; 
             font-size: 14px;
             font-weight: 100;
             text-align: center;
@@ -42,7 +39,6 @@ footer{
         .subscribe-form{
             padding: 1rem 0rem;
             input{
-                font-family: $fontBarlowRegular; 
                 font-size: 14px;
                 background-color: transparent;
                 border: 1px solid #545454;

@@ -1570,7 +1570,6 @@ footer {
 
 .main-footer .footer-subscribe li {
   padding-top: 10px;
-  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   color: red;
 }
 
@@ -1579,7 +1578,6 @@ footer {
 }
 
 .main-footer .footer-subscribe h6 {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 14px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -1590,7 +1588,6 @@ footer {
 }
 
 .main-footer .footer-subscribe p {
-  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 14px;
   font-weight: 100;
   text-align: center;
@@ -1604,7 +1601,6 @@ footer {
 }
 
 .main-footer .footer-subscribe .subscribe-form input {
-  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
   font-size: 14px;
   background-color: transparent;
   border: 1px solid #545454;
@@ -7108,7 +7104,6 @@ select.form-control::-ms-expand {
 }
 
 #AboutWE .about-h2 {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -7121,7 +7116,6 @@ select.form-control::-ms-expand {
 }
 
 #AboutWE .about-h4 {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 18px;
   font-weight: 100;
   letter-spacing: 1px;
@@ -7133,7 +7127,6 @@ select.form-control::-ms-expand {
 
 #AboutWE .about-p {
   padding-top: 30px;
-  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 100;
   line-height: 1.5;
@@ -8936,7 +8929,10 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
 }
 
 body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span,
-body:lang(TC) #AboutWE .about-p, body:lang(TC) .feature-flexbox h2,
+body:lang(TC) .feature-flexbox h2,
+body:lang(TC) .live-game-main .feature-header,
+body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
+body:lang(TC) .main-footer li, body:lang(TC) .main-footer h6, body:lang(TC) .main-footer p, body:lang(TC) .main-footer .subscribe-form input,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", sans-serif;
 }
@@ -8946,7 +8942,10 @@ body:lang(TC) #newsFeed .frame-detail h6 {
 }
 
 body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span,
-body:lang(SC) #AboutWE .about-p, body:lang(SC) .feature-flexbox h2,
+body:lang(SC) .feature-flexbox h2,
+body:lang(SC) .live-game-main .feature-header,
+body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
+body:lang(SC) .main-footer li, body:lang(SC) .main-footer h6, body:lang(SC) .main-footer p, body:lang(SC) .main-footer .subscribe-form input,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", sans-serif;
 }
@@ -8957,6 +8956,27 @@ body:lang(SC) #newsFeed .frame-detail h6 {
 
 body:lang(EN) #ContactUs .hyperlink {
   font-weight: 400;
+}
+
+body:lang(EN) #AboutWE .about-p {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+}
+
+body:lang(EN) #AboutWE .about-h2,
+body:lang(EN) #AboutWE .about-h4 {
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+}
+
+body:lang(EN) .main-footer li {
+  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
+}
+
+body:lang(EN) .main-footer h6 {
+  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+}
+
+body:lang(EN) .main-footer p, body:lang(EN) .main-footer .subscribe-form input {
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
 }
 
 body:lang(TC) .deco-content,
