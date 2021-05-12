@@ -96,25 +96,19 @@ body:lang(EN)
     #ContactUs  .hyperlink{
         font-weight: 400;
     }
-    #AboutWE{
-        .about-p{
-            font-family: $fontBarlowLight;
-        }
-        .about-h2,
-        .about-h4{
-            font-family: $fontFuturaMedium;
-        }
+    #AboutWE .about-p, 
+    .main-footer li
+    {
+        font-family: $fontBarlowLight;
     }
-    .main-footer{
-        li{
-            font-family: $fontBarlowLight;
-        }
-        h6{
-            font-family: $fontFuturaMedium;
-        }
-        p,.subscribe-form input{
-            font-family: $fontBarlowRegular; 
-        }
+    #AboutWE .about-h2, #AboutWE .about-h4,
+    .main-footer h6,
+    .game-icon-wrap
+    {
+        font-family: $fontFuturaMedium;
     }
+    .main-footer p, .main-footer .subscribe-form input{
+        font-family: $fontBarlowRegular; 
     
+    }
 }

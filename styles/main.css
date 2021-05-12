@@ -7117,7 +7117,7 @@ select.form-control::-ms-expand {
 
 #AboutWE .about-h4 {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 50px;
   text-transform: uppercase;
@@ -8738,7 +8738,6 @@ select.form-control::-ms-expand {
 
 .game-icon-wrap h4 {
   font-size: 14px;
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 100;
   padding-top: 10px;
@@ -8958,20 +8957,14 @@ body:lang(EN) #ContactUs .hyperlink {
   font-weight: 400;
 }
 
-body:lang(EN) #AboutWE .about-p {
-  font-family: "Barlow Light", sans-serif, Arial, Helvetica;
-}
-
-body:lang(EN) #AboutWE .about-h2,
-body:lang(EN) #AboutWE .about-h4 {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
-}
-
+body:lang(EN) #AboutWE .about-p,
 body:lang(EN) .main-footer li {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
-body:lang(EN) .main-footer h6 {
+body:lang(EN) #AboutWE .about-h2, body:lang(EN) #AboutWE .about-h4,
+body:lang(EN) .main-footer h6,
+body:lang(EN) .game-icon-wrap {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
@@ -9468,7 +9461,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     height: auto;
   }
   .game-hero-M {
-    width: 186%;
+    min-height: 600px;
   }
   .game-hero-D {
     width: 150%;
