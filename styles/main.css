@@ -6717,7 +6717,6 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
   font-size: 26px;
   letter-spacing: 1px;
   font-weight: 100;
@@ -6728,7 +6727,6 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
-  font-family: Futura-Condensed-Medium, Arial, sans-serif;
   font-size: 18px;
   font-weight: 100;
   text-transform: uppercase;
@@ -6738,7 +6736,7 @@ select.form-control::-ms-expand {
 
 #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
-  font-size: 11px;
+  font-size: 12px;
   color: #979797;
   padding-top: 10px;
   opacity: 0;
@@ -8918,6 +8916,10 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
   body:lang(SC) #ContactUs .contact-main {
     padding-top: 2em;
   }
+  body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+  body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -8932,6 +8934,9 @@ body:lang(TC) .feature-flexbox h2,
 body:lang(TC) .live-game-main .feature-header,
 body:lang(TC) #AboutWE .about-h2, body:lang(TC) #AboutWE .about-h4, body:lang(TC) #AboutWE .about-p,
 body:lang(TC) .main-footer li, body:lang(TC) .main-footer h6, body:lang(TC) .main-footer p, body:lang(TC) .main-footer .subscribe-form input,
+body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", sans-serif;
 }
@@ -8945,6 +8950,9 @@ body:lang(SC) .feature-flexbox h2,
 body:lang(SC) .live-game-main .feature-header,
 body:lang(SC) #AboutWE .about-h2, body:lang(SC) #AboutWE .about-h4, body:lang(SC) #AboutWE .about-p,
 body:lang(SC) .main-footer li, body:lang(SC) .main-footer h6, body:lang(SC) .main-footer p, body:lang(SC) .main-footer .subscribe-form input,
+body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", sans-serif;
 }
@@ -8964,12 +8972,18 @@ body:lang(EN) .main-footer li {
 
 body:lang(EN) #AboutWE .about-h2, body:lang(EN) #AboutWE .about-h4,
 body:lang(EN) .main-footer h6,
-body:lang(EN) .game-icon-wrap {
+body:lang(EN) .game-icon-wrap,
+body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
   font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
 }
 
+body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(EN) .main-footer p, body:lang(EN) .main-footer .subscribe-form input {
   font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+}
+
+body:lang(EN) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4 {
+  font-family: Futura-Condensed-Medium, Arial, sans-serif;
 }
 
 body:lang(TC) .deco-content,
@@ -9252,7 +9266,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #wrapper {
-    max-height: 4200px;
+    max-height: 5200px;
   }
   #nav-area .search-form {
     top: 0px;
@@ -9312,7 +9326,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   }
   #wrapper #slider-area .owl-item img {
     height: 400px;
-    width: 655px;
+    width: inherit;
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);

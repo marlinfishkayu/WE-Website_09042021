@@ -1,6 +1,6 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     #wrapper{
-        max-height: 4200px;
+        max-height: 5200px;
     }
     #nav-area .search-form{
         top: 0px;
@@ -59,7 +59,7 @@
     }
     #wrapper #slider-area .owl-item img {
         height: 400px;
-        width: 655px;
+        width: inherit;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);

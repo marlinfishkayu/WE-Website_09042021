@@ -52,6 +52,9 @@ body:lang(SC)
         #ContactUs .contact-main{
             padding-top: 2em;
         }
+        #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p{
+            font-size: 15px;
+        }
     }
     @media (min-width: 992px){
         #newsFeed .frame-detail h6 {
@@ -69,6 +72,9 @@ body:lang(TC)
     .live-game-main .feature-header,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     .main-footer li, .main-footer h6, .main-footer p, .main-footer .subscribe-form input,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
@@ -84,6 +90,9 @@ body:lang(SC)
     .live-game-main .feature-header,
     #AboutWE .about-h2, #AboutWE .about-h4, #AboutWE .about-p,
     .main-footer li, .main-footer h6, .main-footer p, .main-footer .subscribe-form input,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansSC;
     }
@@ -103,12 +112,17 @@ body:lang(EN)
     }
     #AboutWE .about-h2, #AboutWE .about-h4,
     .main-footer h6,
-    .game-icon-wrap
+    .game-icon-wrap,
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2
     {
         font-family: $fontFuturaMedium;
     }
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
     .main-footer p, .main-footer .subscribe-form input{
         font-family: $fontBarlowRegular; 
     
+    }
+    #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4{
+        font-family: $fontFuturaCondensedMedium;
     }
 }
