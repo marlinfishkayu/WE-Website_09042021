@@ -8850,7 +8850,7 @@ body:lang(SC) p {
 body:lang(TC) #AboutWE .about-h2,
 body:lang(SC) #AboutWE .about-h2 {
   font-weight: 500;
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(TC) .deco-content,
@@ -8897,7 +8897,7 @@ body:lang(TC) .secondaryBtn,
 body:lang(TC) .main-footer .footer-subscribe .btn,
 body:lang(SC) .secondaryBtn,
 body:lang(SC) .main-footer .footer-subscribe .btn {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
   font-weight: 300;
 }
 
@@ -8938,7 +8938,7 @@ body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(TC) #wrapper .nav_links .nav-link {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(TC) #newsFeed .frame-detail h6 {
@@ -8954,7 +8954,7 @@ body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
 body:lang(SC) #wrapper .nav_links .nav-link {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(SC) #newsFeed .frame-detail h6 {
@@ -9011,7 +9011,7 @@ body:lang(SC) #diamondCarousel h3 {
 }
 
 body:lang(TC) .deco-content {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(TC) #diamondCarousel .dia-cat h5,
@@ -9019,19 +9019,19 @@ body:lang(TC) #intdexWhatsNews .text-gold-btn,
 body:lang(TC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(TC) .coming .disable-text h4,
 body:lang(TC) #intdexWhatsNews .news-item-header {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
   font-weight: 500;
 }
 
 body:lang(SC) .deco-content {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
 
 body:lang(SC) #intdexWhatsNews .text-gold-btn,
 body:lang(SC) #intdexWhatsNews .news-item-text .text-gold,
 body:lang(SC) .coming .disable-text h4,
 body:lang(SC) #intdexWhatsNews .news-item-header {
-  font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
   font-weight: 500;
 }
 
