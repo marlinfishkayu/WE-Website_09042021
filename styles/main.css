@@ -9447,6 +9447,12 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
   #error .error-main-bkg img {
     height: auto;
   }
+  .game-hero-M {
+    width: 186%;
+  }
+  .game-hero-D {
+    width: 150%;
+  }
 }
 
 @media all and (-ms-high-contrast: none) and (min-width: 576px), (-ms-high-contrast: active) and (min-width: 576px) {
