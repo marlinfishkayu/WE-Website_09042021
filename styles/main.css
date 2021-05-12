@@ -9265,9 +9265,6 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #wrapper {
-    max-height: 5200px;
-  }
   #nav-area .search-form {
     top: 0px;
   }
