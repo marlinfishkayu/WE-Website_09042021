@@ -5497,7 +5497,7 @@ select.form-control::-ms-expand {
   #newsFeed .frame-detail .frame-date {
     font-size: 36px;
     letter-spacing: 2px;
-    min-width: 78px;
+    min-width: 83px;
     width: 100%;
   }
   #newsFeed .frame-detail .frame-left {
@@ -6991,6 +6991,7 @@ select.form-control::-ms-expand {
   z-index: 0;
   width: 100%;
   height: 100%;
+  min-height: 500px;
   background: #060b1a;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1.04%, rgba(7, 11, 25, 0)), color-stop(86.46%, #070B19), to(#080D1D));
   background: linear-gradient(180deg, rgba(7, 11, 25, 0) 1.04%, #070B19 86.46%, #080D1D 100%);
@@ -7895,6 +7896,7 @@ select.form-control::-ms-expand {
   #NewsDetail .event-hightlight {
     width: 1002px;
     height: 548px;
+    overflow: hidden;
     position: absolute;
     top: 20%;
     left: 50%;
