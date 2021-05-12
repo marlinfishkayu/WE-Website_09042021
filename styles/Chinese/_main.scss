@@ -1,7 +1,7 @@
 body:lang(TC),
 body:lang(SC)
 {
-    h1,h2,h3, a,
+    h1,h2,h3, a, 
     #wrapper .nav_links .nav-link{
         font-weight: 400;
     }
@@ -65,7 +65,7 @@ body:lang(SC)
 body:lang(TC)
 {
     body,h1,h2,h3,h4, h5, h6, p, span,
-    #AboutWE .about-p,
+    #AboutWE .about-p, .feature-flexbox h2,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansTC;
     }
@@ -77,7 +77,7 @@ body:lang(TC)
 body:lang(SC)
 {
     body,h1,h2,h3,h4, h5, h6, p, span,
-    #AboutWE .about-p,
+    #AboutWE .about-p, .feature-flexbox h2,
     #wrapper .nav_links .nav-link{
         font-family: $fontNotoSansSC;
     }

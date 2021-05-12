@@ -8936,7 +8936,7 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
 }
 
 body:lang(TC) body, body:lang(TC) h1, body:lang(TC) h2, body:lang(TC) h3, body:lang(TC) h4, body:lang(TC) h5, body:lang(TC) h6, body:lang(TC) p, body:lang(TC) span,
-body:lang(TC) #AboutWE .about-p,
+body:lang(TC) #AboutWE .about-p, body:lang(TC) .feature-flexbox h2,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", sans-serif;
 }
@@ -8946,7 +8946,7 @@ body:lang(TC) #newsFeed .frame-detail h6 {
 }
 
 body:lang(SC) body, body:lang(SC) h1, body:lang(SC) h2, body:lang(SC) h3, body:lang(SC) h4, body:lang(SC) h5, body:lang(SC) h6, body:lang(SC) p, body:lang(SC) span,
-body:lang(SC) #AboutWE .about-p,
+body:lang(SC) #AboutWE .about-p, body:lang(SC) .feature-flexbox h2,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", sans-serif;
 }
