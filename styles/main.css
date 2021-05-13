@@ -9530,8 +9530,11 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
             transform: translateX(-50%);
   }
   .hero-header-bkg {
-    height: 500px;
+    height: 600px;
     overflow: hidden;
+  }
+  #ContactUs .hero-header-bkg {
+    height: 500px;
   }
   #nav-ara .closeBtn {
     top: 18px;
