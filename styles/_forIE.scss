@@ -209,8 +209,8 @@
     .game-hero-D{
         width: 150%;
     }
-    #allLiveGame .allLiveGame-main .hovering .game-item-text{
-        bottom: 5%;
+    #allLiveGame .allLiveGame-main .hovering .game-item{
+        bottom: -9px;
     }
     // Small devices (landscape phones, 576px and up)
     @media (min-width: 576px) {     
