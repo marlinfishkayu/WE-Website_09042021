@@ -249,7 +249,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'lottery_game_logo': './images/index/en/col2_expand-icon_x1.png 500w, ./images/index/en/col2_expand-icon_x2.png 1000w',
+      'lottery_game_logo': './images/index/en/col2_expand-icon.svg',
     }],
   'TC': [{
       //WE Logo

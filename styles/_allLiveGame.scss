@@ -279,8 +279,11 @@
     
 }
 #allLiveGame .allLiveGame-main .hovering .game-item-text{
-    transform: translate(-50%, 4%);
+    transform: translate(-50%, -6%);
 }
+// #allLiveGame .allLiveGame-main .hovering .game-item-text{
+//     transform: translate(-50%, 4%);
+// }
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button{
     opacity: 1;
     pointer-events: inherit;

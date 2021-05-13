@@ -4965,7 +4965,7 @@ select.form-control::-ms-expand {
 }
 
 #newsFeed .showmore-deco-wrap {
-  display: block;
+  display: none;
   width: 200px;
   height: 51px;
   cursor: pointer;
@@ -6881,8 +6881,8 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text {
-  -webkit-transform: translate(-50%, 4%);
-          transform: translate(-50%, 4%);
+  -webkit-transform: translate(-50%, -6%);
+          transform: translate(-50%, -6%);
 }
 
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button {
@@ -8178,9 +8178,10 @@ select.form-control::-ms-expand {
 @media (min-width: 1200px) {
   .cookie-container .accept-btn {
     position: absolute;
-    left: 60%;
+    left: 80%;
     right: -10%;
     top: 40%;
+    width: 50px;
   }
   .cookie-container {
     height: 160px;
