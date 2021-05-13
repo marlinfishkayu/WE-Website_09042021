@@ -71,7 +71,7 @@ var arrLang = {
       'input_email':'Please enter your email address here',
       
       //All Live Game
-      'All_Lottery_Game' : 'All Lottery Games', 
+      'All_Lottery_Game' : 'All Lotteries', 
       'All_Lottery_Game_p1' : "Let's chase your dream from here. Release your power of luck. Super lotto prizes are up for grabs! ",
       'All_Lottery_p2' : 'Dare to win!',  
       //Detail

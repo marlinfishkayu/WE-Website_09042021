@@ -1809,6 +1809,7 @@ footer {
   font-weight: 100;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   background-color: transparent !important;
+  padding: 5px 0px;
 }
 
 #EmailSubscribe .mc-field-group input {
@@ -4542,6 +4543,13 @@ select.form-control::-ms-expand {
 .social-container .social-wrap .contact-icon {
   width: 40px;
   height: 40px;
+}
+
+.social-container .social-wrap .contact-icon:hover {
+  -webkit-filter: grayscale(100%) sepia(100%);
+          filter: grayscale(100%) sepia(100%);
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
 }
 
 @media (min-width: 576px) {
@@ -9634,7 +9642,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     right: 0%;
   }
   .subnav-arrow {
-    left: 39.5%;
+    left: 41%;
   }
   #allGameBtn {
     margin-top: 35px;
@@ -9731,7 +9739,7 @@ body:lang(SC) #liveStudio .livestudio-sec3 .bottom-deco:after {
     top: 1%;
   }
   .subnav-arrow {
-    left: 37.5%;
+    left: 39.5%;
   }
   #slider-area .owl-item {
     height: 762px;
