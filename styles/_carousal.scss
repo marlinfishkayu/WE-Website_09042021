@@ -870,7 +870,7 @@
     #slider-area {
         position: relative;
         &::after{
-            height: 100px;
+            height: 50px;
             z-index: 1;
         }
         .slide {
