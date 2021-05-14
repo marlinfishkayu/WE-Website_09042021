@@ -143,7 +143,7 @@ var arrLang = {
     //What's New  detail
     'detail_date' : '2021年 5月5日',
     'detail_event_1' : 'SIGMA虛擬巡演',
-    'detail_p1' : 'Hello World! 認識 WE，發掘「世界娛樂」',
+    'detail_p1' : 'Hello World！ 認識 WE，發掘「世界娛樂」',
     'detail_p2' : '切勿錯過！我們迫不及待與你碰面！',
     //button
     'back' : '返回',
@@ -219,7 +219,7 @@ var arrLang = {
     //What's New  detail
     'detail_date' : '2021年 5月5日',
     'detail_event_1' : 'SiGMA虚拟巡演',
-    'detail_p1' : 'Hello World! 认识 WE，發掘「世界娱乐」',
+    'detail_p1' : 'Hello World！ 认识 WE，發掘「世界娱乐」',
     'detail_p2' : '切勿错过！我们迫不及待与你碰面！',
     //button
     'back' : '返回',

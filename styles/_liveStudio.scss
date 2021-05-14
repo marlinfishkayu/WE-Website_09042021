@@ -277,7 +277,7 @@
         p{
             color: #979797;
             letter-spacing: 1px;
-            padding-top: 3rem;
+            padding-top: 1rem;
             width: 300px;
             margin: auto;
             text-align: center;
@@ -538,6 +538,9 @@
     .studio-card {
         height: 550px;
         width: 295px;
+    }
+    #liveStudio .livestudio-hightlight-wrap .large-text p {
+        padding-top: 3rem;
     }
 }   
 

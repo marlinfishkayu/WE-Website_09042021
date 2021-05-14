@@ -68,7 +68,7 @@ var arrLang = {
     'detail_date' : '11 JAN 2021',
     'detail_event_1' : 'New year of the ox!',
     'detail_p1' : 'Counting our blessings and wishing you more.',
-    'detail_p2' : 'Happy New Year & Gong Xi Fa Cai！',
+    'detail_p2' : 'Happy New Year & Gong Xi Fa Cai!',
     //button
     'back' : 'back',
   },

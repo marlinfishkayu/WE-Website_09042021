@@ -51,7 +51,7 @@
         }
     }
     .allLiveGame-main{
-        padding: 7rem 2rem;
+        padding: 1rem 2rem;
         text-align: center;
         .hero-intro2{
             padding: 2rem 0.5rem;
@@ -279,7 +279,7 @@
     
 }
 #allLiveGame .allLiveGame-main .hovering .game-item-text{
-    transform: translate(-50%, -6%);
+    transform: translate(-50%, -4%);
 }
 // #allLiveGame .allLiveGame-main .hovering .game-item-text{
 //     transform: translate(-50%, 4%);
@@ -321,8 +321,9 @@
     width: 100%;
     height: 100px;
 }
-.AllLottery .bottom-deco {
-    width: 340px
+#allLiveGame.AllLottery .bottom-deco {
+    width: 200px;
+    margin-top: 3rem;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -354,7 +355,12 @@
     #allLiveGame .allLiveGame-main .hero-intro2{
         padding-bottom: 20px;
     }
-    
+    #allLiveGame .allLiveGame-main {
+        padding: 7rem 2rem;
+    }
+    #allLiveGame.AllLottery .bottom-deco {
+        width: 320px;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {

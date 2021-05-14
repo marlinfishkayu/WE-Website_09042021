@@ -580,7 +580,7 @@ setTimeout(function () {
   if (!localStorage.getItem("cookieBannerDisplayed")) {
       cookieContainer.classList.add("active");
   }
-}, 3000);
+}, 1500);
 
 /*-- What's New Timeline add odd/even class start --*/
 $(document).ready(function () {
@@ -636,6 +636,8 @@ $(document).ready(function () {
   });
 });
 /*-- What's New Timeline filter function end --*/
+
+
 
 
 

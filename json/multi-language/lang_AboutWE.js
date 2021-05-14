@@ -57,6 +57,7 @@ var arrLang = {
     'Email-S' : 'Please enter your email address here',
     //input placeholder
     'input_email':'Please enter your email address here',
+    'error-msg':'Please enter a valid email address.',
 
     //About WE
     'AboutWE' : 'About WE',
@@ -86,7 +87,7 @@ var arrLang = {
     'Responsible' : 'Responsible.',
     'Credible' : 'Credible',
     'Licens_p1' : 'WE are licensed in the Philippines and our various live games have passed the compliance software testing of GLI. It has also certificated our live studio which confirmed the truth of our game content meets technical standards and legal regulations.'
-
+    
   },
 
 
@@ -150,6 +151,7 @@ var arrLang = {
     'Email-S' :'請在此處輸入你電郵',
     //input placeholder
     'input_email':'請在此處輸入你的電子郵件地址',
+    'error-msg':'請在輸入正確電子郵件地址',
 
     //About WE
     'AboutWE' : '關於我們',
@@ -241,6 +243,7 @@ var arrLang = {
     'Email-S' :'请在此处输入你电邮',
     //input placeholder
     'input_email':'请在此处输入你的电子邮件地址',
+    'error-msg':'请在输入正确电子邮件地址',
 
     //About WE
     'AboutWE' : '关於我们',
