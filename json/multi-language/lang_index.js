@@ -59,8 +59,7 @@ var arrLang = {
       'Accept' : 'Accept',
       //Footer
       'WorldEnt' : 'WORLD ENTERTAINMENT.',
-      'Subscribe' : 'Subscribe',
-      'SignUp' : 'Sign Up',
+      'Subscribe' : 'Subscribe Now',
       'Subscribe_p' : 'Be the first to know about our latest news and exclusive offers from WE.',
       'LicCert' : 'Licences & Certifications',
       'PrivacyPolicy' : 'Privacy Policy',
@@ -181,8 +180,7 @@ var arrLang = {
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娛樂',
-      'Subscribe' : '訂閱',
-      'SignUp' : '立即註冊',
+      'Subscribe' : '立即訂閱',
       'Subscribe_p' : '成為首位收到WE最新消息和獨家優惠人。',
       'LicCert' : '營業執照及國際認證',
       'PrivacyPolicy' : '隱私政策',
@@ -305,8 +303,7 @@ var arrLang = {
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娱乐',
-      'Subscribe' : '订阅',
-      'SignUp' : '立即註册',
+      'Subscribe' : '立即订阅',
       'Subscribe_p' : '成为首位收到WE最新消息和独家优惠人。',
       'LicCert' : '营业执照及国际认证',
       'PrivacyPolicy' : '隐私政策',
@@ -374,8 +371,16 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //Hero banner
-      'hero_1_L': './images/index/en/hero_1_L.png',
-      'hero_1_P': './images/index/en/hero_1_P.png',
+      'hero_1_L': './images/hero/en/Landscape/hero_1_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_1_L_x2.jpg 1200w',
+      'hero_1_P': './images/hero/en/Portrait/hero_1_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_1_P_x2.jpg 1200w',
+      'hero_2_L': './images/hero/en/Landscape/hero_2_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_2_L_x2.jpg 1200w',
+      'hero_2_P': './images/hero/en/Portrait/hero_2_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_2_P_x2.jpg 1200w',
+      'hero_3_L': './images/hero/en/Landscape/hero_3_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_3_L_x2.jpg 1200w',
+      'hero_3_P': './images/hero/en/Portrait/hero_3_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_3_P_x2.jpg 1200w',
+      'hero_4_L': './images/hero/en/Landscape/hero_4_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_4_L_x2.jpg 1200w',
+      'hero_4_P': './images/hero/en/Portrait/hero_4_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_4_P_x2.jpg 1200w',
+      'hero_5_L': './images/hero/en/Landscape/hero_5_L_x1.jpg 500w , ./images/hero/en/Landscape/hero_5_L_x2.jpg 1200w',
+      'hero_5_P': './images/hero/en/Portrait/hero_5_P_x1.jpg 500w , ./images/hero/en/Portrait/hero_5_P_x2.jpg 1200w',
       //live game
       'col_1': './images/index/en/col1_expand-icon_x1.png 500w, ./images/index/en/col1_expand-icon_x2.png 1000w',
       'col_2': './images/index/en/col2_expand-icon_x2.png 500w, ./images/index/en/col2_expand-icon_x2.png 1000w',
@@ -386,8 +391,16 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //Hero banner
-      'hero_1_L': './images/index/en/hero_1_L.png',
-      'hero_1_P': './images/index/en/hero_1_P.png',
+      'hero_1_L': './images/hero/tc/Landscape/hero_1_L_x1.jpg 500w , ./images/hero/tc/Landscape/hero_1_L_x2.jpg 1200w',
+      'hero_1_P': './images/hero/tc/Portrait/hero_1_P_x1.jpg 500w , ./images/hero/tc/Portrait/hero_1_P_x2.jpg 1200w',
+      'hero_2_L': './images/hero/tc/Landscape/hero_2_L_x1.jpg 500w , ./images/hero/tc/Landscape/hero_2_L_x2.jpg 1200w',
+      'hero_2_P': './images/hero/tc/Portrait/hero_2_P_x1.jpg 500w , ./images/hero/tc/Portrait/hero_2_P_x2.jpg 1200w',
+      'hero_3_L': './images/hero/tc/Landscape/hero_3_L_x1.jpg 500w , ./images/hero/tc/Landscape/hero_3_L_x2.jpg 1200w',
+      'hero_3_P': './images/hero/tc/Portrait/hero_3_P_x1.jpg 500w , ./images/hero/tc/Portrait/hero_3_P_x2.jpg 1200w',
+      'hero_4_L': './images/hero/tc/Landscape/hero_4_L_x1.jpg 500w , ./images/hero/tc/Landscape/hero_4_L_x2.jpg 1200w',
+      'hero_4_P': './images/hero/tc/Portrait/hero_4_P_x1.jpg 500w , ./images/hero/tc/Portrait/hero_4_P_x2.jpg 1200w',
+      'hero_5_L': './images/hero/tc/Landscape/hero_5_L_x1.jpg 500w , ./images/hero/tc/Landscape/hero_5_L_x2.jpg 1200w',
+      'hero_5_P': './images/hero/tc/Portrait/hero_5_P_x1.jpg 500w , ./images/hero/tc/Portrait/hero_5_P_x2.jpg 1200w',
       //live game
       'col_1': './images/index/tc/col1_expand-icon_x1.png 500w, ./images/index/tc/col1_expand-icon_x2.png 1000w',
       'col_2': './images/index/tc/col2_expand-icon_x1.png 500w, ./images/index/tc/col2_expand-icon_x2.png 1000w',
@@ -398,8 +411,16 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //Hero banner
-      'hero_1_L': './images/index/en/hero_1_L.png',
-      'hero_1_P': './images/index/en/hero_1_P.png',
+      'hero_1_L': './images/hero/sc/Landscape/hero_1_L_x1.jpg 500w , ./images/hero/sc/Landscape/hero_1_L_x2.jpg 1200w',
+      'hero_1_P': './images/hero/sc/Portrait/hero_1_P_x1.jpg 500w , ./images/hero/sc/Portrait/hero_1_P_x2.jpg 1200w',
+      'hero_2_L': './images/hero/sc/Landscape/hero_2_L_x1.jpg 500w , ./images/hero/sc/Landscape/hero_2_L_x2.jpg 1200w',
+      'hero_2_P': './images/hero/sc/Portrait/hero_2_P_x1.jpg 500w , ./images/hero/sc/Portrait/hero_2_P_x2.jpg 1200w',
+      'hero_3_L': './images/hero/sc/Landscape/hero_3_L_x1.jpg 500w , ./images/hero/sc/Landscape/hero_3_L_x2.jpg 1200w',
+      'hero_3_P': './images/hero/sc/Portrait/hero_3_P_x1.jpg 500w , ./images/hero/sc/Portrait/hero_3_P_x2.jpg 1200w',
+      'hero_4_L': './images/hero/sc/Landscape/hero_4_L_x1.jpg 500w , ./images/hero/sc/Landscape/hero_4_L_x2.jpg 1200w',
+      'hero_4_P': './images/hero/sc/Portrait/hero_4_P_x1.jpg 500w , ./images/hero/sc/Portrait/hero_4_P_x2.jpg 1200w',
+      'hero_5_L': './images/hero/sc/Landscape/hero_5_L_x1.jpg 500w , ./images/hero/sc/Landscape/hero_5_L_x2.jpg 1200w',
+      'hero_5_P': './images/hero/sc/Portrait/hero_5_P_x1.jpg 500w , ./images/hero/sc/Portrait/hero_5_P_x2.jpg 1200w',
       //live game
       'col_1': './images/index/sc/col1_expand-icon_x1.png 500w, ./images/index/sc/col1_expand-icon_x1.png 1000w',
       'col_2': './images/index/sc/col2_expand-icon_x1.png 500w, ./images/index/sc/col2_expand-icon_x2.png 1000w',
