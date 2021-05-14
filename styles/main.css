@@ -3478,8 +3478,8 @@ footer {
   width: 100%;
   height: 100%;
   background: #060b1a;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(6, 11, 26, 0.3)), to(#070a1b));
-  background: linear-gradient(180deg, rgba(6, 11, 26, 0.3) 30%, #070a1b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 11, 26, 0.3)), to(#070a1b));
+  background: linear-gradient(180deg, rgba(6, 11, 26, 0.3) 0%, #070a1b 100%);
 }
 
 .game-hero-M,
@@ -5436,7 +5436,6 @@ select.form-control::-ms-expand {
   #news-carousel .slide .update-img {
     width: 480px;
     height: 291px;
-    margin-top: 4rem;
   }
   .update-img img {
     height: 230px;
@@ -5446,7 +5445,6 @@ select.form-control::-ms-expand {
        object-fit: cover;
   }
   #news-carousel .update-content {
-    width: 300px;
     height: 420px;
     position: relative;
     z-index: -1;
@@ -5461,12 +5459,6 @@ select.form-control::-ms-expand {
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .mobile-landscape {
-    display: block;
-  }
-  .mobile-portrait {
-    display: none;
   }
 }
 
@@ -5503,6 +5495,15 @@ select.form-control::-ms-expand {
 }
 
 @media (min-width: 992px) {
+  #news-carousel .update-content::after {
+    left: 0%;
+  }
+  #news-carousel .update-wrapper .square-frame .mobile-landscape {
+    display: block;
+  }
+  #news-carousel .update-wrapper .square-frame .mobile-portrait {
+    display: none;
+  }
   #news-carousel .update-img {
     width: 481px;
     height: 263px;
