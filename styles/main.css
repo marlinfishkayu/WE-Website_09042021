@@ -3962,7 +3962,7 @@ footer {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    padding-top: 13rem;
+    padding-top: 23rem;
     padding-bottom: 0rem;
   }
   #liveGame .hero-header h1 {
@@ -4111,7 +4111,7 @@ footer {
     background: linear-gradient(180deg, rgba(6, 11, 26, 0.3) 90%, #070a1b 100%);
   }
   .live-game-main {
-    margin-top: 4rem !important;
+    margin-top: 13rem !important;
     margin-bottom: -5rem !important;
   }
   .game-platform {
@@ -5455,7 +5455,7 @@ select.form-control::-ms-expand {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: -50%;
     width: 1082px;
     height: 444px;
     z-index: -1;
@@ -9018,6 +9018,7 @@ body:lang(TC) .main-footer li, body:lang(TC) .main-footer h6, body:lang(TC) .mai
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(TC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+body:lang(TC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(TC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(TC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(TC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans TC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
@@ -9034,6 +9035,7 @@ body:lang(SC) .main-footer li, body:lang(SC) .main-footer h6, body:lang(SC) .mai
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h4,
 body:lang(SC) #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text p,
+body:lang(SC) #MahjongLuckyWheel .hero-header .GOF-series, body:lang(SC) #GodofFortuneSicBo .hero-header .GOF-series, body:lang(SC) #GodofFortuneRoulette .hero-header .GOF-series,
 body:lang(SC) #wrapper .nav_links .nav-link {
   font-family: "Noto Sans SC", "segoe ui", "microsoft jhenghei", "microsoft mhei", sans-serif;
 }
