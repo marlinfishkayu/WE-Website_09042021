@@ -4647,6 +4647,25 @@ select.form-control::-ms-expand {
   height: 850px;
 }
 
+#news-carousel #slider-area .update-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+#news-carousel #slider-area .update-wrapper::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -34%;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  z-index: 0;
+  background: #011b3e;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
+  background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
+}
+
 #news-carousel .slide {
   height: 920px;
 }
@@ -4683,6 +4702,7 @@ select.form-control::-ms-expand {
 #news-carousel .update-wrapper .square-frame {
   position: relative;
   width: 90%;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -4702,12 +4722,8 @@ select.form-control::-ms-expand {
   position: relative;
 }
 
-#news-carousel .news-slider-bkg-M {
-  display: block;
-}
-
 #news-carousel .news-slider-bkg-D {
-  display: none;
+  display: block;
 }
 
 #news-carousel .news-slider-bkg {
@@ -4718,8 +4734,8 @@ select.form-control::-ms-expand {
   top: 0;
   left: 0;
   z-index: -1;
-  -webkit-filter: grayscale(0.3) brightness(0.9);
-          filter: grayscale(0.3) brightness(0.9);
+  -webkit-filter: grayscale(0.5) brightness(0.8);
+          filter: grayscale(0.5) brightness(0.8);
 }
 
 #news-carousel .update-wrapper {
@@ -4745,7 +4761,9 @@ select.form-control::-ms-expand {
   position: relative;
   margin-top: 0rem;
   padding: 0 2rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
+  max-width: 500px;
+  margin: auto;
 }
 
 #news-carousel .update-content a {
@@ -5425,9 +5443,6 @@ select.form-control::-ms-expand {
   #newsFeed .timeline-container {
     height: 2500px;
   }
-  #news-carousel .news-slider-bkg-M {
-    display: none;
-  }
   #news-carousel .news-slider-bkg-D {
     display: block;
     height: 110vh;
@@ -5457,23 +5472,6 @@ select.form-control::-ms-expand {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  #news-carousel .update-content {
-    height: 420px;
-    position: relative;
-    z-index: -1;
-  }
-  #news-carousel .update-content:after {
-    content: '';
-    display: none;
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 1082px;
-    height: 444px;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -5483,28 +5481,27 @@ select.form-control::-ms-expand {
   #news-carousel .news-slider-bkg {
     height: 467px;
   }
+  #news-carousel #slider-area::after {
+    bottom: -26px;
+  }
+  #news-carousel #slider-are .owl-dots {
+    bottom: 24%;
+    left: 25%;
+    -webkit-transform: translateX(-46%);
+            transform: translateX(-46%);
+    white-space: nowrap;
+  }
+  #news-carousel #slider-area .update-wrapper::after {
+    bottom: -59%;
+  }
 }
 
 @media (max-width: 991px) {
   #newsFeed .news-filter-wrap {
     padding: 3rem 5rem;
   }
-  #news-carousel #slider-area .update-wrapper {
-    position: relative;
-    z-index: 1;
-  }
-  #news-carousel #slider-area .update-wrapper::after {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: -60%;
-    left: 0;
-    width: 100%;
-    height: 500px;
-    z-index: 0;
-    background: #011b3e;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
-    background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
+  #news-carousel .update-wrapper .square-frame {
+    max-width: 340px;
   }
 }
 
@@ -5697,6 +5694,7 @@ select.form-control::-ms-expand {
     width: 100%;
     height: 278px;
     overflow: hidden;
+    max-width: inherit;
     padding-top: 15px;
   }
   #news-carousel .update-content .update-date {
@@ -5769,8 +5767,8 @@ select.form-control::-ms-expand {
     bottom: 14%;
   }
   #news-carousel .news-slider-bkg {
-    -webkit-filter: grayscale(0.3) brightness(0.5);
-            filter: grayscale(0.3) brightness(0.5);
+    -webkit-filter: grayscale(0.5) brightness(0.8);
+            filter: grayscale(0.5) brightness(0.8);
   }
 }
 
