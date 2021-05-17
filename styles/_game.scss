@@ -362,7 +362,7 @@
 #GodofFortuneRoulette .hero-header .GOF-series {
     font-family: $fontFuturaCondensedMedium;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 600;
     letter-spacing: 2px;
     color: #D8D8D8;
     text-transform: uppercase;
@@ -443,7 +443,10 @@
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .hero-header {
-        height: 600px;
+        height: 700px;
+    }
+    #GodofFortuneRoulette .hero-header-bkg{
+        top: -18px;
     }
     .game-hero-M{
         display: none
@@ -455,8 +458,11 @@
         width: 150px;
         height: 150px;
         margin: 0 auto;
-        padding-top: 23rem;
+        padding-top: 29rem;
         padding-bottom: 0rem;
+    }
+    #liveGame #PK10 .hero-icon{
+        width: 230px;
     }
     #liveGame .hero-header h1{
         font-size: 80px;
@@ -620,7 +626,7 @@
     #GodofFortuneRoulette .hero-header,
     #SqueezeBaccarat .hero-header ,
     #MahjongLuckyWheel .hero-header {
-        height: 670px;
+        height: 750px;
     }
 }
 // Large devices (desktops, 992px and up)

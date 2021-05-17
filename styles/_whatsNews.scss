@@ -2,7 +2,7 @@
     width: 100%;
     height: 850px;
     .slide {
-        height: 850px;
+        height: 920px;
     }
     .slide:after{
         display: none;
@@ -55,7 +55,7 @@
     }
     .news-slider-bkg{
         width: 100%;
-        height: 100%;
+        height: 96%;
         background-size: cover;
         position: absolute;
         top: 0;
@@ -82,8 +82,9 @@
     .update-content{
         z-index: 1;
         position: relative;
-        margin-top: 60px;
+        margin-top: 0rem;
         padding: 0 2rem;
+        padding-top: 3rem;
         a{
             color: #fff;
         }
@@ -108,7 +109,7 @@
         .update-detail{
             font-family: $fontBarlowLight;
             font-size: 20px;
-            padding-top: 2rem;
+            padding-top: 0.8rem;
             max-width: 1000px;
         }
         .update-detail,
@@ -474,7 +475,7 @@
         height: 950px;
     }
     #news-carousel .update-content .update-date {
-        padding-top: 7rem;
+        padding-top: 3rem;
     }
     #news-carousel .slide {
         height: 950px;
@@ -717,6 +718,7 @@
         z-index: -1;
         &:after{
             content:'';
+            display: none;
             position: absolute;
             top: 0;
             left: -50%;
@@ -733,8 +735,9 @@
     #news-carousel #slider-area,
     #news-carousel .slide,
     #news-carousel .news-slider-bkg{
-        height: 500px;
+        height: 467px;
     }
+    
 }
 
 @media (max-width: 991px) {
@@ -748,7 +751,7 @@
             display: block;
             content: "";
             position: absolute;
-            bottom: -50%;
+            bottom: -60%;
             left: 0;
             width: 100%;
             height: 500px;
@@ -764,6 +767,9 @@
 @media (min-width: 992px) {
     #news-carousel .update-content::after{
         left: 0%;
+    }
+    #news-carousel .update-content::after{
+        display: block;
     }
     #news-carousel .update-wrapper .square-frame .mobile-landscape{
         display: block;
@@ -900,7 +906,7 @@
     
     //hide timeline element
     #news-carousel .slide{
-        height: 100vh;
+        height: 70vh;
     }
     #news-carousel {
         height: 100%;   
@@ -947,7 +953,15 @@
             background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
         }
     }
-    
+    #news-carousel .update-wrapper .square-frame {
+        width: 100%;
+        height: 278px;
+        overflow: hidden;
+        padding-top: 15px;
+    }
+    #news-carousel .update-content .update-date {
+        padding-top: 0rem;
+    }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -963,8 +977,8 @@
         width: 390px;
         height: 420px;
         &:after{
-            width: 1082px;
-            height: 444px;
+            width: 1224px;
+            height: 540px;
         }
     }
     #news-carousel .update-img{
@@ -1005,11 +1019,15 @@
     #news-carousel #slider-area .slide {
         max-width: inherit;
     }
+    #news-carousel .update-wrapper .square-frame {
+        height: 422px;
+        padding-top: 0px;
+    }
     
 }
 @media (max-width: 576px){
     #news-carousel .owl-dots {
-        bottom: 15%;
+        bottom: 14%;
     }
     #news-carousel .news-slider-bkg {
         filter: grayscale(0.3) brightness(0.5);
@@ -1045,21 +1063,29 @@
     #news-carousel .owl-dots {
         bottom: 24%;
         left: 25%;
-        transform: translateX(calc(-25% - 2rem));
+        transform: translateX(-46%);
         white-space: nowrap;
     }
-    #news-carousel .update-content .update-date{
-        padding-top: 2rem;
+    #news-carousel .update-content {
+        margin-top: 0;
+        padding-top: 4rem;
+        .update-date{
+            padding-top: 2rem;
+        }
+        .update-detail,
+        .update-event {
+            padding-top: 0.5rem;
+            max-width: 350px;
+        }   
     }
-    #news-carousel .update-content .update-detail,
-    #news-carousel .update-content .update-event {
-        padding-top: 0.5rem;
-        max-width: 350px;
-    }   
     #news-carousel .update-wrapper{
         display: flex;
         flex-direction: row-reverse;
     }
-    
-    
+    #news-carousel .update-content .update-detail-btn h6:after {
+        top: 25px;
+    }
+    #news-carousel .update-wrapper .square-frame {
+        width: 35vw;
+    }
   }

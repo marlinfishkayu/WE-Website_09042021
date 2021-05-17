@@ -2116,7 +2116,7 @@ footer {
 #slider-area::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 50px;
@@ -2478,7 +2478,7 @@ footer {
 #diamondCarousel h5 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 600;
   color: #D8D8D8;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -2662,7 +2662,7 @@ footer {
 
 @media (min-width: 576px) {
   #slider-area .slide {
-    height: 70vh;
+    min-height: 350px;
   }
   #intdexWhatsNews .news-item {
     width: 600px;
@@ -2803,11 +2803,17 @@ footer {
   #slider-area .slide-gradient::after, #slider-area .slide-gradient::before {
     width: 200px;
   }
+  #slider-area .mobile-portrait {
+    display: none;
+  }
+  #slider-area .mobile-landscape {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
   #slider-area .slide {
-    height: 100vh;
+    height: 50vh;
   }
   #intdexWhatsNews .news-item-img {
     width: 358px;
@@ -2942,19 +2948,19 @@ footer {
 
 @media (orientation: portrait) and (min-width: 576px) {
   #slider-area .mobile-portrait {
-    display: block;
+    display: none;
   }
   #slider-area .mobile-landscape {
-    display: none;
+    display: block;
   }
 }
 
 @media (orientation: portrait) and (min-width: 992px) {
   #slider-area .mobile-portrait {
-    display: block;
+    display: none;
   }
   #slider-area .mobile-landscape {
-    display: none;
+    display: block;
   }
 }
 
@@ -3862,7 +3868,7 @@ footer {
 #GodofFortuneRoulette .hero-header .GOF-series {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #D8D8D8;
   text-transform: uppercase;
@@ -3950,7 +3956,10 @@ footer {
 
 @media (min-width: 768px) {
   .hero-header {
-    height: 600px;
+    height: 700px;
+  }
+  #GodofFortuneRoulette .hero-header-bkg {
+    top: -18px;
   }
   .game-hero-M {
     display: none;
@@ -3962,8 +3971,11 @@ footer {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    padding-top: 23rem;
+    padding-top: 29rem;
     padding-bottom: 0rem;
+  }
+  #liveGame #PK10 .hero-icon {
+    width: 230px;
   }
   #liveGame .hero-header h1 {
     font-size: 80px;
@@ -4127,7 +4139,7 @@ footer {
   #GodofFortuneRoulette .hero-header,
   #SqueezeBaccarat .hero-header,
   #MahjongLuckyWheel .hero-header {
-    height: 670px;
+    height: 750px;
   }
 }
 
@@ -4636,7 +4648,7 @@ select.form-control::-ms-expand {
 }
 
 #news-carousel .slide {
-  height: 850px;
+  height: 920px;
 }
 
 #news-carousel .slide:after {
@@ -4700,7 +4712,7 @@ select.form-control::-ms-expand {
 
 #news-carousel .news-slider-bkg {
   width: 100%;
-  height: 100%;
+  height: 96%;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -4731,8 +4743,9 @@ select.form-control::-ms-expand {
 #news-carousel .update-content {
   z-index: 1;
   position: relative;
-  margin-top: 60px;
+  margin-top: 0rem;
   padding: 0 2rem;
+  padding-top: 3rem;
 }
 
 #news-carousel .update-content a {
@@ -4763,7 +4776,7 @@ select.form-control::-ms-expand {
 #news-carousel .update-content .update-detail {
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
   font-size: 20px;
-  padding-top: 2rem;
+  padding-top: 0.8rem;
   max-width: 1000px;
 }
 
@@ -5199,7 +5212,7 @@ select.form-control::-ms-expand {
     height: 950px;
   }
   #news-carousel .update-content .update-date {
-    padding-top: 7rem;
+    padding-top: 3rem;
   }
   #news-carousel .slide {
     height: 950px;
@@ -5451,6 +5464,7 @@ select.form-control::-ms-expand {
   }
   #news-carousel .update-content:after {
     content: '';
+    display: none;
     position: absolute;
     top: 0;
     left: -50%;
@@ -5467,7 +5481,7 @@ select.form-control::-ms-expand {
   #news-carousel #slider-area,
   #news-carousel .slide,
   #news-carousel .news-slider-bkg {
-    height: 500px;
+    height: 467px;
   }
 }
 
@@ -5483,7 +5497,7 @@ select.form-control::-ms-expand {
     display: block;
     content: "";
     position: absolute;
-    bottom: -50%;
+    bottom: -60%;
     left: 0;
     width: 100%;
     height: 500px;
@@ -5497,6 +5511,9 @@ select.form-control::-ms-expand {
 @media (min-width: 992px) {
   #news-carousel .update-content::after {
     left: 0%;
+  }
+  #news-carousel .update-content::after {
+    display: block;
   }
   #news-carousel .update-wrapper .square-frame .mobile-landscape {
     display: block;
@@ -5630,7 +5647,7 @@ select.form-control::-ms-expand {
     padding-top: 14.5rem;
   }
   #news-carousel .slide {
-    height: 100vh;
+    height: 70vh;
   }
   #news-carousel {
     height: 100%;
@@ -5676,6 +5693,15 @@ select.form-control::-ms-expand {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 27, 62, 0)), to(#060B1A));
     background: linear-gradient(180deg, rgba(1, 27, 62, 0) 0%, #060B1A 100%);
   }
+  #news-carousel .update-wrapper .square-frame {
+    width: 100%;
+    height: 278px;
+    overflow: hidden;
+    padding-top: 15px;
+  }
+  #news-carousel .update-content .update-date {
+    padding-top: 0rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -5692,8 +5718,8 @@ select.form-control::-ms-expand {
     height: 420px;
   }
   #news-carousel .update-content:after {
-    width: 1082px;
-    height: 444px;
+    width: 1224px;
+    height: 540px;
   }
   #news-carousel .update-img {
     width: 390px;
@@ -5732,11 +5758,15 @@ select.form-control::-ms-expand {
   #news-carousel #slider-area .slide {
     max-width: inherit;
   }
+  #news-carousel .update-wrapper .square-frame {
+    height: 422px;
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 576px) {
   #news-carousel .owl-dots {
-    bottom: 15%;
+    bottom: 14%;
   }
   #news-carousel .news-slider-bkg {
     -webkit-filter: grayscale(0.3) brightness(0.5);
@@ -5774,9 +5804,13 @@ select.form-control::-ms-expand {
   #news-carousel .owl-dots {
     bottom: 24%;
     left: 25%;
-    -webkit-transform: translateX(calc(-25% - 2rem));
-            transform: translateX(calc(-25% - 2rem));
+    -webkit-transform: translateX(-46%);
+            transform: translateX(-46%);
     white-space: nowrap;
+  }
+  #news-carousel .update-content {
+    margin-top: 0;
+    padding-top: 4rem;
   }
   #news-carousel .update-content .update-date {
     padding-top: 2rem;
@@ -5794,6 +5828,12 @@ select.form-control::-ms-expand {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  #news-carousel .update-content .update-detail-btn h6:after {
+    top: 25px;
+  }
+  #news-carousel .update-wrapper .square-frame {
+    width: 35vw;
   }
 }
 
