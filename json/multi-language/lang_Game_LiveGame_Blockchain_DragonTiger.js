@@ -59,7 +59,8 @@ var arrLang = {
       'Accept' : 'Accept',
       //Footer
       'WorldEnt' : 'WORLD ENTERTAINMENT.',
-      'Subscribe' : 'Subscribe Now',
+      'Subscribe' : 'Subscribe',
+      'Subscribe_btn' : 'Subscribe Now',
       'Subscribe_p' : 'Be the first to know about our latest news and exclusive offers from WE.',
       'LicCert' : 'Licences & Certifications',
       'PrivacyPolicy' : 'Privacy Policy',
@@ -154,7 +155,8 @@ var arrLang = {
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娛樂',
-      'Subscribe' : '立即訂閱',
+      'Subscribe' : '訂閱',
+      'Subscribe_btn' : '立即訂閱',
       'Subscribe_p' : '成為首位收到WE最新消息和獨家優惠人。',
       'LicCert' : '營業執照及國際認證',
       'PrivacyPolicy' : '隱私政策',
@@ -249,7 +251,8 @@ var arrLang = {
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '世界娱乐',
-      'Subscribe' : '立即订阅',
+      'Subscribe' : '订阅',
+      'Subscribe_btn' : '立即订阅',
       'Subscribe_p' : '成为首位收到WE最新消息和独家优惠人。',
       'LicCert' : '营业执照及国际认证',
       'PrivacyPolicy' : '隐私政策',
