@@ -248,18 +248,30 @@ var arrImg = {
   'EN': [{
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
+      //Lotto5 Logo
+      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.svg',
+      //PK10 Logo
+      'PK10_icon': 'images/icon/en/game_icon_PK10.svg',
       //UI
       'lottery_game_logo': './images/index/en/col2_expand-icon.svg',
     }],
   'TC': [{
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
+      //Lotto5 Logo
+      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.svg',
+      //PK10 Logo
+      'PK10_icon': 'images/icon/tc/game_icon_PK10.svg',
       //UI
       'lottery_game_logo': './images/index/tc/col2_expand-icon_x1.png 500w, ./images/index/tc/col2_expand-icon_x2.png 1000w',
     }],
   'SC': [{
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
+      //Lotto5 Logo
+      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.svg',
+      //PK10 Logo
+      'PK10_icon': 'images/icon/sc/game_icon_PK10.svg',
       //UI
       'lottery_game_logo': './images/index/sc/col2_expand-icon_x1.png 500w, ./images/index/sc/col2_expand-icon_x2.png 1000w',
     }]

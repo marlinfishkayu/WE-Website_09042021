@@ -66,6 +66,7 @@
     color: #494949!important;
     border: 1px solid #545454;
 }
+
 // checkbox style
 #ContactUs{
     .checkbox{
@@ -359,6 +360,9 @@ select.form-control::-ms-expand {
     #ContactUs .bottom-deco{
         width: 320px;
     }
+    #ContactUs .hero-header::after{
+        top: -85px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -373,5 +377,5 @@ select.form-control::-ms-expand {
  }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  
+    
 }

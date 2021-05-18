@@ -4646,6 +4646,9 @@ select.form-control::-ms-expand {
   #ContactUs .bottom-deco {
     width: 320px;
   }
+  #ContactUs .hero-header::after {
+    top: -85px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -5681,7 +5684,7 @@ select.form-control::-ms-expand {
     padding-top: 14.5rem;
   }
   #news-carousel .slide {
-    height: 70vh;
+    height: 80vh;
   }
   #news-carousel {
     height: 100%;
@@ -7116,6 +7119,12 @@ select.form-control::-ms-expand {
 #allLiveGame.AllLottery .bottom-deco {
   width: 200px;
   margin-top: 3rem;
+}
+
+#allLiveGame .allLiveGame-main .game-item-wrap #pk10-logo {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 576px) {

@@ -281,9 +281,6 @@
 #allLiveGame .allLiveGame-main .hovering .game-item-text{
     transform: translate(-50%, -4%);
 }
-// #allLiveGame .allLiveGame-main .hovering .game-item-text{
-//     transform: translate(-50%, 4%);
-// }
 #allLiveGame .allLiveGame-main .hovering .game-item-text .main-button{
     opacity: 1;
     pointer-events: inherit;
@@ -324,6 +321,11 @@
 #allLiveGame.AllLottery .bottom-deco {
     width: 200px;
     margin-top: 3rem;
+}
+#allLiveGame .allLiveGame-main .game-item-wrap #pk10-logo{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 5px;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
