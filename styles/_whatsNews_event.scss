@@ -29,7 +29,7 @@
         }
     }
     .hero-title{
-        padding-top: 30px;
+        padding-bottom: 10px;
     }
     .hero-intro2{
         color: #D2D2D2;
@@ -108,7 +108,7 @@
        max-width: 770px;
        padding: 0;
        margin: 0 auto;
-       margin-top: 4rem;
+       margin-top: 2rem;
        font-family: $fontBarlowLight;
        font-size: 20px;
        letter-spacing: 1px;
@@ -183,7 +183,10 @@
         height: 600px;
     }
     #NewsDetail .hero-float {
-        padding-top: 10rem;
+        padding-top: 3rem;
+    }
+    #NewsDetail .hero-title {
+        padding-bottom: 20px;
     }
     #NewsDetail .Event-Detail-main {
         margin-top: 1rem;
@@ -268,7 +271,7 @@
         }
         .Event-Detail-main {
             padding-top: 0rem;
-            margin-top: 15rem;
+            margin-top: 10rem;
         }
         #EventSlider{
             position: relative;
@@ -287,7 +290,7 @@
             }
         }
         .detail-content-wrap {
-            margin-top: 4rem;
+            margin-top: 3rem;
             padding-left: 0rem;
             padding-right: 0rem;
             h2 {

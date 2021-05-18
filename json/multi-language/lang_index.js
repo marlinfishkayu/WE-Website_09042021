@@ -115,7 +115,6 @@ var arrLang = {
       'index_sect4_News2_h3': 'Ho Ho Ho, Happy Holly Days!',
       'index_sect4_News1_date': '18 Dec 2020',
       'index_sect4_News1_h3': 'Blockchain games launched!',
-      
     },
 
     // 繁體中文
@@ -238,7 +237,6 @@ var arrLang = {
       'index_sect4_News2_h3': '祝大家聖誕快樂！呵呵呵～',
       'index_sect4_News1_date': '2020年12月18日',
       'index_sect4_News1_h3': '區塊鏈遊戲正式上線！',
-
     },
 
     // 简体中文

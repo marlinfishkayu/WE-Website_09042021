@@ -556,14 +556,31 @@ $(document).ready(function () {
 
 $('#mce-success-response').on('DOMSubtreeModified',function(){
     $("#thankyou-popup").addClass("show");
-    $("#mce-success-response").hide();
-  });
-  $(".thanyou-close-btn").click(function () {
+    // $("#mce-success-response").hide();
+});
+$(".thanyou-close-btn").click(function () {
     $("#thankyou-popup").removeClass("show");
-  });
-  $(".thanyou-close-btn").click(function () {
+});
+$(".thanyou-close-btn").click(function () {
     $("#thankyou-popup").removeClass("show");
-  });
+});
+
+
+const myList = document.querySelector('#mce-error');
+const myerror = document.querySelector('#myerror');
+
+const observer = new MutationObserver( mutations => {
+   mutations.forEach(record => {
+       if(record.addedNodes.length > 0) {
+           myerror.classList.add("show-error");
+       }
+   });
+});
+
+observer.observe(myList, {
+   childList: true
+});
+
 
 
 /*--  cookie popup --*/

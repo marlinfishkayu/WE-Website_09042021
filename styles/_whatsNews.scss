@@ -1068,7 +1068,8 @@
         top: 45px;
     }
     #news-carousel  .owl-dots {
-        bottom: 7%;
+        bottom: 0%;
+        z-index: 2;
     }
     #news-carousel .update-content .update-date {
         padding-top: 2rem;
@@ -1078,6 +1079,9 @@
     }
     #news-carousel #slider-area .slide {
         max-width: inherit;
+    }
+    #news-carousel #slider-area .owl-item::after{
+        height: 100px;
     }
 }
 @media (max-width: 576px){
