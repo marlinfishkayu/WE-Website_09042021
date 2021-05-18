@@ -368,9 +368,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-#GodofFortuneSicBo .hero-header , 
-#GodofFortuneRoulette .hero-header {
-    height: 460px;
+
+#liveGame #GodofFortuneSicBo .hero-icon,
+#liveGame #GodofFortuneRoulette .hero-icon
+{
+    padding-top: 18rem;
 }
 #GodofFortuneSicBo .hero-header, #GodofFortuneRoulette .live-game-main{
     padding-bottom: 0;
@@ -410,6 +412,10 @@
         letter-spacing: 1px;
     }
 }
+#GodofFortuneSicBo .hero-header , 
+#GodofFortuneRoulette .hero-header {
+    height: 580px;
+}
 #SqueezeBaccarat .hero-header::after ,
 #MahjongLuckyWheel .hero-header::after , 
 #GodofFortuneSicBo .hero-header::after , 
@@ -434,6 +440,21 @@
     height: 480px;
 }
 
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    #GodofFortuneSicBo .hero-header , 
+    #GodofFortuneRoulette .hero-header {
+        height: 590px;
+    }
+    #liveGame #GodofFortuneSicBo .hero-icon,
+    #liveGame #GodofFortuneRoulette .hero-icon{
+        padding-top: 18rem;
+    }
+    #GodofFortuneSicBo .hero-header::after, 
+    #GodofFortuneRoulette .hero-header::after{
+        bottom: 82px;
+    }
+}
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     #liveGame .blockchain .hero-header {
@@ -618,7 +639,9 @@
     #liveGame .blockchain .hero-header {
         height: 680px;
     }
-
+    #liveGame #GodofFortuneSicBo .hero-icon, #liveGame #GodofFortuneRoulette .hero-icon {
+        padding-top: 27rem;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 820px) {

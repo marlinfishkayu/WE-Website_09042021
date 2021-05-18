@@ -3892,9 +3892,9 @@ footer {
   letter-spacing: 1px;
 }
 
-#GodofFortuneSicBo .hero-header,
-#GodofFortuneRoulette .hero-header {
-  height: 460px;
+#liveGame #GodofFortuneSicBo .hero-icon,
+#liveGame #GodofFortuneRoulette .hero-icon {
+  padding-top: 18rem;
 }
 
 #GodofFortuneSicBo .hero-header, #GodofFortuneRoulette .live-game-main {
@@ -3939,6 +3939,11 @@ footer {
   letter-spacing: 1px;
 }
 
+#GodofFortuneSicBo .hero-header,
+#GodofFortuneRoulette .hero-header {
+  height: 580px;
+}
+
 #SqueezeBaccarat .hero-header::after,
 #MahjongLuckyWheel .hero-header::after,
 #GodofFortuneSicBo .hero-header::after,
@@ -3963,6 +3968,21 @@ footer {
 
 #liveGame .blockchain .hero-header {
   height: 480px;
+}
+
+@media (max-width: 576px) {
+  #GodofFortuneSicBo .hero-header,
+  #GodofFortuneRoulette .hero-header {
+    height: 590px;
+  }
+  #liveGame #GodofFortuneSicBo .hero-icon,
+  #liveGame #GodofFortuneRoulette .hero-icon {
+    padding-top: 18rem;
+  }
+  #GodofFortuneSicBo .hero-header::after,
+  #GodofFortuneRoulette .hero-header::after {
+    bottom: 82px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -4148,6 +4168,9 @@ footer {
   }
   #liveGame .blockchain .hero-header {
     height: 680px;
+  }
+  #liveGame #GodofFortuneSicBo .hero-icon, #liveGame #GodofFortuneRoulette .hero-icon {
+    padding-top: 27rem;
   }
 }
 
