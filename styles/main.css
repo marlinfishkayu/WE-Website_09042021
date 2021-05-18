@@ -2024,6 +2024,7 @@ footer {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+  z-index: 1;
 }
 
 #introCarousel .owl-dots button,
@@ -2116,10 +2117,10 @@ footer {
 #slider-area::after {
   content: "";
   position: absolute;
-  bottom: -25px;
+  bottom: -1px;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 100px;
   z-index: 0;
   background: #011b3e;
   background: -webkit-gradient(linear, left bottom, left top, from(#060B1A), to(rgba(0, 15, 36, 0)));
@@ -5479,7 +5480,7 @@ select.form-control::-ms-expand {
        object-fit: cover;
   }
   #news-carousel .update-content h6 {
-    padding-top: 0;
+    padding-top: 21px;
   }
   #news-carousel .update-content {
     height: 420px;
@@ -5756,6 +5757,9 @@ select.form-control::-ms-expand {
   #news-carousel #slider-area .update-wrapper::after {
     height: 100px;
   }
+  #news-carousel .update-content h6 {
+    padding-top: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -5779,6 +5783,16 @@ select.form-control::-ms-expand {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #news-carousel .update-content {
+    margin: initial;
   }
   .update-img img {
     height: 420px;

@@ -727,7 +727,7 @@
         object-fit: cover 
     }
     #news-carousel .update-content h6{
-        padding-top: 0;
+        padding-top: 21px;
     }
     #news-carousel .update-content {
         height: 420px;
@@ -1009,6 +1009,9 @@
     #news-carousel #slider-area .update-wrapper::after {
         height: 100px;
     }
+    #news-carousel .update-content h6{
+        padding-top: 0px;
+    }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
@@ -1030,8 +1033,12 @@
     }
     #news-carousel #slider-area .update-wrapper {
         display: inline-flex;
+        display: flex;
+        flex-direction: row-reverse;
     }
-    
+    #news-carousel .update-content {
+        margin: initial;
+    }
     .update-img img{
         height: 420px;
     }
