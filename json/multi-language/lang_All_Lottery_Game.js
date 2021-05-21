@@ -249,7 +249,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.png',
       //PK10 Logo
       'PK10_icon': 'images/icon/en/game_icon_PK10.svg',
       //UI
@@ -259,7 +259,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.png',
       //PK10 Logo
       'PK10_icon': 'images/icon/tc/game_icon_PK10.svg',
       //UI
@@ -269,7 +269,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.png',
       //PK10 Logo
       'PK10_icon': 'images/icon/sc/game_icon_PK10.svg',
       //UI

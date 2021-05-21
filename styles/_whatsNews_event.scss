@@ -41,9 +41,6 @@
             width: 30px;
             height: 30px;
             margin-right: 20px;
-            a:hover{
-                filter: invert(75%);
-            }
         } 
     }
     #Event-slider{
@@ -298,6 +295,11 @@
                 padding-bottom: 3rem;
             }
         } 
+        
+    }
+    #NewsDetail .hero-icon .icon-link a:hover {
+        -webkit-filter: invert(75%);
+        filter: invert(75%);
     }
  }
 // Extra large devices (large desktops, 1200px and up)

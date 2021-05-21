@@ -1083,6 +1083,9 @@
     #news-carousel #slider-area .owl-item::after{
         height: 100px;
     }
+    #newsFeed .frame-detail {
+        max-width: 300px;
+    }
 }
 @media (max-width: 576px){
     #news-carousel .owl-dots {

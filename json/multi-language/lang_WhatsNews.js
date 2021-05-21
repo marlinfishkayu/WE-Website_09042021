@@ -83,7 +83,10 @@ var arrLang = {
     'timeline_game_col3' : 'Link up the world, play safe!',
     'timeline_game_col4' : 'SiGMA Virtual Roadshow',
     'load_more' : 'load more',
-    
+    //
+    'JAN': 'JAN',
+    'MAY': 'MAY',
+    'DEC': 'DEC',
 
   },
 
@@ -174,6 +177,11 @@ var arrLang = {
     'timeline_game_col3' : '區塊鏈遊戲正式上線！',
     'timeline_game_col4' : 'SIGMA虛擬巡演',
     'load_more' : '更多',
+    //
+    'JAN': '一月',
+    'MAY': '五月',
+    'DEC': '十二月',
+
   },
 
 
@@ -263,6 +271,10 @@ var arrLang = {
     'timeline_game_col3' : '区块链游戏正式上线！',
     'timeline_game_col4' : 'SiGMA虚拟巡演',
     'load_more' : '更多',
+    //
+    'JAN': '一月',
+    'MAY': '五月',
+    'DEC': '十二月',
   }
 };
 

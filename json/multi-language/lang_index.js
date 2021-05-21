@@ -388,7 +388,7 @@ var arrImg = {
       'col_3': 'images/index/en/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/en/index_ourGames_col3_livegame_x2.jpg 1000w',
       'col_4': 'images/index/en/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/en/index_ourGames_col4_livegame_x2.jpg 1000w',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.png',
     }],
   'TC': [{
       //WE Logo
@@ -410,7 +410,7 @@ var arrImg = {
       'col_3': './images/index/tc/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/tc/index_ourGames_col3_livegame_x2.jpg 1000w',
       'col_4': './images/index/tc/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/tc/index_ourGames_col4_livegame_x2.jpg 1000w',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.png',
     }],
   'SC': [{
       //WE Logo
@@ -432,7 +432,7 @@ var arrImg = {
       'col_3': './images/index/sc/index_ourGames_col3_livegame_x1.jpg 500w, ./images/index/sc/index_ourGames_col3_livegame_x2.jpg 1000w',
       'col_4': './images/index/sc/index_ourGames_col4_livegame_x1.jpg 500w, ./images/index/sc/index_ourGames_col4_livegame_x2.jpg 1000w',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.png',
    }]
 };
 

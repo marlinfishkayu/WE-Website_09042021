@@ -291,7 +291,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/en/game_icon_Lotto5.png',
       //UI
       'UI': 'images/game/game_Lotto5/en/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/en/game_UI_Lotto5_x2.png 1000w',
       //Feature
@@ -303,7 +303,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/tc/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/tc/game_icon_Lotto5.png',
       //UI
       'UI': 'images/game/game_Lotto5/tc/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/tc/game_UI_Lotto5_x2.png 1000w',
       //Feature
@@ -315,7 +315,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/sc/logo.svg',
       //Lotto5 Logo
-      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.svg',
+      'Lotto5_icon': 'images/icon/sc/game_icon_Lotto5.png',
       //UI
       'UI': 'images/game/game_Lotto5/sc/game_UI_Lotto5_x1.png 500w, images/game/game_Lotto5/sc/game_UI_Lotto5_x2.png 1000w',
       //Feature

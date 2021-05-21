@@ -566,20 +566,36 @@ $(".thanyou-close-btn").click(function () {
 });
 
 
-const myList = document.querySelector('#mce-error');
-const myerror = document.querySelector('#myerror');
+// const myList = document.querySelector('#mce-error');
+// const myerror = document.querySelector('#myerror');
 
+// const observer = new MutationObserver( mutations => {
+//    mutations.forEach(record => {
+//        if(record.addedNodes.length > 0) {
+//            myerror.classList.add("show-error");
+//        } else{
+//            myerror.removeClass("show-error");
+//        }
+//    });
+// });
+
+// observer.observe(myList, {
+//    childList: true
+// });
+
+
+const myList = document.querySelector('#mce-EMAIL');
 const observer = new MutationObserver( mutations => {
    mutations.forEach(record => {
-       if(record.addedNodes.length > 0) {
+       if(myList.attr('aria-invalid') === true) {
            myerror.classList.add("show-error");
+           console.log("invalid")
+       } else{
+           myerror.removeClass("show-error");
        }
    });
 });
 
-observer.observe(myList, {
-   childList: true
-});
 
 
 

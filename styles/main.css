@@ -1766,11 +1766,6 @@ footer {
   background-position: 50% 50%;
 }
 
-.main-footer .underline .footer-social .footer-icon:hover {
-  -webkit-filter: grayscale(100%) sepia(100%);
-          filter: grayscale(100%) sepia(100%);
-}
-
 .footer-subscribe .btn {
   position: relative;
 }
@@ -1930,6 +1925,10 @@ footer {
     padding-top: 1rem;
     padding-right: 2rem;
   }
+  .main-footer .underline .footer-social .footer-icon:hover {
+    -webkit-filter: grayscale(100%) sepia(100%);
+    filter: grayscale(100%) sepia(100%);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1959,12 +1958,6 @@ footer {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-}
-
-#slider-area .slide .slider-text .btn.focus, #slider-area .slide .btn:focus {
-  outline: 0;
-  -webkit-box-shadow: transparent !important;
-          box-shadow: transparent !important;
 }
 
 #slider-area .slide .owl-nav {
@@ -2079,42 +2072,6 @@ footer {
 
 #slider-area .slide {
   position: relative;
-}
-
-.header-wrapper .slider-text {
-  position: absolute;
-  left: 50%;
-  z-index: 2;
-  top: 50%;
-  width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: transparent;
-}
-
-.header-wrapper .slider-text h2 {
-  font-size: 30px;
-  line-height: 50px;
-  color: white;
-  font-family: Futura-pt, Arial, sans-serif;
-  padding-bottom: 1rem;
-}
-
-.header-wrapper .slider-text p {
-  font-size: 16px;
-  color: #d8d8d8;
-  padding-bottom: 1rem;
-}
-
-.header-wrapper .slider-text a {
-  text-decoration: none;
-  padding: 5px 0px;
-  display: inline-block;
-}
-
-.header-wrapper .slider-text .main-button:focus {
-  outline: none;
 }
 
 #slider-area button.owl-dot.active {
@@ -2714,12 +2671,6 @@ footer {
     height: 100%;
     background-position: 50% 10%;
   }
-  .header-wrapper .slider-text {
-    width: 500px;
-  }
-  .header-wrapper .slider-text a {
-    padding: 0px;
-  }
   #intdexWhatsNews .news-item-text {
     text-align: left;
     width: inherit;
@@ -2837,14 +2788,6 @@ footer {
     height: 358px;
     overflow: hidden;
   }
-  .header-wrapper .slider-text h2 {
-    font-size: 40px;
-    padding-bottom: 1rem;
-  }
-  .header-wrapper .slider-text p {
-    font-size: 20px;
-    padding-bottom: 1rem;
-  }
   #intdexWhatsNews .news-item {
     width: 770px;
   }
@@ -2923,17 +2866,6 @@ footer {
   }
   #slider-area .slide {
     overflow: hidden;
-  }
-  .header-wrapper .slider-text {
-    width: 100%;
-  }
-  .header-wrapper .slider-text h2 {
-    font-size: 60px;
-    padding-bottom: 3rem;
-  }
-  .header-wrapper .slider-text p {
-    font-size: 26px;
-    padding-bottom: 3rem;
   }
   #intdexWhatsNews .news-slider .news-item {
     width: 800px;
@@ -3537,6 +3469,7 @@ footer {
   font-family: "Barlow Medium", sans-serif, Arial, Helvetica;
   letter-spacing: 2;
   font-size: 16px;
+  color: #B0936D;
 }
 
 #liveGame .header-deco {
@@ -3970,6 +3903,12 @@ footer {
   height: 480px;
 }
 
+#liveGame #PK10 .hero-icon {
+  width: 200px;
+  height: 60px;
+  padding-bottom: 37px;
+}
+
 @media (max-width: 576px) {
   #GodofFortuneSicBo .hero-header,
   #GodofFortuneRoulette .hero-header {
@@ -4171,6 +4110,10 @@ footer {
   }
   #liveGame #GodofFortuneSicBo .hero-icon, #liveGame #GodofFortuneRoulette .hero-icon {
     padding-top: 27rem;
+  }
+  #liveGame #Lotto5 .header-deco h4,
+  #liveGame #PK10 .header-deco h4 {
+    margin-top: -2rem;
   }
 }
 
@@ -5878,6 +5821,9 @@ select.form-control::-ms-expand {
   }
   #news-carousel #slider-area .owl-item::after {
     height: 100px;
+  }
+  #newsFeed .frame-detail {
+    max-width: 300px;
   }
 }
 
@@ -7934,11 +7880,6 @@ select.form-control::-ms-expand {
   margin-right: 20px;
 }
 
-#NewsDetail .hero-icon .icon-link a:hover {
-  -webkit-filter: invert(75%);
-          filter: invert(75%);
-}
-
 #NewsDetail #Event-slider {
   position: relative;
 }
@@ -8212,6 +8153,10 @@ select.form-control::-ms-expand {
   #NewsDetail .detail-content-wrap h2 {
     font-size: 26px;
     padding-bottom: 3rem;
+  }
+  #NewsDetail .hero-icon .icon-link a:hover {
+    -webkit-filter: invert(75%);
+    filter: invert(75%);
   }
 }
 
@@ -8571,7 +8516,7 @@ select.form-control::-ms-expand {
   width: 50px;
   height: 50px;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   margin: 20px;
 }
@@ -9158,6 +9103,10 @@ body:lang(SC) #thankyou-popup .secondaryBtn {
   body:lang(TC) #newsFeed .frame-detail h6,
   body:lang(SC) #newsFeed .frame-detail h6 {
     font-weight: 800;
+  }
+  body:lang(TC) #newsFeed .frame-detail .frame-date,
+  body:lang(SC) #newsFeed .frame-detail .frame-date {
+    font-size: 25px;
   }
 }
 
