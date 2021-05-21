@@ -12,15 +12,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "Futura-Condensed-Medium"; 
-  src: url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.eot"); 
-  src: url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.eot?#iefix") 
-  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.woff2") 
-  format("woff2"), url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.woff") format("woff"), 
-  url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/da950f2527dc01bebcbedd536e38c145.svg#Futura") format("svg"); 
-}
+
 
 * {
     margin: 0;
@@ -447,9 +439,7 @@ button:focus {
   }
   .secondaryBtn{
       width: 200px;
-      // height: 46px;
       font-size: 13px;
-      // padding: 12px 19px;
   }
   .lg-break{
     display: none;
@@ -472,9 +462,6 @@ button:focus {
     width: 100%;
   }
 }
-
-
-
 
 @import "./header";
 @import "./footer";

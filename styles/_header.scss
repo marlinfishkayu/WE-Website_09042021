@@ -22,7 +22,6 @@
 
 .nav-fixed{
 	background-color: #070B19;
-	// background-color: black;
 }
 .nav-fixed .nav-item{
 	display: block;
@@ -38,7 +37,6 @@
 }
 //Game Menu
 .nav-wrap li.dropdown .game-menu{
-	// display: none;
 	transition: all 0.4s ease;
 	opacity: 0;
 	position: fixed;
@@ -624,22 +622,6 @@
 .sidebar .game-show.show, .livegame-show.show{
 	display: block;
 }
-
-
-
-
-// .game-icon-front{
-// 	content: '';
-// 	position: absolute;
-// 	top: 40%;
-// 	left: 50%;
-// 	bottom: 7px;
-// 	width: 110px;
-// 	height: 110px;
-// 	padding: 15px;
-// 	transform: translate(-50%, -50%);
-// }
-
 #pills-tabContent .fade:not(.show){
 	display: none;
 }
