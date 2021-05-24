@@ -524,7 +524,7 @@ button:focus {
     font-size: 22px;
   }
   .hero-intro2 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .hero-header-bkg {
     height: inherit;
@@ -3902,7 +3902,7 @@ footer {
 @media (max-width: 576px) {
   #GodofFortuneSicBo .hero-header,
   #GodofFortuneRoulette .hero-header {
-    height: 590px;
+    height: 594px;
   }
   #liveGame #GodofFortuneSicBo .hero-icon,
   #liveGame #GodofFortuneRoulette .hero-icon {
@@ -4864,12 +4864,14 @@ select.form-control::-ms-expand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: auto;
   text-transform: uppercase;
   padding-top: 15px;
+}
+
+#newsFeed .frame-detail a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 #newsFeed .frame-detail .frame-date {
@@ -5718,6 +5720,7 @@ select.form-control::-ms-expand {
     top: 38px;
     left: -74px;
     width: 500px;
+    pointer-events: none;
   }
   #news-carousel .update-content {
     max-width: inherit;
@@ -7223,7 +7226,7 @@ select.form-control::-ms-expand {
 #AboutWE .about-brandStory {
   margin: 0 auto;
   text-align: center;
-  max-width: 712px;
+  max-width: 697px;
   padding-top: 12rem;
   padding-bottom: 3rem;
   padding: 40px 1.5rem;

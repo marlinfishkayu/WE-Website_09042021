@@ -73,7 +73,7 @@ var arrLang = {
       
       //Game Content
       'try_now': 'try now',
-      'AllLotteryGame': 'All Lottery Games',
+      'AllLotteryGame': 'All LOTTERIES',
       'feature': 'FEATURE HIGHLIGHTS',
       'compatible': 'compatible with',
       'leading': 'Leading the way, play new.',
