@@ -192,9 +192,10 @@ $("#slider-area").owlCarousel({
   lazyLoad: false,
   touchDrag  : true,
   mouseDrag  : false,
-  autoPlay: 5000, //Set AutoPlay to 2 seconds
+  autoPlay: 6000, //Set AutoPlay to 2 seconds
   loop: true,
   rewind: false,
+//   animateOut: 'fadeOut',
   responsive: {
       0: {
           items: 1,

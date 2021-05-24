@@ -1550,7 +1550,7 @@ footer {
 }
 
 .main-footer {
-  padding: 0 2rem;
+  padding: 2rem 3rem;
   padding-bottom: 2rem;
 }
 
@@ -4446,7 +4446,7 @@ select.form-control::-ms-expand {
 
 .contact-bottom {
   margin: 0 auto;
-  padding-bottom: 8rem;
+  padding-bottom: 12rem;
 }
 
 .bottom-deco {
@@ -4536,7 +4536,7 @@ select.form-control::-ms-expand {
 }
 
 .social-container {
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -4564,25 +4564,37 @@ select.form-control::-ms-expand {
   transition: 0.25s ease-in;
 }
 
+#ContactUs .hero-header-bkg {
+  height: 400px;
+}
+
+#ContactUs .contact-main {
+  padding-top: 12em;
+}
+
 @media (min-width: 576px) {
   #ContactUs .contact-main {
-    padding-top: 23em;
+    padding-top: 16em;
+  }
+  .contact-bottom {
+    padding-bottom: 17rem;
   }
 }
 
 @media (min-width: 768px) {
   #ContactUs .contact-main {
-    padding-top: 3em;
+    padding-top: 0;
+    margin-top: -7rem;
   }
   #ContactUs .hero-header-bkg {
-    height: 600px;
+    height: 615px;
   }
   .md-block {
     display: block;
   }
   .contact-bottom {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 105px;
+    margin-bottom: 3rem;
   }
   .bottom-deco {
     margin-top: 50px;
@@ -4606,6 +4618,9 @@ select.form-control::-ms-expand {
   #ContactUs .hero-header::after {
     top: -85px;
   }
+  .social-container {
+    width: 230px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -4615,6 +4630,9 @@ select.form-control::-ms-expand {
   .bottom-deco {
     width: 320px;
     font-size: 36px;
+  }
+  #ContactUs .contact-main {
+    margin-top: -15rem;
   }
 }
 
@@ -6693,7 +6711,7 @@ select.form-control::-ms-expand {
 }
 
 #allLiveGame .bottom-deco {
-  margin-top: 18rem;
+  margin-top: 26rem;
 }
 
 #allLiveGame .allLiveGame-bkg {
@@ -9057,11 +9075,6 @@ body:lang(SC) #liveGame .lottery .header-deco {
   width: 190px;
 }
 
-body:lang(TC) #ContactUs .contact-main,
-body:lang(SC) #ContactUs .contact-main {
-  padding-top: 18em;
-}
-
 body:lang(TC) #liveGame .hero-header h1,
 body:lang(SC) #liveGame .hero-header h1 {
   font-weight: 500;
@@ -9230,6 +9243,12 @@ body:lang(SC) #AboutWE .about-h2 {
 body:lang(TC) #AboutWE .hero-header .hero-intro1,
 body:lang(SC) #AboutWE .hero-header .hero-intro1 {
   font-size: 26px;
+  line-height: 40px;
+}
+
+body:lang(TC) #AboutWE .hero-header .hero-title,
+body:lang(SC) #AboutWE .hero-header .hero-title {
+  font-size: 34px;
 }
 
 @media (min-width: 768px) {
