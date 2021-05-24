@@ -7870,7 +7870,11 @@ select.form-control::-ms-expand {
 #NewsDetail .hero-icon .icon-link {
   width: 30px;
   height: 30px;
-  margin-right: 20px;
+  margin-right: 30px;
+}
+
+#NewsDetail .hero-icon #mw1 {
+  width: 40px;
 }
 
 #NewsDetail #Event-slider {

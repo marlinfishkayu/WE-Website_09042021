@@ -193,8 +193,8 @@ $("#slider-area").owlCarousel({
   touchDrag  : true,
   mouseDrag  : false,
   autoPlay: 5000, //Set AutoPlay to 2 seconds
-  loop: false,
-  rewind: true,
+  loop: true,
+  rewind: false,
   responsive: {
       0: {
           items: 1,
@@ -556,7 +556,7 @@ $(document).ready(function () {
 
 $('#mce-success-response').on('DOMSubtreeModified',function(){
     $("#thankyou-popup").addClass("show");
-    // $("#mce-success-response").hide();
+    $("#mce-success-response").hide();
 });
 $(".thanyou-close-btn").click(function () {
     $("#thankyou-popup").removeClass("show");
