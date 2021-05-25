@@ -234,6 +234,12 @@ footer{
 #myerror.show-error{
     display: block;
 }
+.main-footer {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
@@ -297,6 +303,7 @@ footer{
             width: 200px;
         }
     }
+    
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -315,6 +322,7 @@ footer{
     #EmailSubscribe .enquiryBtn{
         margin-top: 11px;
     }
+    
 }
 
 // Large devices (desktops, 992px and up)
@@ -329,6 +337,16 @@ footer{
     .main-footer .underline .footer-social .footer-icon:hover {
         -webkit-filter: grayscale(100%) sepia(100%);
         filter: grayscale(100%) sepia(100%);
+    }
+    .main-footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: right;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .footer-subscribe{
+        margin-bottom: -19px;
     }
  }
 // Extra large devices (large desktops, 1200px and up)
