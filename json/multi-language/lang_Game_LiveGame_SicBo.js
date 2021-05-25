@@ -159,7 +159,7 @@ var arrLang = {
       'Subscribe_p' : '成為首位收到WE最新消息和獨家優惠人。',
       'LicCert' : '營業執照及國際認證',
       'PrivacyPolicy' : '隱私政策',
-      'HelloThere' : '哈囉！！',
+      'HelloThere' : '哈囉！',
       'thankyou_p' : '你現在已在我們聯絡名單中，我們會將最新消息、產品和影片等資訊通過電郵發送給你。',
       'Okay' : '關閉',
       'Email-S' :'請在此處輸入你電郵',
