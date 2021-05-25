@@ -1350,6 +1350,7 @@ button:focus {
 
 .sidebar .game-show.show, .livegame-show.show {
   display: block;
+  text-transform: uppercase;
 }
 
 #pills-tabContent .fade:not(.show) {
@@ -2661,8 +2662,8 @@ footer {
 }
 
 .index-carousel .owl-item.active .slide {
-  -webkit-animation: fadeInRight cubic-bezier(0.5, 0.1, 0.53, 0.99) 1.5s;
-          animation: fadeInRight cubic-bezier(0.5, 0.1, 0.53, 0.99) 1.5s;
+  -webkit-animation: fadeIn cubic-bezier(0.5, 0.1, 0.53, 0.99) 1.5s;
+          animation: fadeIn cubic-bezier(0.5, 0.1, 0.53, 0.99) 1.5s;
 }
 
 #news-carousel .WhatsNews_Carousel .owl-item.active .slide {

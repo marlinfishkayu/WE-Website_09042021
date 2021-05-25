@@ -209,30 +209,7 @@ $("#slider-area").owlCarousel({
   },
 });
 
-//What news
-$("#news-carousel #slider-area.WhatsNews_Carousel").owlCarousel({
-  autoplay: true,
-  nav: true,
-  margin: 10,
-  lazyLoad: false,
-  touchDrag  : true,
-  mouseDrag  : false,
-  autoPlay: 2000, //Set AutoPlay to 2 seconds
-  loop: false,
-  rewind: true,
-//   animateOut: 'fadeOut',
-  responsive: {
-      0: {
-          items: 1,
-      },
-      600: {
-          items: 1,
-      },
-      1000: {
-          items: 1,
-      },
-  },
-});
+
 
 //with page indicator carousal
 $(".news-slider")

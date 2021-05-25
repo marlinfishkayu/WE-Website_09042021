@@ -621,6 +621,7 @@
 }
 .sidebar .game-show.show, .livegame-show.show{
 	display: block;
+	text-transform: uppercase;
 }
 #pills-tabContent .fade:not(.show){
 	display: none;
