@@ -38,7 +38,7 @@ var arrLang = {
     'Mahjong': 'Mahjong',
     'LuckyWheel': 'Lucky Wheel',
     'GodofFortune': 'God of Fortune',
-    'Lotto5': 'Lotto-5',
+    'Lotto5': 'Lotto 5',
     'PK10': 'PK-10 Racing',
     
     //Cookie popup

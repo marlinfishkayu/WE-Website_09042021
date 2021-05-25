@@ -38,7 +38,7 @@ var arrLang = {
       'Mahjong': 'Mahjong',
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
-      'Lotto5': 'Lotto-5',
+      'Lotto5': 'Lotto 5',
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
@@ -87,8 +87,8 @@ var arrLang = {
       'feature_2.1': 'Legible',
       'feature_2.2': 'Scoreboards',
       'feature_2_p': 'In the Game Lobby, players only need to select the professional scoreboard, and they can see the winning statistics of Dragon Tiger of current shoes and last 100 rounds; After entering the Live Game, they can see more scoreboards, including “Bead Road”, “Big Road”, “Big Eye Boy”, “Small Road” and the “Cockroach Pig”.',
-      'feature_3.1': 'Predict the next outcome ',
-      'feature_3.2': 'by “Next Banker” or “ Next Player” ',
+      'feature_3.1': 'Predict the next outcome by',
+      'feature_3.2': '“Ask Drogan” or “Ask Tiger”',
       'feature_3_p': 'Many Dragon Tiger lovers like to track the past scores and results to predict the next outcome, so we allow players to make predictions and place bets by using our "Next Banker" and "Next Player" function.',  
     },
   

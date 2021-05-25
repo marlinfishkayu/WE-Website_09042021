@@ -38,7 +38,7 @@ var arrLang = {
       'Mahjong': 'Mahjong',
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
-      'Lotto5': 'Lotto-5',
+      'Lotto5': 'Lotto 5',
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
@@ -80,7 +80,7 @@ var arrLang = {
       'try_our_games': 'Try Our Games',
       //
       'Lottery':'LOTTERIES',
-      'gameDetail_p1': 'Lotto-5 is a popular lottery across China. It is an interesting game and includes a variety of betting choices with odds. Players need to bet on the combination of numbers so could become the winners.',
+      'gameDetail_p1': 'Lotto 5 is a popular lottery across China. It is an interesting game and includes a variety of betting choices with odds. Players need to bet on the combination of numbers so could become the winners.',
       'feature_1.1': 'Massive betting',
       'feature_1.2': 'options',
       'feature_1_p': 'Lotto 5 offers a wide range of betting choices with different odds for selection. Players can take the chances of winning bigger and enormous awards.',

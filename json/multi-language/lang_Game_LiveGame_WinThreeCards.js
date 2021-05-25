@@ -38,7 +38,7 @@ var arrLang = {
       'Mahjong': 'Mahjong',
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
-      'Lotto5': 'Lotto-5',
+      'Lotto5': 'Lotto 5',
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
@@ -87,7 +87,7 @@ var arrLang = {
       'feature_2.2': 'statistics',
       'feature_2_p': 'The statistics clearly record the last 20 rounds and 100 rounds of “Dragon win” and “Phoenix win”. Moreover, they predict for the next round which help the players easier to win.',
       'feature_3': 'Comprehensive game record',
-      'feature_3_p': 'Many players look at the scoring boards very carefully before each bet. Therefore, WE introduce different modes of scoreboards, “Professional”, “Ordinary” and “Simplified” to the players.',
+      'feature_3_p': 'Many players look at the scoring boards very carefully before each bet. Therefore, WE introduce different modes of scoreboards, “Professional”, “Standard” and “Simple” to the players.',
     },
   
   

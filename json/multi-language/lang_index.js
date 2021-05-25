@@ -38,7 +38,7 @@ var arrLang = {
       'Mahjong': 'Mahjong',
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
-      'Lotto5': 'Lotto-5',
+      'Lotto5': 'Lotto 5',
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
@@ -81,7 +81,7 @@ var arrLang = {
       //index_section1_games
       'index_sect1_Game': 'GAMES',
       'index_sect1_h2': 'Leading the way, play new.',
-      'index_sect1_p1': 'WE create exceptional user experience and excitment!',
+      'index_sect1_p1': 'WE create exceptional user experience and excitement!',
       'index_sect1_p2': '',
       'ComingSoon': 'Coming Soon',
 

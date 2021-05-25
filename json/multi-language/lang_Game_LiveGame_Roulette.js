@@ -38,7 +38,7 @@ var arrLang = {
       'Mahjong': 'Mahjong',
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
-      'Lotto5': 'Lotto-5',
+      'Lotto5': 'Lotto 5',
       'PK10': 'PK-10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
@@ -83,7 +83,7 @@ var arrLang = {
       'gameDetail_p1': "Roulette is well-known for its variations which can fit every players' need. Players need to predict the number on which the spinning ball will eventually land in order to win the game.",
       'feature_1.1': 'Multiple',
       'feature_1.2': 'bet-options',
-      'feature_1_p': 'Roulette is one of the most classic games in Europe. Players are able to bet on “Big/Small”, “Even/Odd”, “Straight Up”, “Separate”, “Street”, “Triangle”, and so forth. ',
+      'feature_1_p': 'Roulette is one of the most classic games in Europe. Players are able to bet on “Big/Small”, “Even/Odd”, “Direct”, “Separate”, “Street”, “Corner”, and so forth.',
       'feature_2.1': 'Dual betting ',
       'feature_2.2': 'areas',
       'feature_2_p': 'Players can enjoy flexible betting options for Roulette. They can bet on the “Central Roulette Platform” or can use the “Roulette Racetrack”. Players are able to bet on any no. and place multiple bets in a short time.',
