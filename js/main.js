@@ -189,12 +189,37 @@ $("#slider-area").owlCarousel({
   autoplay: true,
   nav: true,
   margin: 10,
+  lazyLoad: true,
+  touchDrag  : true,
+  mouseDrag  : false,
+  autoPlay: 9000, //Set AutoPlay to 2 seconds
+  loop: true,
+  rewind: false,
+  animateOut: 'fadeOut',
+  responsive: {
+      0: {
+          items: 1,
+      },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 1,
+      },
+  },
+});
+
+//What news
+$("#news-carousel #slider-area.WhatsNews_Carousel").owlCarousel({
+  autoplay: true,
+  nav: true,
+  margin: 10,
   lazyLoad: false,
   touchDrag  : true,
   mouseDrag  : false,
-  autoPlay: 6000, //Set AutoPlay to 2 seconds
-  loop: true,
-  rewind: false,
+  autoPlay: 2000, //Set AutoPlay to 2 seconds
+  loop: false,
+  rewind: true,
 //   animateOut: 'fadeOut',
   responsive: {
       0: {

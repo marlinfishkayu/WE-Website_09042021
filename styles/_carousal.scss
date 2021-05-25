@@ -587,6 +587,34 @@
 }
 
 
+// owl-carousel animation
+.index-carousel  .owl-item.active .slide {
+    animation:fadeInRight cubic-bezier(.5,.1,.53,.99) 1.5s;
+}
+#news-carousel .WhatsNews_Carousel .owl-item.active {
+    .slide{
+        animation:fadeIn 1s;
+    }
+    .update-content{
+        animation:fadeInUp 1s;
+    }
+    .update-img{
+        animation:fadeInUp 1s;
+    }
+    .update-date{
+        animation:fadeInUp cubic-bezier(.54,.18,.51,.99) 1.8s;
+    }
+    .update-event{
+        animation:fadeInUp cubic-bezier(.54,.18,.51,.99) 2s;
+    }
+    .update-detail{
+        animation:fadeInUp cubic-bezier(.54,.18,.51,.99) 2.2s;
+    }
+    .update-detail-btn{
+        animation:fadeInUp cubic-bezier(.54,.18,.51,.99) 2.3s;
+    }
+}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
