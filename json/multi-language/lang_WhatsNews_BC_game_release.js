@@ -39,7 +39,7 @@ var arrLang = {
     'LuckyWheel': 'Lucky Wheel',
     'GodofFortune': 'God of Fortune',
     'Lotto5': 'Lotto 5',
-    'PK10': 'PK-10 Racing',
+    'PK10': 'PK10 Racing',
     
     //Cookie popup
     'Cookie_p1' : 'WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our Privacy Policy by continuing to use our website henceforth.',
