@@ -11,7 +11,6 @@
         
       });
       
-
     });
   });
   
@@ -40,12 +39,8 @@
         var newImg = $(this).data("key");
         $(this).prop('srcset', arrImg[lang][0][newImg]);
 
-        
         });
      
-      
-
-      
   }
 
   $(function() {
@@ -56,9 +51,7 @@
       {
           lang = stored_lang;
           translateLang(lang);
-          
-      }
-
+      } 
 
     $('.translate').click(function() {
       var lang = $(this).attr('id');
