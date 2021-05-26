@@ -332,6 +332,9 @@
     #allLiveGame  .bottom-deco{
         margin-top: 5rem;
     }
+    #allLiveGame .allLiveGame-main {
+        padding-top: 80px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -343,9 +346,6 @@
         line-height: inherit;
         margin-top: 2rem;
         margin-bottom: 4rem;
-    }
-    #allLiveGame .bottom-deco {
-        margin-top: 100px;
     }
     #allLiveGame .allLiveGame-main .game-item-wrap {
             position: relative;
@@ -363,9 +363,15 @@
     #allLiveGame.AllLottery .bottom-deco {
         width: 320px;
     }
+    .allLiveGame-main .bottom-deco {
+        width: 294px;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    #allLiveGame .bottom-deco {
+        width: 340px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

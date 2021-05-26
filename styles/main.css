@@ -1268,7 +1268,8 @@ button:focus {
 }
 
 .sidebar .side-item .game-item a {
-  font-family: "Futura-Medium", Futura-pt, Arial, sans-serif;
+  font-family: "Barlow Regular", sans-serif, Arial, Helvetica;
+  font-weight: 500;
   letter-spacing: 3px;
 }
 
@@ -7199,6 +7200,9 @@ select.form-control::-ms-expand {
   #allLiveGame .bottom-deco {
     margin-top: 5rem;
   }
+  #allLiveGame .allLiveGame-main {
+    padding-top: 80px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -7209,9 +7213,6 @@ select.form-control::-ms-expand {
     line-height: inherit;
     margin-top: 2rem;
     margin-bottom: 4rem;
-  }
-  #allLiveGame .bottom-deco {
-    margin-top: 100px;
   }
   #allLiveGame .allLiveGame-main .game-item-wrap {
     position: relative;
@@ -7228,6 +7229,15 @@ select.form-control::-ms-expand {
   }
   #allLiveGame.AllLottery .bottom-deco {
     width: 320px;
+  }
+  .allLiveGame-main .bottom-deco {
+    width: 294px;
+  }
+}
+
+@media (min-width: 992px) {
+  #allLiveGame .bottom-deco {
+    width: 340px;
   }
 }
 
