@@ -61,8 +61,9 @@ var arrLang = {
     //Contact Us
     'ContactUs' : 'Contact Us',
     'ContactUs_slogan' : 'Help is at hand.',
-    'ContactUs_p1' : 'We’re always happy to talk to anyone, who interested in WE. Get in touch with us. ',
-    'ContactUs_p2' : '',
+    'ContactUs_p1' : 'We’re always happy to talk to anyone, who interested in WE.',
+    'ContactUs_p2' : 'Get in touch with us.',
+    'ContactUs_p3' : '',
     'ContactUs_privacy' : 'Privacy Policy.',
     //Contact Form
     'firstName' : 'First name*',
@@ -399,8 +400,8 @@ var arrLang = {
     //Contact Us
     'ContactUs' : '聯絡我們',
     'ContactUs_slogan' : '隨時為你服務',
-    'ContactUs_p1' : '如您想更進一步了解WE或查詢更多， 請電郵至',
-    'ContactUs_p2' : '，我們將儘速與您聯繫。',
+    'ContactUs_p1' : '如您想更進一步了解WE或查詢更多， 請電郵至，',
+    'ContactUs_p2' : '我們將儘速與您聯繫。',
     'ContactUs_privacy' : '隱私政策。',
     //Contact Form
     'firstName' : '名字*',
@@ -737,8 +738,8 @@ var arrLang = {
     //Contact Us
     'ContactUs' : '联络我们',
     'ContactUs_slogan' : '随时为你服务',
-    'ContactUs_p1' : '如您想更进一步了解WE或查询更多， 请电邮至',
-    'ContactUs_p2' : '，我们将尽速与您联系。',
+    'ContactUs_p1' : '如您想更进一步了解WE或查询更多， 请电邮至，',
+    'ContactUs_p2' : '我们将尽速与您联系。',
     'ContactUs_privacy' : '隐私政策。',
     //Contact Form
     'firstName' : '名字*',

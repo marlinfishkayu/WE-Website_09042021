@@ -13,6 +13,22 @@ window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", window.scrollY < 100);
 });
 
+
+// window.onscroll = function() {scrollFunction()};
+
+// const navbarColor = document.getElementById("nav-area");
+
+// function scrollFunction() {
+//     console.log(window.scrollY)
+//   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+//     console.log("scrolling-top");
+//     navbarColor.style.background = "transparent";
+//   } else {
+//     console.log("scrolling-donwn");
+//     navbarColor.style.backgroundImage="linear-gradient(to bottom, rgba(6, 11, 26, 100%) ,rgba(0, 0, 0, 0))" ;
+//   }
+// }
+
 /*--  Hide Header on on scroll down --*/
 
 var didScroll;
@@ -192,7 +208,9 @@ $("#slider-area").owlCarousel({
     lazyLoad: true,
     touchDrag: true,
     mouseDrag: false,
-    autoPlay: 6000, //Set AutoPlay to 2 seconds
+    autoPlay: 8000,
+    smartSpeed: 1000, // duration of change of 1 slide
+    paginationSpeed: 700,
     loop: true,
     responsive: {
         0: {

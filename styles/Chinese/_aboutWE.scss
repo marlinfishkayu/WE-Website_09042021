@@ -17,6 +17,7 @@ body:lang(SC)
         .hero-header .hero-title{
             font-size: 34px;
         }
+
     }
     @media (max-width: 767px){
 
@@ -113,6 +114,9 @@ body:lang(SC)
         #AboutWE .about-slogan {
             margin-top: 6rem;
         }
+        #AboutWE .service-item {
+            padding: 5px 2rem;
+        }
     }
     @media (min-width: 1200px){
         #AboutWE .about-brandStory .about-h2 {
@@ -132,6 +136,9 @@ body:lang(SC)
         }
         #AboutWE .about-mission .about-h4 {
             margin-top: 3rem;
+        }
+        #AboutWE .service-item {
+            padding: 5px 5rem;
         }
     }
     

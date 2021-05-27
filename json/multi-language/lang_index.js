@@ -39,7 +39,7 @@ var arrLang = {
       'LuckyWheel': 'Lucky Wheel',
       'GodofFortune': 'God of Fortune',
       'Lotto5': 'Lotto 5',
-      'PK10': 'PK-10 Racing',
+      'PK10': 'PK10 Racing',
       //Game Slogan
       'Baccarat_slogan': 'WE play beyond classic.',
       'Roulette_slogan': 'Big win on European classic.',

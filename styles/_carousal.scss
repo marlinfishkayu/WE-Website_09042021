@@ -430,8 +430,8 @@
     }
     h5{
         font-family: $fontFuturaCondensedMedium;
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: 400;
         color: #D8D8D8;
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -439,8 +439,11 @@
     h3{
         font-family: $fontBarlowRegular;
         font-size: 14px;
+        letter-spacing: 1px;
         font-weight: 100;
+        padding-top: 5px;
         color: #979797;
+        line-height: 20px;
         opacity: 0;
         transition: 800ms all;
         transition-timing-function: cubic-bezier(.05,.77,.32,1);
@@ -590,7 +593,7 @@
 
 // owl-carousel animation
 .index-carousel  .owl-item.active .slide {
-    animation:fadeIn cubic-bezier(.5,.1,.53,.99) 1.5s;
+    animation:fadeIn ease 2s;
 }
 #news-carousel .WhatsNews_Carousel .owl-item.active {
     .slide{
