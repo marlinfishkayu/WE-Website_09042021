@@ -218,8 +218,8 @@ img {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(130deg, #CAAC85, #89663D, #89663D, #89663D);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  -webkit-box-shadow: 1px 1000px 1px #B0935B inset;
-          box-shadow: 1px 1000px 1px #B0935B inset;
+  -webkit-box-shadow: 1px 1000px 1px #B0936D inset;
+          box-shadow: 1px 1000px 1px #B0936D inset;
   position: relative;
 }
 
@@ -721,7 +721,7 @@ button:focus {
   transition: all 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
           transition-timing-function: cubic-bezier(0.12, 0.77, 0.51, 1);
-  border: 1px solid #B0935D;
+  border: 1px solid #B0936D;
 }
 
 .gametab-game-title {
@@ -739,7 +739,7 @@ button:focus {
 }
 
 .hover .game-icon-bkg-wrap img {
-  border: 1px solid #B0935D;
+  border: 1px solid #B0936D;
 }
 
 .game-icon-front .icon-img {
@@ -6298,7 +6298,7 @@ select.form-control::-ms-expand {
   padding-top: 3rem;
   font-size: 80px;
   font-weight: 100;
-  color: #B0935D;
+  color: #B0936D;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
@@ -6306,7 +6306,7 @@ select.form-control::-ms-expand {
   padding-top: 6.5rem;
   padding-left: 0.5rem;
   font-size: 25px;
-  color: #B0935D;
+  color: #B0936D;
   font-family: "Barlow Light", sans-serif, Arial, Helvetica;
 }
 
@@ -6426,7 +6426,7 @@ select.form-control::-ms-expand {
 }
 
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #B0935D;
+  border-color: #B0936D;
 }
 
 .lg-outer .lg-thumb {
