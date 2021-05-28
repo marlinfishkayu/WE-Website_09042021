@@ -148,7 +148,7 @@ img{
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(130deg, #CAAC85, #89663D, #89663D, #89663D);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  box-shadow: 1px 1000px 1px #906c4d inset;
+  box-shadow: 1px 1000px 1px #B0935B inset;
   position: relative;
 }
 .secondaryBtn::after{
@@ -158,7 +158,7 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(176,147,109);
+  background: #906c4d;
   z-index: -1;
   transform: scaleX(0);
   transform-origin: left;
@@ -226,7 +226,7 @@ button:focus {
   a:after {
     content: '';
     height: 48px;
-    border: 1px solid rgb(202,172,133);
+    border: 1px solid #B0935D;
     border-image-source: linear-gradient(84deg, rgba(202,172,133,1) 1%, rgba(137,102,61,0.6) 17%, rgba(137,102,61,1) 84%, rgba(137,102,61,1) 100%);
     border-image-slice: 1;
    }
@@ -335,7 +335,7 @@ button:focus {
   a:after {
     content: '';
     height: 48px;
-    border: 1px solid rgb(202,172,133);
+    border: 1px solid #B0935D;
     border-image-source: linear-gradient(84deg, rgba(202,172,133,1) 1%, rgba(137,102,61,0.6) 17%, rgba(137,102,61,1) 84%, rgba(137,102,61,1) 100%);
     border-image-slice: 1;
    }

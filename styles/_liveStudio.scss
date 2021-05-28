@@ -206,7 +206,6 @@
     opacity: 0;
 }
 .hovering-slide .studio-slide-text{
-    //transform: translateY(100%);
     opacity: 0;
     transition: 3s ease;
 }
@@ -263,15 +262,14 @@
             padding-top: 3rem;
             font-size: 80px;
             font-weight: 100;
-
-            color: #89663D;
+            color: #B0935D;
             font-family: $fontBarlowLight;
         }
         h6{
             padding-top: 6.5rem;
             padding-left: 0.5rem;
             font-size: 25px;
-            color: #89663D;
+            color: #B0935D;
             font-family: $fontBarlowLight;
         }
         p{
@@ -377,7 +375,7 @@
     border-radius: 0px;
 }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
-    border-color: #A78C68;
+    border-color: #B0935D;
 }
 .lg-outer .lg-thumb{
     margin: 0 auto;
