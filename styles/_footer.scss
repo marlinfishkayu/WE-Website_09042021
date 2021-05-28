@@ -8,8 +8,11 @@ footer{
     display: none;
 }
 .main-footer{
-    padding: 2rem 3rem;
-    padding-bottom: 2rem;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
     .footer-subscribe{
         text-align: center;
         padding-top: 2em;
@@ -76,8 +79,8 @@ footer{
             
         } 
     }
-    .underline{
-        padding-top: 30px;
+    .footer-bottom{
+        padding-top: 50px;
         .footer-logo{
             display: block;
             width: 150px;
@@ -93,12 +96,10 @@ footer{
             color: #545454;
             font-size: 12px;
             text-align: center;
-            
             .TC {
-                padding-right: 20px;
                 font-size: 12px;
                 color: #D8D8D8;
-                padding: 18px 0;
+                margin-left: 12px;
                 text-align: center;
             }
             .TC:hover{
@@ -170,33 +171,13 @@ footer{
 #myerror.show-error{
     display: block;
 }
-.main-footer {
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    justify-content: center;
-}
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     .main-footer .footer-subscribe .subscribe-form input{
         width: 211px;
     }
-    .main-footer .underline .footer-logo{
-        display: none;
-    }
-    
-    .main-footer .underline .footer-TC  h6 {
-        padding-right: 20px;
-        padding: 8px 0
-    }
-    .main-footer{
-        padding-top: 2rem;
-    }
-    .footer-break, .footer-logo{
-        display: block;
-    }
-    
     .main-footer .footer-subscribe {
         padding-top: 0;
     }
