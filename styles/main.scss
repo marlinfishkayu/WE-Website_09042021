@@ -404,10 +404,10 @@ button:focus {
   object-fit: cover;
 }
 .link{
-  color: $hyperlinkColor;
+  color: $primaryNav;
 }
 .link:hover {
-  color: $secondaryColor;
+  color: $hyperlinkColor;
   text-decoration: none;
 }
 

@@ -289,7 +289,7 @@ var arrImg = {
       //WE Logo
       'WE_logo': 'images/icon/en/logo.svg',
       //UI
-      'UI': 'images/game/game_sicbo/en/game_UI_SicBo_x1.webp 1x images/game/game_sicbo/en/game_UI_SicBo_x1.png 1x ,images/game/game_sicbo/en/game_UI_SicBo_x2.webp 2x ,images/game/game_sicbo/en/game_UI_SicBo_x2.png 2x',
+      'UI': './images/game/game_sicbo/en/game_UI_SicBo_x1.webp 1x,  ./images/game/game_sicbo/en/game_UI_SicBo_x1.png 1x ,images/game/game_sicbo/en/game_UI_SicBo_x2.webp 2x ,images/game/game_sicbo/en/game_UI_SicBo_x2.png 2x',
       //Feature
       'feature1': 'images/game/game_sicbo/en/game_sicbo_feature1_1x.png 500w, images/game/game_sicbo/en/game_sicbo_feature1_2x.png 1000w',
       'feature2': 'images/game/game_sicbo/en/game_sicbo_feature2_1x.png 500w, images/game/game_sicbo/en/game_sicbo_feature2_2x.png 1000w',

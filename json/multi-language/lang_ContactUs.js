@@ -401,7 +401,8 @@ var arrLang = {
     'ContactUs' : '聯絡我們',
     'ContactUs_slogan' : '隨時為你服務',
     'ContactUs_p1' : '如您想更進一步了解WE或查詢更多， 請電郵至，',
-    'ContactUs_p2' : '我們將儘速與您聯繫。',
+    'ContactUs_p2' : '',
+    'ContactUs_p3' : '我們將儘速與您聯繫。',
     'ContactUs_privacy' : '隱私政策。',
     //Contact Form
     'firstName' : '名字*',
@@ -739,7 +740,8 @@ var arrLang = {
     'ContactUs' : '联络我们',
     'ContactUs_slogan' : '随时为你服务',
     'ContactUs_p1' : '如您想更进一步了解WE或查询更多， 请电邮至，',
-    'ContactUs_p2' : '我们将尽速与您联系。',
+    'ContactUs_p2' : '',
+    'ContactUs_p3' : '我们将尽速与您联系。',
     'ContactUs_privacy' : '隐私政策。',
     //Contact Form
     'firstName' : '名字*',

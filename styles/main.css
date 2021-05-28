@@ -523,11 +523,11 @@ button:focus {
 }
 
 .link {
-  color: #B0936D;
+  color: #a1a1a1;
 }
 
 .link:hover {
-  color: #b0936d;
+  color: #B0936D;
   text-decoration: none;
 }
 
@@ -7088,6 +7088,8 @@ select.form-control::-ms-expand {
   left: -4px;
   width: 280px;
   height: 380px;
+  pointer-events: none;
+  bottom: 0;
   opacity: 1;
   z-index: 1;
   -webkit-transition: 200ms all ease-out;
